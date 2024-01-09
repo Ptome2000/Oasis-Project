@@ -1,0 +1,74 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Classes - The Elder Scrolls Online/p_As an Arcanist, knowledge is the key to p_8adf88",
+      "brokenLocator": "//div[@id\u003d\u0027pip-arcanist\u0027]/div/div/div/div/div[2]/div/div[2]/p[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//p[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Classes - The Elder Scrolls Online/p_As an Arcanist, knowledge is the key to p_8adf88_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Classes - The Elder Scrolls Online/p_When playing as a Necromancer, death itse_f83820",
+      "brokenLocator": "//div[@id\u003d\u0027pip-necromancer\u0027]/div/div/div/div/div[2]/div/div[2]/p[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[5]/div[2]/div/div/div/div/div/div/div/div[2]/div/div[2]/p[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Classes - The Elder Scrolls Online/p_When playing as a Necromancer, death itse_f83820_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Classes - The Elder Scrolls Online/p_As a Warden, Tamriels beasts and wilds ar_e8b270",
+      "brokenLocator": "//div[@id\u003d\u0027pip-warden\u0027]/div/div/div/div/div[2]/div/div[2]/p[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[7]/div[2]/div/div/div/div/div/div/div/div[2]/div/div[2]/p[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Classes - The Elder Scrolls Online/p_As a Warden, Tamriels beasts and wilds ar_e8b270_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Classes - The Elder Scrolls Online/p_With the Dragonknight, you bring ruin in _d8e65a",
+      "brokenLocator": "//div[@id\u003d\u0027pip-dragonknight\u0027]/div/div/div/div/div[2]/div/div[2]/p[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[9]/div[2]/div/div/div/div/div/div/div/div[2]/div/div[2]/p[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Classes - The Elder Scrolls Online/p_With the Dragonknight, you bring ruin in _d8e65a_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Classes - The Elder Scrolls Online/p_When wielding the full strength of the So_1999cc",
+      "brokenLocator": "//div[@id\u003d\u0027pip-sorcerer\u0027]/div/div[2]/div/div/div[2]/div/div[2]/p[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/div[2]/div/div[2]/p[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Classes - The Elder Scrolls Online/p_When wielding the full strength of the So_1999cc_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Classes - The Elder Scrolls Online/p_As a Nightblade, all of Tamriel fears you_fc86e3",
+      "brokenLocator": "//div[@id\u003d\u0027pip-nightblade\u0027]/div/div[2]/div/div/div[2]/div/div[2]/p[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[13]/div[2]/div/div/div/div/div[2]/div/div/div[2]/div/div[2]/p[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Classes - The Elder Scrolls Online/p_As a Nightblade, all of Tamriel fears you_fc86e3_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Classes - The Elder Scrolls Online/p_When playing a Templar, youll always ligh_bef873",
+      "brokenLocator": "//div[@id\u003d\u0027pip-templar\u0027]/div/div[2]/div/div/div[2]/div/div[2]/p[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[15]/div[2]/div/div/div/div/div[2]/div/div/div[2]/div/div[2]/p[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Classes - The Elder Scrolls Online/p_When playing a Templar, youll always ligh_bef873_position.png"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_fa fa-lg fa-times</name>
+   <tag></tag>
+   <elementGuidId>b117638e-79bc-4263-a5f6-567369f657c0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-lg.fa-times</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='universal-nav']/div/div/div[3]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>228863e3-3e36-4305-b34f-2ffd060ae009</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-lg fa-times</value>
+      <webElementGuid>abaa0711-41d0-4997-9d24-399b8c06d1cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>512a0398-1178-4a24-aae7-b980abfed52e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;universal-nav&quot;)/div[@class=&quot;un-wrapper-wrap&quot;]/div[@class=&quot;un-wrapper&quot;]/div[@class=&quot;close-mobile un-top&quot;]/i[@class=&quot;fa fa-lg fa-times&quot;]</value>
+      <webElementGuid>a6b0f119-5150-461e-8ccb-037d99e26a64</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='universal-nav']/div/div/div[3]/i</value>
+      <webElementGuid>5da1de00-d008-40d2-8251-51856cf24d8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/i</value>
+      <webElementGuid>ed97460c-954d-4a69-8c00-d0f7867548ff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

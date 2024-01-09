@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>19d7c05f-5bb8-4106-a328-c6bd9a96909a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.zl-link.gl-link-checked > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>8b21e979-a653-400f-9014-a8ed17675097</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://esosslfiles-a.akamaihd.net/ape/uploads/2023/05/af313d6cc1b83de9f0a85572c58f0d50.jpg</value>
+      <webElementGuid>e140665b-f968-43b8-b478-9e5a6517d8c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pip-arcanist&quot;)/div[@class=&quot;feature-box&quot;]/div[@class=&quot;feature-content-box&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-1 detail-top-img&quot;]/a[@class=&quot;zl-link gl-link-checked&quot;]/img[1]</value>
+      <webElementGuid>e14754f2-bb8c-4f84-9a3b-ce70d8ab81e4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pip-arcanist']/div/div/div/div/div[2]/div/div/a/img</value>
+      <webElementGuid>c9d3e554-0b3e-4255-9b6a-2f3e39d618f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://esosslfiles-a.akamaihd.net/ape/uploads/2023/05/af313d6cc1b83de9f0a85572c58f0d50.jpg')]</value>
+      <webElementGuid>b4bb378b-6c3f-4cd6-9977-f93d7811e6bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/a/img</value>
+      <webElementGuid>1afc8952-b7b5-4f90-9831-2f5d100352be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://esosslfiles-a.akamaihd.net/ape/uploads/2023/05/af313d6cc1b83de9f0a85572c58f0d50.jpg']</value>
+      <webElementGuid>59cee33f-146e-496d-9031-8a5d189aa323</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
