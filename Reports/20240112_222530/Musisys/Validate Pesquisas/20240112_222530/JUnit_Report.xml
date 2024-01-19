@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Validate Pesquisas" time="2.651" tests="2" failures="0" errors="0">
+   <testsuite name="Validate Pesquisas" tests="2" failures="0" errors="0" time="2.651" skipped="0" timestamp="12-01-2024T22:25:33" hostname="Careca Delas - Careca-Desktop.home" id="Test Suites/Musisys/Validate Pesquisas">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240112_222530\\Musisys\\Validate Pesquisas\\20240112_222530"/>
+         <property name="logFiles" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240112_222530\\Musisys\\Validate Pesquisas\\20240112_222530\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Careca Delas - Careca-Desktop.home"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="22ee279916f4308770b8e4aacf66b57a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Musisys/Validate Home Screen" time="2.419" classname="Test Cases/Musisys/Validate Home Screen" status="PASSED">
+         <system-out><![CDATA[12-01-2024T22:25:34 - [TEST_CASE][PASSED] - Test Cases/Musisys/Validate Home Screen: Test Cases/Musisys/Validate Home Screen
+
+12-01-2024T22:25:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-01-2024T22:25:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-01-2024T22:25:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-01-2024T22:25:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-01-2024T22:25:36 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/website/"): Navigate to 'http://localhost/website/' successfully
+
+12-01-2024T22:25:36 - [MESSAGE][PASSED] - Navigate to 'http://localhost/website/' successfully
+
+12-01-2024T22:25:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Musiys/Page_Gesto Musisys/Singer")): Object 'Object Repository/Musiys/Page_Gesto Musisys/Singer' is visible
+
+12-01-2024T22:25:36 - [MESSAGE][PASSED] - Object 'Object Repository/Musiys/Page_Gesto Musisys/Singer' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Musisys/Enter Pesquisas" time="0.058" classname="Test Cases/Musisys/Enter Pesquisas" status="PASSED">
+         <system-out><![CDATA[12-01-2024T22:25:36 - [TEST_CASE][PASSED] - Test Cases/Musisys/Enter Pesquisas: Test Cases/Musisys/Enter Pesquisas
+
+12-01-2024T22:25:36 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-01-2024T22:25:33 - [TEST_SUITE][PASSED] - Validate Pesquisas: Test Cases/Musisys/Enter Pesquisas]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

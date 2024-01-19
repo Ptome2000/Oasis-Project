@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Validate Registos" time="4.066" tests="2" failures="0" errors="0">
+   <testsuite name="Validate Registos" tests="2" failures="0" errors="0" time="4.066" skipped="0" timestamp="12-01-2024T22:24:55" hostname="Careca Delas - Careca-Desktop.home" id="Test Suites/Musisys/Validate Registos">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240112_222451\\Musisys\\Validate Registos\\20240112_222451"/>
+         <property name="logFiles" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240112_222451\\Musisys\\Validate Registos\\20240112_222451\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Careca Delas - Careca-Desktop.home"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="5572e433d931e7ebfe87f12cedd2516b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Musisys/Validate Home Screen" time="2.78" classname="Test Cases/Musisys/Validate Home Screen" status="PASSED">
+         <system-out><![CDATA[12-01-2024T22:24:55 - [TEST_CASE][PASSED] - Test Cases/Musisys/Validate Home Screen: Test Cases/Musisys/Validate Home Screen
+
+12-01-2024T22:24:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-01-2024T22:24:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-01-2024T22:24:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-01-2024T22:24:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-01-2024T22:24:57 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/website/"): Navigate to 'http://localhost/website/' successfully
+
+12-01-2024T22:24:57 - [MESSAGE][PASSED] - Navigate to 'http://localhost/website/' successfully
+
+12-01-2024T22:24:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Musiys/Page_Gesto Musisys/Singer")): Object 'Object Repository/Musiys/Page_Gesto Musisys/Singer' is visible
+
+12-01-2024T22:24:58 - [MESSAGE][PASSED] - Object 'Object Repository/Musiys/Page_Gesto Musisys/Singer' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Musisys/Enter Registo" time="1.094" classname="Test Cases/Musisys/Enter Registo" status="PASSED">
+         <system-out><![CDATA[12-01-2024T22:24:58 - [TEST_CASE][PASSED] - Test Cases/Musisys/Enter Registo: Test Cases/Musisys/Enter Registo
+
+12-01-2024T22:24:58 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Musiys/Page_Gesto Musisys/button_Registar Edio")): Object 'Object Repository/Musiys/Page_Gesto Musisys/button_Registar Edio' is clickable
+
+12-01-2024T22:24:58 - [MESSAGE][PASSED] - Object 'Object Repository/Musiys/Page_Gesto Musisys/button_Registar Edio' is clickable
+
+12-01-2024T22:24:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Musiys/Page_Gesto Musisys/button_Registar Edio")): Object: 'Object Repository/Musiys/Page_Gesto Musisys/button_Registar Edio' is clicked on
+
+12-01-2024T22:24:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Musiys/Page_Gesto Musisys/button_Registar Edio' is clicked on
+
+12-01-2024T22:24:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Musiys/Page_MUSISYS - New Edition/h1_Registar nova Edio")): Object 'Object Repository/Musiys/Page_MUSISYS - New Edition/h1_Registar nova Edio' is visible
+
+12-01-2024T22:24:59 - [MESSAGE][PASSED] - Object 'Object Repository/Musiys/Page_MUSISYS - New Edition/h1_Registar nova Edio' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-01-2024T22:24:55 - [TEST_SUITE][PASSED] - Validate Registos: Test Cases/Musisys/Enter Registo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

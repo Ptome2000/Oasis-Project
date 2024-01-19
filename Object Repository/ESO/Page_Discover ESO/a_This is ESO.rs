@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_This is ESO</name>
+   <tag></tag>
+   <elementGuidId>87e354e7-65a8-4a56-8478-cb4a8576fc53</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='universal-nav']/div/div/div[6]/div/div[2]/div/div/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>702e692b-95ee-4999-b68a-53f1ce83c9f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/en-us/discover</value>
+      <webElementGuid>4d6125e1-0448-4cce-9aa9-6f2e5814fa24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>1797d2fb-cebe-48c2-b885-c9c07e194b05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gl-link-internal gl-link-checked</value>
+      <webElementGuid>9350a922-ad87-4143-99ca-e3c65ee0cd74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>This is ESO</value>
+      <webElementGuid>fdbcf034-8dce-40af-87ff-9e2060c67b68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;universal-nav&quot;)/div[@class=&quot;un-wrapper-wrap&quot;]/div[@class=&quot;un-wrapper&quot;]/div[@class=&quot;un-mobile-wrapper open&quot;]/div[@class=&quot;un-mobile-box&quot;]/div[@class=&quot;un-third-level&quot;]/div[@class=&quot;third third-1                                      active&quot;]/div[@class=&quot;links&quot;]/div[@class=&quot;link&quot;]/a[@class=&quot;gl-link-internal gl-link-checked&quot;]</value>
+      <webElementGuid>41758c34-a604-4005-a037-a17ea45d112d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='universal-nav']/div/div/div[6]/div/div[2]/div/div/div/a</value>
+      <webElementGuid>c4c9c926-00b3-49bc-b5cf-d70ecaa8a373</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'This is ESO')]</value>
+      <webElementGuid>fb4a2376-b89a-4126-9fe7-2ed0e859b731</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/en-us/discover')])[2]</value>
+      <webElementGuid>693b0e10-6ea4-420e-a116-9b8b1cd6ec22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/a</value>
+      <webElementGuid>88076fc6-d7d5-4d77-a5c3-78d04048a296</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/en-us/discover' and (text() = 'This is ESO' or . = 'This is ESO')]</value>
+      <webElementGuid>f876215b-8525-4961-b3d0-5884fc367a71</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
