@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Validate Registos,,,,19-01-2024 12:50:56,19-01-2024 12:51:04,7.900s,FAILED
+,,,,,,,
+Test Cases/Musisys/Validate Home Screen,,,,19-01-2024 12:51:02,19-01-2024 12:51:04,1.461s,FAILED
+"openBrowser("""")",,,,19-01-2024 12:51:02,19-01-2024 12:51:04,1.443s,FAILED
+,,,,,,,
+Test Cases/Musisys/Enter Registo,,,,19-01-2024 12:51:04,19-01-2024 12:51:04,0.070s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Musiys/Page_Gesto Musisys/button_Registar Edio""))",,,,19-01-2024 12:51:04,19-01-2024 12:51:04,0.052s,FAILED

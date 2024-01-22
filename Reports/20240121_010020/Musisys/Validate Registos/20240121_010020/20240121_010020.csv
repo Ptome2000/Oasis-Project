@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Validate Registos,Chrome 120.0.0.0,,,21-01-2024 01:00:26,21-01-2024 01:01:41,1m - 15.029s,PASSED
+,,,,,,,
+Test Cases/Musisys/Validate Home Screen,Chrome 120.0.0.0,,,21-01-2024 01:00:26,21-01-2024 01:00:33,6.506s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,21-01-2024 01:00:27,21-01-2024 01:00:29,2.609s,PASSED
+"navigateToUrl(""http://localhost/website/"")",Chrome 120.0.0.0,,,21-01-2024 01:00:29,21-01-2024 01:00:29,0.086s,PASSED
+"sendRequestAndVerify(findTestObject(""API/REST/GetIndexCode""))",Chrome 120.0.0.0,REST API Validation,,21-01-2024 01:00:29,21-01-2024 01:00:32,2.302s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Musiys/Page_Gesto Musisys/Singer""))",Chrome 120.0.0.0,,,21-01-2024 01:00:32,21-01-2024 01:00:32,0.363s,PASSED
+"takeScreenshotAsCheckpoint(""HomeScreen"")",Chrome 120.0.0.0,Image Validation,,21-01-2024 01:00:32,21-01-2024 01:00:33,0.797s,PASSED
+,,,,,,,
+Test Cases/Musisys/Enter Registo,Chrome 120.0.0.0,,,21-01-2024 01:00:33,21-01-2024 01:00:34,1.072s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Musiys/Page_Gesto Musisys/button_Registar Edio""))",Chrome 120.0.0.0,,,21-01-2024 01:00:33,21-01-2024 01:00:33,0.325s,PASSED
+"click(findTestObject(""Object Repository/Musiys/Page_Gesto Musisys/button_Registar Edio""))",Chrome 120.0.0.0,,,21-01-2024 01:00:33,21-01-2024 01:00:33,0.372s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Musiys/Page_MUSISYS - New Edition/h1_Registar nova Edio""))",Chrome 120.0.0.0,,,21-01-2024 01:00:33,21-01-2024 01:00:34,0.293s,PASSED
+,,,,,,,
+Test Cases/Musisys/Insert Edicao,Chrome 120.0.0.0,,,21-01-2024 01:00:34,21-01-2024 01:01:41,1m - 7.267s,PASSED
+"setText(findTestObject(""Object Repository/Musiys/Page_MUSISYS - New Edition/input_Nome""), ""Iscte"")",Chrome 120.0.0.0,,,21-01-2024 01:00:34,21-01-2024 01:00:34,0.599s,PASSED
+"setText(findTestObject(""Object Repository/Musiys/Page_MUSISYS - New Edition/input_Localidade""), ""Lisboa"")",Chrome 120.0.0.0,,,21-01-2024 01:00:34,21-01-2024 01:00:35,0.554s,PASSED
+"setText(findTestObject(""Object Repository/Musiys/Page_MUSISYS - New Edition/input_Local""), ""Campo Grande"")",Chrome 120.0.0.0,,,21-01-2024 01:00:35,21-01-2024 01:00:36,0.560s,PASSED
+"setText(findTestObject(""Object Repository/Musiys/Page_MUSISYS - New Edition/input_Lotacao""), ""200"")",Chrome 120.0.0.0,,,21-01-2024 01:00:36,21-01-2024 01:00:36,0.545s,PASSED
+"setText(findTestObject(""Object Repository/Musiys/Page_MUSISYS - New Edition/input_Palcos""), ""2"")",Chrome 120.0.0.0,,,21-01-2024 01:00:36,21-01-2024 01:00:37,0.549s,PASSED
+"setText(findTestObject(""Musiys/Page_MUSISYS - New Edition/input_Data_Inicio""), ""02/07/2026"")",Chrome 120.0.0.0,,,21-01-2024 01:00:37,21-01-2024 01:01:40,1m - 3.197s,PASSED
+"setText(findTestObject(""Musiys/Page_MUSISYS - New Edition/input_Data_Fim""), ""10/07/2026"")",Chrome 120.0.0.0,,,21-01-2024 01:01:40,21-01-2024 01:01:40,0.540s,PASSED
+"click(findTestObject(""Object Repository/Musiys/Page_MUSISYS - New Edition/button_Insert""))",Chrome 120.0.0.0,,,21-01-2024 01:01:40,21-01-2024 01:01:41,0.643s,PASSED

@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Musiys/Page_MUSISYS - New Edition/input_Data_Inicio",
+      "brokenLocator": "s",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@name\u003d\u0027Data_Inicio\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240121_010020/Musisys/Validate Registos/20240121_010020/Object Repository/Musiys/Page_MUSISYS - New Edition/input_Data_Inicio_attributes.png"
+    }
+  ]
+}

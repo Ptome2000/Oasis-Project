@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "E93ACF8A3159F6CFDF207E741AFCBFA5",
+  "keywordClasses": [
+    {
+      "name": "helpers.Misc",
+      "keywordMethods": [
+        {
+          "name": "LoginPage",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

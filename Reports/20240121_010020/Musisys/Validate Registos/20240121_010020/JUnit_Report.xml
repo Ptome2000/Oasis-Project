@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Validate Registos" time="75.029" tests="3" failures="0" errors="0">
+   <testsuite name="Validate Registos" tests="3" failures="0" errors="0" time="75.029" skipped="0" timestamp="21-01-2024T01:00:26" hostname="Careca Delas - Careca-Desktop.home" id="Test Suites/Musisys/Validate Registos">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240121_010020\\Musisys\\Validate Registos\\20240121_010020"/>
+         <property name="logFiles" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240121_010020\\Musisys\\Validate Registos\\20240121_010020\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-HomeScreen.png"/>
+         <property name="hostName" value="Careca Delas - Careca-Desktop.home"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="0c31b949090a6a874db0f0a3906a4556"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Musisys/Validate Home Screen" time="6.506" classname="Test Cases/Musisys/Validate Home Screen" status="PASSED">
+         <system-out><![CDATA[21-01-2024T01:00:26 - [TEST_CASE][PASSED] - Test Cases/Musisys/Validate Home Screen: Test Cases/Musisys/Validate Home Screen
+
+21-01-2024T01:00:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-01-2024T01:00:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-01-2024T01:00:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-01-2024T01:00:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-01-2024T01:00:29 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/website/"): Navigate to 'http://localhost/website/' successfully
+
+21-01-2024T01:00:29 - [MESSAGE][PASSED] - Navigate to 'http://localhost/website/' successfully
+
+21-01-2024T01:00:29 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("API/REST/GetIndexCode")): Send request and verify the response successfully
+
+21-01-2024T01:00:31 - [MESSAGE][INFO] - HAR: C:\Users\Careca Delas\Documents\GitHub\Oasis-Project\Reports\20240121_010020\Musisys\Validate Registos\20240121_010020\requests\main\0.har
+
+21-01-2024T01:00:31 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+21-01-2024T01:00:31 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+21-01-2024T01:00:31 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+21-01-2024T01:00:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+21-01-2024T01:00:31 - [MESSAGE][PASSED] - Verify response status code successfully
+
+21-01-2024T01:00:31 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+21-01-2024T01:00:32 - [MESSAGE][PASSED] - Verify response successfully
+
+21-01-2024T01:00:32 - [MESSAGE][PASSED] - All validation steps have been passed
+
+21-01-2024T01:00:32 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+21-01-2024T01:00:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Musiys/Page_Gesto Musisys/Singer")): Object 'Object Repository/Musiys/Page_Gesto Musisys/Singer' is visible
+
+21-01-2024T01:00:32 - [MESSAGE][PASSED] - Object 'Object Repository/Musiys/Page_Gesto Musisys/Singer' is visible
+
+21-01-2024T01:00:32 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("HomeScreen"): Taking screenshot successfully
+
+21-01-2024T01:00:33 - [MESSAGE][INFO] - 0 hidden object(s)
+
+21-01-2024T01:00:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-HomeScreen.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Musisys/Enter Registo" time="1.072" classname="Test Cases/Musisys/Enter Registo" status="PASSED">
+         <system-out><![CDATA[21-01-2024T01:00:33 - [TEST_CASE][PASSED] - Test Cases/Musisys/Enter Registo: Test Cases/Musisys/Enter Registo
+
+21-01-2024T01:00:33 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Musiys/Page_Gesto Musisys/button_Registar Edio")): Object 'Object Repository/Musiys/Page_Gesto Musisys/button_Registar Edio' is clickable
+
+21-01-2024T01:00:33 - [MESSAGE][PASSED] - Object 'Object Repository/Musiys/Page_Gesto Musisys/button_Registar Edio' is clickable
+
+21-01-2024T01:00:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Musiys/Page_Gesto Musisys/button_Registar Edio")): Object: 'Object Repository/Musiys/Page_Gesto Musisys/button_Registar Edio' is clicked on
+
+21-01-2024T01:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Musiys/Page_Gesto Musisys/button_Registar Edio' is clicked on
+
+21-01-2024T01:00:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Musiys/Page_MUSISYS - New Edition/h1_Registar nova Edio")): Object 'Object Repository/Musiys/Page_MUSISYS - New Edition/h1_Registar nova Edio' is visible
+
+21-01-2024T01:00:34 - [MESSAGE][PASSED] - Object 'Object Repository/Musiys/Page_MUSISYS - New Edition/h1_Registar nova Edio' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Musisys/Insert Edicao" time="67.267" classname="Test Cases/Musisys/Insert Edicao" status="PASSED">
+         <system-out><![CDATA[21-01-2024T01:00:34 - [TEST_CASE][PASSED] - Test Cases/Musisys/Insert Edicao: Test Cases/Musisys/Insert Edicao
+
+21-01-2024T01:00:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Musiys/Page_MUSISYS - New Edition/input_Nome"), "Iscte"): Text 'Iscte' is set on object 'Object Repository/Musiys/Page_MUSISYS - New Edition/input_Nome'
+
+21-01-2024T01:00:34 - [MESSAGE][PASSED] - Text 'Iscte' is set on object 'Object Repository/Musiys/Page_MUSISYS - New Edition/input_Nome'
+
+21-01-2024T01:00:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Musiys/Page_MUSISYS - New Edition/input_Localidade"), "Lisboa"): Text 'Lisboa' is set on object 'Object Repository/Musiys/Page_MUSISYS - New Edition/input_Localidade'
+
+21-01-2024T01:00:35 - [MESSAGE][PASSED] - Text 'Lisboa' is set on object 'Object Repository/Musiys/Page_MUSISYS - New Edition/input_Localidade'
+
+21-01-2024T01:00:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Musiys/Page_MUSISYS - New Edition/input_Local"), "Campo Grande"): Text 'Campo Grande' is set on object 'Object Repository/Musiys/Page_MUSISYS - New Edition/input_Local'
+
+21-01-2024T01:00:36 - [MESSAGE][PASSED] - Text 'Campo Grande' is set on object 'Object Repository/Musiys/Page_MUSISYS - New Edition/input_Local'
+
+21-01-2024T01:00:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Musiys/Page_MUSISYS - New Edition/input_Lotacao"), "200"): Text '200' is set on object 'Object Repository/Musiys/Page_MUSISYS - New Edition/input_Lotacao'
+
+21-01-2024T01:00:36 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/Musiys/Page_MUSISYS - New Edition/input_Lotacao'
+
+21-01-2024T01:00:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Musiys/Page_MUSISYS - New Edition/input_Palcos"), "2"): Text '2' is set on object 'Object Repository/Musiys/Page_MUSISYS - New Edition/input_Palcos'
+
+21-01-2024T01:00:37 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Musiys/Page_MUSISYS - New Edition/input_Palcos'
+
+21-01-2024T01:00:37 - [TEST_STEP][PASSED] - setText(findTestObject("Musiys/Page_MUSISYS - New Edition/input_Data_Inicio"), "02/07/2026"): Text '02/07/2026' is set on object 'Object Repository/Musiys/Page_MUSISYS - New Edition/input_Data_Inicio'
+
+21-01-2024T01:01:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: s'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-01-2024T01:01:08 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Musiys/Page_MUSISYS - New Edition/input_Data_Inicio'. Try using Self-healing.
+
+21-01-2024T01:01:08 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//input[@name='Data_Inicio']'.
+
+21-01-2024T01:01:08 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Careca Delas/Documents/GitHub/Oasis-Project/Reports/Self-healing/Object Repository/Musiys/Page_MUSISYS - New Edition/input_Data_Inicio_attributes.png
+
+21-01-2024T01:01:08 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Musiys/Page_MUSISYS - New Edition/input_Data_Inicio' was broken. Propose an alternative one: '//input[@name='Data_Inicio']'.
+
+21-01-2024T01:01:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: s'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-01-2024T01:01:40 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Musiys/Page_MUSISYS - New Edition/input_Data_Inicio'. Try using Self-healing.
+
+21-01-2024T01:01:40 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Musiys/Page_MUSISYS - New Edition/input_Data_Inicio' was broken. Propose an alternative one: '//input[@name='Data_Inicio']'.
+
+21-01-2024T01:01:40 - [MESSAGE][PASSED] - Text '02/07/2026' is set on object 'Object Repository/Musiys/Page_MUSISYS - New Edition/input_Data_Inicio'
+
+21-01-2024T01:01:40 - [TEST_STEP][PASSED] - setText(findTestObject("Musiys/Page_MUSISYS - New Edition/input_Data_Fim"), "10/07/2026"): Text '10/07/2026' is set on object 'Object Repository/Musiys/Page_MUSISYS - New Edition/input_Data_Fim'
+
+21-01-2024T01:01:40 - [MESSAGE][PASSED] - Text '10/07/2026' is set on object 'Object Repository/Musiys/Page_MUSISYS - New Edition/input_Data_Fim'
+
+21-01-2024T01:01:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Musiys/Page_MUSISYS - New Edition/button_Insert")): Object: 'Object Repository/Musiys/Page_MUSISYS - New Edition/button_Insert' is clicked on
+
+21-01-2024T01:01:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Musiys/Page_MUSISYS - New Edition/button_Insert' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-01-2024T01:00:26 - [TEST_SUITE][PASSED] - Validate Registos: Test Cases/Musisys/Insert Edicao]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

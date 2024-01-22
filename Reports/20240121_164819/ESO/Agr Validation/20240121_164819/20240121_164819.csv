@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Agr Validation,Windows - Chrome 119.0.0.0,,,21-01-2024 16:48:25,21-01-2024 16:49:47,1m - 22.813s,PASSED
+,,,,,,,
+Test Cases/ESO/Age Valitadion/Invalid Age,Windows - Chrome 119.0.0.0,,,21-01-2024 16:48:25,21-01-2024 16:49:07,42.706s,PASSED
+"openBrowser("""")",Windows - Chrome 119.0.0.0,,,21-01-2024 16:48:25,21-01-2024 16:48:54,29.235s,PASSED
+today = new java.util.Date(),Windows - Chrome 119.0.0.0,,,21-01-2024 16:48:54,21-01-2024 16:48:54,0.012s,PASSED
+"todaysDate = format(""yyyy-MM-dd"").split(""-"")",Windows - Chrome 119.0.0.0,,,21-01-2024 16:48:54,21-01-2024 16:48:54,0.005s,PASSED
+"navigateToUrl(""https://www.elderscrollsonline.com/en-us/agegate?URL=%2fen-us%2fmedia"")",Windows - Chrome 119.0.0.0,,,21-01-2024 16:48:54,21-01-2024 16:48:56,1.435s,PASSED
+"sendKeys(findTestObject(""ESO/Page_Age_Verification/input_Age Verification_month""), todaysDate[1])",Windows - Chrome 119.0.0.0,,,21-01-2024 16:48:56,21-01-2024 16:48:58,2.113s,PASSED
+"sendKeys(findTestObject(""ESO/Page_Age_Verification/input_Age Verification_day""), todaysDate[2])",Windows - Chrome 119.0.0.0,,,21-01-2024 16:48:58,21-01-2024 16:49:00,2.067s,PASSED
+"sendKeys(findTestObject(""ESO/Page_Age_Verification/input_Age Verification_year""), todaysDate[0])",Windows - Chrome 119.0.0.0,,,21-01-2024 16:49:00,21-01-2024 16:49:02,2.430s,PASSED
+"click(findTestObject(""ESO/Page_Age_Verification/button_Submit""))",Windows - Chrome 119.0.0.0,,,21-01-2024 16:49:02,21-01-2024 16:49:05,2.820s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/ESO/Page_Age_Verification/h4_Access Denied""))",Windows - Chrome 119.0.0.0,,,21-01-2024 16:49:05,21-01-2024 16:49:07,2.211s,PASSED
+,,,,,,,
+Test Cases/ESO/Age Valitadion/Valid Age,Windows - Chrome 119.0.0.0,,,21-01-2024 16:49:07,21-01-2024 16:49:47,39.920s,PASSED
+"openBrowser("""")",Windows - Chrome 119.0.0.0,,,21-01-2024 16:49:08,21-01-2024 16:49:33,25.479s,PASSED
+today = new java.util.Date(),Windows - Chrome 119.0.0.0,,,21-01-2024 16:49:33,21-01-2024 16:49:33,0.002s,PASSED
+"todaysDate = format(""yyyy-MM-dd"").split(""-"")",Windows - Chrome 119.0.0.0,,,21-01-2024 16:49:33,21-01-2024 16:49:33,0.002s,PASSED
+year = String.valueOf(Integer.parseInt(todaysDate[0]) - 18),Windows - Chrome 119.0.0.0,,,21-01-2024 16:49:33,21-01-2024 16:49:33,0.007s,PASSED
+"navigateToUrl(""https://www.elderscrollsonline.com/en-us/agegate?URL=%2fen-us%2fmedia"")",Windows - Chrome 119.0.0.0,,,21-01-2024 16:49:33,21-01-2024 16:49:35,1.639s,PASSED
+"sendKeys(findTestObject(""ESO/Page_Age_Verification/input_Age Verification_month""), todaysDate[1])",Windows - Chrome 119.0.0.0,,,21-01-2024 16:49:35,21-01-2024 16:49:37,1.949s,PASSED
+"sendKeys(findTestObject(""ESO/Page_Age_Verification/input_Age Verification_day""), todaysDate[2])",Windows - Chrome 119.0.0.0,,,21-01-2024 16:49:37,21-01-2024 16:49:39,1.925s,PASSED
+"sendKeys(findTestObject(""ESO/Page_Age_Verification/input_Age Verification_year""), year)",Windows - Chrome 119.0.0.0,,,21-01-2024 16:49:39,21-01-2024 16:49:41,2.062s,PASSED
+"click(findTestObject(""ESO/Page_Age_Verification/button_Submit""))",Windows - Chrome 119.0.0.0,,,21-01-2024 16:49:41,21-01-2024 16:49:47,6.209s,PASSED
+"if (getUrl().compareTo(""https://www.elderscrollsonline.com/en-us/media"") != 0)",Windows - Chrome 119.0.0.0,,,21-01-2024 16:49:47,21-01-2024 16:49:47,0.508s,PASSED

@@ -22,7 +22,14 @@
       <guid>8c3a9248-134d-4b5a-85bf-1969952b14cf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Musisys/Enter Registo</testCaseId>
+      <testCaseId>Test Cases/Musisys/Edições/Enter Registo</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0d874205-f43c-497d-bb8d-853bede5a6df</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Musisys/Edições/Insert Edicao</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

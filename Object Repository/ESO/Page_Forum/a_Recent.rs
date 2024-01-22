@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Recent</name>
+   <tag></tag>
+   <elementGuidId>7010a05e-b30a-4ad5-9271-d19822707622</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/en/discussions' and (text() = '
+                                                                                                              Recent                          ' or . = '
+                                                                                                              Recent                          ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.link.picked > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='universal-nav']/div/div/div[6]/div/div/div/div[4]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>3c5fd300-5cd2-4a8a-a720-a19d2c16a4e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>aac44d76-7c95-406c-a247-0786b5c9eebd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>6b531786-48c5-44ff-b33f-af807431c4b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>bcabdf4b-886b-41c1-834a-0ec04087c405</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>1eb4cac4-1d34-4891-b225-d8f0ea3ea28d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-index</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>99cc9f25-f8b9-43db-b007-612d8e965f0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/en/discussions</value>
+      <webElementGuid>743764e2-5207-4992-aa23-751b192dc107</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                                                                              Recent                          </value>
+      <webElementGuid>73f127a5-3265-4938-ae8b-0a0096111cb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;universal-nav&quot;)/div[@class=&quot;un-wrapper-wrap&quot;]/div[@class=&quot;un-wrapper&quot;]/div[@class=&quot;un-mobile-wrapper&quot;]/div[@class=&quot;un-mobile-box&quot;]/div[@class=&quot;un-second-level&quot;]/div[@class=&quot;links&quot;]/div[@class=&quot;link picked&quot;]/a[1]</value>
+      <webElementGuid>f214de00-b402-4e0c-9522-04b6e7ce5f17</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='universal-nav']/div/div/div[6]/div/div/div/div[4]/a</value>
+      <webElementGuid>b42b3284-3667-4f77-a2a0-04167af92bbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Recent')]</value>
+      <webElementGuid>a9a33b84-2cdc-483e-be4f-40e66f4580fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/en/discussions')]</value>
+      <webElementGuid>d86373e7-a182-4def-a954-4d050f0e544d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div/div[4]/a</value>
+      <webElementGuid>b8f1d311-8af4-4066-82cd-4583c2a11f79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/en/discussions' and (text() = '
+                                                                                                              Recent                          ' or . = '
+                                                                                                              Recent                          ')]</value>
+      <webElementGuid>54bc181d-905f-4431-af66-0fe198619e1d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

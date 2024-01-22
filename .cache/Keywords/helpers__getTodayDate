@@ -1,0 +1,31 @@
+{
+  "keywordFileContentHash": "E7A581E794BDF91E5EE57D7B337C6E06",
+  "keywordClasses": [
+    {
+      "name": "helpers.getTodayDate",
+      "keywordMethods": [
+        {
+          "name": "month",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "day",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "UnderYear",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "OverYear",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

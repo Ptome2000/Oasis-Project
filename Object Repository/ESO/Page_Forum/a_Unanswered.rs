@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Unanswered</name>
+   <tag></tag>
+   <elementGuidId>314d1c01-8a9d-4a4a-a160-d3a01988c2c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/en/discussions/unanswered' and (text() = '
+                                                                                                              Unanswered                          ' or . = '
+                                                                                                              Unanswered                          ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.link.picked > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='universal-nav']/div/div/div[6]/div/div/div/div[5]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>324b98d2-7902-4bbc-b335-39f1e4057184</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>902b19a2-95c4-4cb4-905d-b9a2a5026746</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>806c54d7-7edf-4d68-bf73-fe9c1a9667c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>b725e794-f865-48b6-a703-8d9b71d062ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>f007d7b0-d2de-4b5b-b0db-e8d2bfc996fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-index</name>
+      <type>Main</type>
+      <value>4</value>
+      <webElementGuid>edca5f3d-7778-47cc-ab0e-9fba64892fa5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/en/discussions/unanswered</value>
+      <webElementGuid>9564c146-0445-4394-94e5-49c6cb6325c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                                                                              Unanswered                          </value>
+      <webElementGuid>b0af1271-027d-4b22-a547-2784689321f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;universal-nav&quot;)/div[@class=&quot;un-wrapper-wrap&quot;]/div[@class=&quot;un-wrapper&quot;]/div[@class=&quot;un-mobile-wrapper&quot;]/div[@class=&quot;un-mobile-box&quot;]/div[@class=&quot;un-second-level&quot;]/div[@class=&quot;links&quot;]/div[@class=&quot;link picked&quot;]/a[1]</value>
+      <webElementGuid>d60aa41b-d8fb-454a-8197-629174afef86</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='universal-nav']/div/div/div[6]/div/div/div/div[5]/a</value>
+      <webElementGuid>4bc1bcd3-712e-43d7-a627-f5f0c2a9e31b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Unanswered')]</value>
+      <webElementGuid>ad4e9318-4aef-4fdb-b586-2e79a2634fef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/en/discussions/unanswered')]</value>
+      <webElementGuid>6e740ae8-7eec-44c7-ae09-9a7fca8f0bd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div/div[5]/a</value>
+      <webElementGuid>3f32cac2-828d-4b30-b206-4a9f6f02af4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/en/discussions/unanswered' and (text() = '
+                                                                                                              Unanswered                          ' or . = '
+                                                                                                              Unanswered                          ')]</value>
+      <webElementGuid>d83a3b7a-3d0e-4fef-9108-57b04a214c76</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

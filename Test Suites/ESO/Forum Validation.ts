@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Validate Pesquisas</name>
+   <name>Forum Validation</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>9c68bdbb-3011-46c1-8310-b48232cc1a7f</testSuiteGuid>
+   <testSuiteGuid>e6c20695-ee62-41fa-8a1b-dd79a890674e</testSuiteGuid>
    <testCaseLink>
-      <guid>8468f3c9-48ca-4216-9be8-9bf53c9fba64</guid>
+      <guid>b888774f-262e-465d-9928-6e2990fb4a55</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Musisys/Validate Home Screen</testCaseId>
+      <testCaseId>Test Cases/ESO/Forum Validation/Validate Forum Options</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4980071c-279e-40bf-9b25-830a600c106e</guid>
+      <guid>2f77033f-8de4-443b-99b2-2931bed9ec0b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Musisys/Artistas/Enter Pesquisas</testCaseId>
+      <testCaseId>Test Cases/ESO/Forum Validation/Forum Page Validation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
