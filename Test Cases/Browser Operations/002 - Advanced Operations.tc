@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>002 - Advanced Operations</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7b15acd1-2877-4021-98fb-556b5034c978</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8e1af8f2-13ed-44af-968b-1f7941a5597a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>8e1af8f2-13ed-44af-968b-1f7941a5597a</id>
+      <masked>false</masked>
+      <name>tab</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Patch Notes</name>
+   <tag></tag>
+   <elementGuidId>90e3cdd1-533c-4a8e-96e7-a11016ae5d92</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='universal-nav']/div/div/div[6]/div/div[2]/div/div/div[5]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8d350591-b531-49cf-92b5-342aff2e9eb2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://forums.elderscrollsonline.com/en/categories/patch-notes</value>
+      <webElementGuid>a1061db5-c4b6-4d47-b24d-ebeb1cbbed7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>c6e22422-a929-44c5-a198-03e60579fb28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gl-link-checked</value>
+      <webElementGuid>25884f45-1bc1-49af-a3dc-6ebebcd4225c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Patch Notes</value>
+      <webElementGuid>077b4f42-73ca-49c0-b869-ae6b61a31260</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;universal-nav&quot;)/div[@class=&quot;un-wrapper-wrap&quot;]/div[@class=&quot;un-wrapper&quot;]/div[@class=&quot;un-mobile-wrapper&quot;]/div[@class=&quot;un-mobile-box&quot;]/div[@class=&quot;un-third-level&quot;]/div[@class=&quot;third third-1                                      active&quot;]/div[@class=&quot;links&quot;]/div[@class=&quot;link&quot;]/a[@class=&quot;gl-link-checked&quot;]</value>
+      <webElementGuid>39ee2412-563a-4b40-b432-70cfebdf142d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='universal-nav']/div/div/div[6]/div/div[2]/div/div/div[5]/a</value>
+      <webElementGuid>e07d7993-43eb-4675-8d87-79ac0f040681</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Patch Notes')]</value>
+      <webElementGuid>23334789-8413-4034-a33e-2c880393b44d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://forums.elderscrollsonline.com/en/categories/patch-notes')]</value>
+      <webElementGuid>6fbc73e1-09bf-4108-bfdc-588bbc81a0ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[5]/a</value>
+      <webElementGuid>3a6e2803-b4b5-4d04-bea3-5edf4c2cecc1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://forums.elderscrollsonline.com/en/categories/patch-notes' and (text() = 'Patch Notes' or . = 'Patch Notes')]</value>
+      <webElementGuid>3a5e2dc4-5536-4a67-ab0e-d2faa8775cd9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,15 +1,16 @@
 {
-  "keywordFileContentHash": "E93ACF8A3159F6CFDF207E741AFCBFA5",
+  "keywordFileContentHash": "C54F0E968FC40DAAF33D067DDB7EB8E8",
   "keywordClasses": [
     {
       "name": "helpers.Misc",
       "keywordMethods": [
         {
           "name": "LoginPage",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

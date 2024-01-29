@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_The Elder Scrolls  Online</name>
+   <tag></tag>
+   <elementGuidId>21db7dc0-d819-4088-9a9f-e82b2c01bc8a</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='navbarTopLogo']</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'navbarTopLogo' and @href = 'https://www.elderscrollsonline.com/en-us/home' and (text() = '
+          The Elder Scrolls ® Online        ' or . = '
+          The Elder Scrolls ® Online        ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#navbarTopLogo</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>9f1435b3-c7a0-452a-a0f5-82884d3f1f68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title gl-link-internal gl-link-checked</value>
+      <webElementGuid>adbb2526-8f6e-4390-9f04-1558f9bd4368</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>navbarTopLogo</value>
+      <webElementGuid>f40334af-2dda-4748-8804-f5b63b7da481</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.elderscrollsonline.com/en-us/home</value>
+      <webElementGuid>f280b227-2c7d-47e7-9725-d3fabeb9e061</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+          The Elder Scrolls ® Online        </value>
+      <webElementGuid>5e2acdb1-31cb-40e0-bdc1-a5f3921271e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbarTopLogo&quot;)</value>
+      <webElementGuid>8214415e-3e74-417a-bae8-5b53c6d873a4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='navbarTopLogo']</value>
+      <webElementGuid>42f0c980-4f74-475b-9c11-7ba93f5b3fcc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='universal-nav']/div/div/div[4]/a</value>
+      <webElementGuid>02fab6f6-775a-4799-9376-8d4fc4c006d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://www.elderscrollsonline.com/en-us/home')]</value>
+      <webElementGuid>2ed35312-06ca-4600-ac98-e8b00ba540c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/a</value>
+      <webElementGuid>e44f52a0-ed3e-45b2-b4b3-dd87178a3483</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'navbarTopLogo' and @href = 'https://www.elderscrollsonline.com/en-us/home' and (text() = '
+          The Elder Scrolls ® Online        ' or . = '
+          The Elder Scrolls ® Online        ')]</value>
+      <webElementGuid>ffa4a0ab-0153-4cff-b5ea-57ed3c0d1b55</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

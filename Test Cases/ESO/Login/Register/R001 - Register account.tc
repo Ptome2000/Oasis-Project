@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>R001 - Register account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d49a9a63-2c3e-4be1-aa86-60d2caeb877c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e4dd1d43-ca67-43df-b1ef-03bdac396f3d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bbc20203-b2ca-4da7-a9b8-4a69815da439</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eac6d3f6-10ad-4ec3-951b-b6eea9335381</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2d5f707f-226c-45d0-99ac-818873d8a54f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'PedroTesting'</defaultValue>
+      <description></description>
+      <id>e4dd1d43-ca67-43df-b1ef-03bdac396f3d</id>
+      <masked>false</masked>
+      <name>User</name>
+   </variable>
+   <variable>
+      <defaultValue>'Abacate123'</defaultValue>
+      <description></description>
+      <id>bbc20203-b2ca-4da7-a9b8-4a69815da439</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>'pmgte@iscte-iul.pt'</defaultValue>
+      <description></description>
+      <id>eac6d3f6-10ad-4ec3-951b-b6eea9335381</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Elder Scrolls'</defaultValue>
+      <description></description>
+      <id>2d5f707f-226c-45d0-99ac-818873d8a54f</id>
+      <masked>false</masked>
+      <name>Question</name>
+   </variable>
+</TestCaseEntity>

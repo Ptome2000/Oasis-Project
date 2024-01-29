@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS001 - Login,Chrome 120.0.0.0,,,29-01-2024 00:43:47,29-01-2024 00:44:34,47.241s,FAILED
+,,,,,,,
+Test Cases/ESO/Login/L001 - Login with account,Chrome 120.0.0.0,Login with saved global variables,,29-01-2024 00:43:47,29-01-2024 00:43:56,8.959s,PASSED
+"callTestCase(findTestCase(""ESO/Login/L000 - Login Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,29-01-2024 00:43:47,29-01-2024 00:43:54,6.919s,PASSED
+"setText(findTestObject(""Object Repository/ESO/Page_Login/input_userscreen_name""), LoginUser)",Chrome 120.0.0.0,,,29-01-2024 00:43:54,29-01-2024 00:43:55,0.762s,PASSED
+"setText(findTestObject(""Object Repository/ESO/Page_Login/input_userpassword""), LoginPassword)",Chrome 120.0.0.0,,,29-01-2024 00:43:55,29-01-2024 00:43:55,0.436s,PASSED
+"click(findTestObject(""Object Repository/ESO/Page_Login/a_Sign In""))",Chrome 120.0.0.0,,,29-01-2024 00:43:55,29-01-2024 00:43:56,0.434s,PASSED
+,,,,,,,
+Test Cases/ESO/Login/Register/R001 - Register account,Chrome 120.0.0.0,,,29-01-2024 00:44:25,29-01-2024 00:44:34,9.338s,FAILED
+"callTestCase(findTestCase(""ESO/Login/Register/R000 - Register Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,29-01-2024 00:44:25,29-01-2024 00:44:34,9.245s,FAILED

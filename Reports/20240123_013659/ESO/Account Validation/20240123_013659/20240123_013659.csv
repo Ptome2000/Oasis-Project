@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Account Validation,Windows - Chrome 119.0.0.0,,,23-01-2024 01:37:05,23-01-2024 01:38:57,1m - 51.811s,PASSED
+,,,,,,,
+Test Cases/ESO/Login/Register Page Validation,Windows - Chrome 119.0.0.0,,,23-01-2024 01:37:05,23-01-2024 01:38:17,1m - 11.792s,PASSED
+"openBrowser("""")",Windows - Chrome 119.0.0.0,,,23-01-2024 01:37:05,23-01-2024 01:37:34,28.560s,PASSED
+"navigateToUrl(""https://account.elderscrollsonline.com/en-us/agegate?URL=%2fen-us%2fregister%2faccount-information"")",Windows - Chrome 119.0.0.0,,,23-01-2024 01:37:34,23-01-2024 01:37:37,2.831s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/Valid Age""), [:], STOP_ON_FAILURE)",Windows - Chrome 119.0.0.0,,,23-01-2024 01:37:37,23-01-2024 01:37:50,13.079s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/ESO/Page_Register/input_userscreen_name""))",Windows - Chrome 119.0.0.0,,,23-01-2024 01:37:50,23-01-2024 01:37:55,4.879s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/ESO/Page_Register/input_useremail""))",Windows - Chrome 119.0.0.0,,,23-01-2024 01:37:55,23-01-2024 01:37:59,4.592s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/ESO/Page_Register/input_useremail_confirmation""))",Windows - Chrome 119.0.0.0,,,23-01-2024 01:37:59,23-01-2024 01:38:04,4.225s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/ESO/Page_Register/input_userpassword""))",Windows - Chrome 119.0.0.0,,,23-01-2024 01:38:04,23-01-2024 01:38:08,4.294s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/ESO/Page_Register/input_userpassword_confirmation""))",Windows - Chrome 119.0.0.0,,,23-01-2024 01:38:08,23-01-2024 01:38:13,4.700s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/ESO/Page_Register/div_Security Question""))",Windows - Chrome 119.0.0.0,,,23-01-2024 01:38:13,23-01-2024 01:38:17,4.281s,PASSED
+,,,,,,,
+Test Cases/ESO/Login/Login Page Validation,Windows - Chrome 119.0.0.0,,,23-01-2024 01:38:17,23-01-2024 01:38:57,39.840s,PASSED
+helpers.Misc.LoginPage(),Windows - Chrome 119.0.0.0,,,23-01-2024 01:38:17,23-01-2024 01:38:47,30.358s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/ESO/Page_Login/body_Sign In                                                                                                                            UserID""))",Windows - Chrome 119.0.0.0,,,23-01-2024 01:38:47,23-01-2024 01:38:52,4.788s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/ESO/Page_Login/a_Sign In""), STOP_ON_FAILURE)",Windows - Chrome 119.0.0.0,,,23-01-2024 01:38:52,23-01-2024 01:38:57,4.563s,PASSED

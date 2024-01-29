@@ -4,4 +4,34 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.elderscrollsonline.com/en-us/home'</initValue>
+      <name>ESO</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'PedroTesting'</initValue>
+      <name>LoginUser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Abacate123'</initValue>
+      <name>LoginPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Answer for the question: &quot;What is your favorite video game?&quot;</description>
+      <initValue>'Elder Scrolls'</initValue>
+      <name>LoginQuestion</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Buy Now - The Elder Scrolls Online'</initValue>
+      <name>BuyNowTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Home - The Elder Scrolls Online'</initValue>
+      <name>HomeTitle</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

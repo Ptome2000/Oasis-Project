@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Learning Operations,Windows - Chrome 119.0.0.0,,,28-01-2024 03:16:52,28-01-2024 03:19:31,2m - 38.467s,ERROR
+,,,,,,,
+Test Cases/Browser Operations/001 - Basic Operations,Windows - Chrome 119.0.0.0,,,28-01-2024 03:16:53,28-01-2024 03:17:34,41.321s,PASSED
+"openBrowser("""")",Windows - Chrome 119.0.0.0,,,28-01-2024 03:16:53,28-01-2024 03:17:26,32.682s,PASSED
+"navigateToUrl(""google.com"")",Windows - Chrome 119.0.0.0,,,28-01-2024 03:17:26,28-01-2024 03:17:26,0.711s,PASSED
+maximizeWindow(),Windows - Chrome 119.0.0.0,,,28-01-2024 03:17:26,28-01-2024 03:17:27,0.729s,PASSED
+delay(5),Windows - Chrome 119.0.0.0,,,28-01-2024 03:17:27,28-01-2024 03:17:32,5.045s,PASSED
+refresh(),Windows - Chrome 119.0.0.0,,,28-01-2024 03:17:32,28-01-2024 03:17:33,0.999s,PASSED
+closeBrowser(),Windows - Chrome 119.0.0.0,,,28-01-2024 03:17:33,28-01-2024 03:17:34,0.867s,PASSED
+,,,,,,,
+Test Cases/Browser Operations/002 - Advanced Operations,Windows - Chrome 119.0.0.0,,,28-01-2024 03:17:34,28-01-2024 03:18:21,47.281s,PASSED
+"openBrowser(""google.com"")",Windows - Chrome 119.0.0.0,,,28-01-2024 03:17:34,28-01-2024 03:18:05,31.132s,PASSED
+maximizeWindow(),Windows - Chrome 119.0.0.0,,,28-01-2024 03:18:05,28-01-2024 03:18:06,0.895s,PASSED
+header = getWindowTitle(),Windows - Chrome 119.0.0.0,,,28-01-2024 03:18:06,28-01-2024 03:18:07,0.581s,PASSED
+tab = getWindowIndex(),Windows - Chrome 119.0.0.0,,,28-01-2024 03:18:07,28-01-2024 03:18:08,0.926s,PASSED
+delay(3),Windows - Chrome 119.0.0.0,,,28-01-2024 03:18:08,28-01-2024 03:18:11,3.019s,PASSED
+"callTestCase(findTestCase(""Browser Operations/003 - JavaScript Operations""), [:], STOP_ON_FAILURE)",Windows - Chrome 119.0.0.0,,,28-01-2024 03:18:11,28-01-2024 03:18:12,0.806s,PASSED
+"callTestCase(findTestCase(""Browser Operations/004 - Switching Operations""), [""tab"":tab], STOP_ON_FAILURE)",Windows - Chrome 119.0.0.0,,,28-01-2024 03:18:12,28-01-2024 03:18:18,6.059s,PASSED
+"callTestCase(findTestCase(""Browser Operations/005 - Closing Operations""), [""tab"":tab], STOP_ON_FAILURE)",Windows - Chrome 119.0.0.0,,,28-01-2024 03:18:18,28-01-2024 03:18:21,3.679s,PASSED
+,,,,,,,
+Test Cases/Browser Operations/003 - JavaScript Operations,Windows - Chrome 119.0.0.0,,,28-01-2024 03:18:23,28-01-2024 03:18:23,0.743s,ERROR
+driver = getWebDriver(),Windows - Chrome 119.0.0.0,,,28-01-2024 03:18:23,28-01-2024 03:18:23,0.000s,PASSED
+js = driver,Windows - Chrome 119.0.0.0,,,28-01-2024 03:18:23,28-01-2024 03:18:23,0.000s,PASSED
+"js.executeScript(""window.open();"")",Windows - Chrome 119.0.0.0,,,28-01-2024 03:18:23,28-01-2024 03:18:23,0.729s,ERROR
+,,,,,,,
+Test Cases/Browser Operations/004 - Switching Operations,Windows - Chrome 119.0.0.0,,,28-01-2024 03:18:23,28-01-2024 03:18:23,0.013s,ERROR
+switchToWindowIndex(tab + 1),Windows - Chrome 119.0.0.0,,,28-01-2024 03:18:23,28-01-2024 03:18:23,0.002s,ERROR
+,,,,,,,
+Test Cases/Browser Operations/005 - Closing Operations,Windows - Chrome 119.0.0.0,,,28-01-2024 03:18:24,28-01-2024 03:18:24,0.013s,ERROR
+closeWindowIndex(tab),Windows - Chrome 119.0.0.0,,,28-01-2024 03:18:24,28-01-2024 03:18:24,0.002s,ERROR
+,,,,,,,
+Test Cases/Browser Operations/006 - Assertions,Windows - Chrome 119.0.0.0,,,28-01-2024 03:18:24,28-01-2024 03:19:31,1m - 7.384s,PASSED
+"openBrowser(""https://www.elderscrollsonline.com/en-us/home"")",Windows - Chrome 119.0.0.0,,,28-01-2024 03:18:24,28-01-2024 03:19:02,38.169s,PASSED
+header = getWindowTitle(),Windows - Chrome 119.0.0.0,,,28-01-2024 03:19:02,28-01-2024 03:19:02,0.660s,PASSED
+"verifyMatch(header, ""Home - The Elder Scrolls Online"", true)",Windows - Chrome 119.0.0.0,,,28-01-2024 03:19:02,28-01-2024 03:19:02,0.019s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/h2_LATEST NEWS""), 0)",Windows - Chrome 119.0.0.0,,,28-01-2024 03:19:02,28-01-2024 03:19:05,2.184s,PASSED
+"verifyElementClickable(findTestObject(""ESO/Page_Home/button_ACCEPT ALL""))",Windows - Chrome 119.0.0.0,,,28-01-2024 03:19:05,28-01-2024 03:19:07,2.744s,PASSED
+"verifyElementVisible(findTestObject(""ESO/Page_Home/h1_Buy Now""))",Windows - Chrome 119.0.0.0,,,28-01-2024 03:19:07,28-01-2024 03:19:10,2.903s,PASSED
+"verifyElementInViewport(findTestObject(""ESO/Page_Home/div_Policy""), 0)",Windows - Chrome 119.0.0.0,,,28-01-2024 03:19:10,28-01-2024 03:19:16,5.890s,PASSED
+"click(findTestObject(""ESO/Page_Home/button_ACCEPT ALL""))",Windows - Chrome 119.0.0.0,,,28-01-2024 03:19:16,28-01-2024 03:19:19,2.973s,PASSED
+refresh(),Windows - Chrome 119.0.0.0,,,28-01-2024 03:19:19,28-01-2024 03:19:22,2.522s,PASSED
+"verifyElementNotPresent(findTestObject(""ESO/Page_Home/button_ACCEPT ALL""), 0)",Windows - Chrome 119.0.0.0,,,28-01-2024 03:19:22,28-01-2024 03:19:24,2.258s,PASSED
+"verifyTextPresent(""DISCOVER TAMRIEL"", false)",Windows - Chrome 119.0.0.0,,,28-01-2024 03:19:24,28-01-2024 03:19:27,3.265s,PASSED
+"verifyElementText(findTestObject(""ESO/Page_Home/a_Buy Now""), ""BUY NOW"")",Windows - Chrome 119.0.0.0,,,28-01-2024 03:19:27,28-01-2024 03:19:30,2.752s,PASSED
+closeBrowser(),Windows - Chrome 119.0.0.0,,,28-01-2024 03:19:30,28-01-2024 03:19:31,0.941s,PASSED

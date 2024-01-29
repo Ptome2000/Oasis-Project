@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS004 - Home,Chrome 120.0.0.0,,,29-01-2024 00:45:50,29-01-2024 00:46:16,26.165s,PASSED
+,,,,,,,
+Test Cases/ESO/Home Validation/H001 - Home Page,Chrome 120.0.0.0,,,29-01-2024 00:45:50,29-01-2024 00:46:02,11.854s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,29-01-2024 00:45:51,29-01-2024 00:46:00,9.050s,PASSED
+"verifyElementVisible(findTestObject(""ESO/Page_Home/h2_LATEST NEWS""), STOP_ON_FAILURE)",Chrome 120.0.0.0,,,29-01-2024 00:46:00,29-01-2024 00:46:01,0.968s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Navigation Bar/a_This is ESO""), 0)",Chrome 120.0.0.0,,,29-01-2024 00:46:01,29-01-2024 00:46:01,0.531s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Navigation Bar/a_Classes""), 0)",Chrome 120.0.0.0,,,29-01-2024 00:46:01,29-01-2024 00:46:02,0.289s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Navigation Bar/a_UpdatesDLC""), 0)",Chrome 120.0.0.0,,,29-01-2024 00:46:02,29-01-2024 00:46:02,0.280s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Navigation Bar/a_Patch Notes""), 0)",Chrome 120.0.0.0,,,29-01-2024 00:46:02,29-01-2024 00:46:02,0.297s,PASSED
+,,,,,,,
+Test Cases/ESO/Home Validation/H002 - Return to Home,Chrome 120.0.0.0,,,29-01-2024 00:46:02,29-01-2024 00:46:16,14.076s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,29-01-2024 00:46:02,29-01-2024 00:46:10,7.640s,PASSED
+headerBefore = getWindowTitle(),Chrome 120.0.0.0,,,29-01-2024 00:46:10,29-01-2024 00:46:10,0.025s,PASSED
+"verifyMatch(headerBefore, HomeTitle, false)",Chrome 120.0.0.0,,,29-01-2024 00:46:10,29-01-2024 00:46:10,0.325s,PASSED
+"callTestCase(findTestCase(""ESO/Home Validation/Buy Now Section/B001 - Buy Now Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,29-01-2024 00:46:10,29-01-2024 00:46:13,2.609s,PASSED
+back(),Chrome 120.0.0.0,,,29-01-2024 00:46:13,29-01-2024 00:46:13,0.067s,PASSED
+delay(3),Chrome 120.0.0.0,,,29-01-2024 00:46:13,29-01-2024 00:46:16,3.016s,PASSED
+headerAfter = getWindowTitle(),Chrome 120.0.0.0,,,29-01-2024 00:46:16,29-01-2024 00:46:16,0.008s,PASSED
+"verifyMatch(headerAfter, HomeTitle, false)",Chrome 120.0.0.0,,,29-01-2024 00:46:16,29-01-2024 00:46:16,0.003s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,29-01-2024 00:46:16,29-01-2024 00:46:16,0.235s,PASSED

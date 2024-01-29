@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with saved global variables</description>
+   <name>L001 - Login with account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f53612bb-86b5-42ef-8efc-34459949ff88</testCaseGuid>
+</TestCaseEntity>

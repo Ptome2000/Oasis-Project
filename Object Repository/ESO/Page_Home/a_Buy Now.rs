@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Buy Now</name>
+   <tag></tag>
+   <elementGuidId>4fa817cf-4f67-448b-9559-51806b1c1110</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.btn-grade > a.gl-link-internal.gl-link-checked</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='universal-nav']/div/div/div[5]/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>10d654b3-6325-4181-9542-587dd097b968</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.elderscrollsonline.com/en-us/joinus</value>
+      <webElementGuid>c1043881-0bda-4384-a847-d085bf8383fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gl-link-internal gl-link-checked</value>
+      <webElementGuid>048a19b0-0d1f-4b99-8416-45778ae5d1ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Buy Now</value>
+      <webElementGuid>10a66820-cc96-4ce2-9a5b-06db953878a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;universal-nav&quot;)/div[@class=&quot;un-wrapper-wrap&quot;]/div[@class=&quot;un-wrapper&quot;]/div[@class=&quot;cta-right un-top&quot;]/div[@class=&quot;btn-grade&quot;]/a[@class=&quot;gl-link-internal gl-link-checked&quot;]</value>
+      <webElementGuid>caee379a-7575-4976-aa2d-962bf307cc26</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='universal-nav']/div/div/div[5]/div/a</value>
+      <webElementGuid>628e3fa5-7b2b-4627-b837-438ec1e571a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Buy Now')]</value>
+      <webElementGuid>249c24bb-4325-4af8-a7ec-50895c32b3f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://www.elderscrollsonline.com/en-us/joinus')]</value>
+      <webElementGuid>fbf508fd-bff8-431b-9876-2b21a272a389</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/a</value>
+      <webElementGuid>f6324571-e821-4d0c-9f80-499ef55b70ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://www.elderscrollsonline.com/en-us/joinus' and (text() = 'Buy Now' or . = 'Buy Now')]</value>
+      <webElementGuid>5bc44a3b-b93f-4ca4-9922-3324d8110ef5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
