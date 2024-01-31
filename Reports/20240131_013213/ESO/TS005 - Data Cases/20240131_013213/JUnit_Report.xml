@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS005 - Data Cases" time="673.616" tests="7" failures="0" errors="0">
+   <testsuite name="TS005 - Data Cases" tests="7" failures="0" errors="0" time="673.616" skipped="0" timestamp="31-01-2024T01:32:19" hostname="Careca Delas - Careca-Desktop.home" id="Test Suites/ESO/TS005 - Data Cases">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240131_013213\\ESO\\TS005 - Data Cases\\20240131_013213"/>
+         <property name="logFiles" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240131_013213\\ESO\\TS005 - Data Cases\\20240131_013213\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240131_013213\\ESO\\TS005 - Data Cases\\20240131_013213\\1706664861813.png, C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240131_013213\\ESO\\TS005 - Data Cases\\20240131_013213\\1706664873070.png, C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240131_013213\\ESO\\TS005 - Data Cases\\20240131_013213\\1706665172609.png, C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240131_013213\\ESO\\TS005 - Data Cases\\20240131_013213\\1706665179130.png, C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240131_013213\\ESO\\TS005 - Data Cases\\20240131_013213\\1706665236329.png, C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240131_013213\\ESO\\TS005 - Data Cases\\20240131_013213\\1706665242036.png, C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240131_013213\\ESO\\TS005 - Data Cases\\20240131_013213\\1706665290075.png, C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240131_013213\\ESO\\TS005 - Data Cases\\20240131_013213\\1706665295965.png"/>
+         <property name="hostName" value="Careca Delas - Careca-Desktop.home"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;platform&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;requestId&quot;: &quot;d8fcbbf8-e996-4a30-9874-425b700d6796&quot;,&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;119.0.0.0&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;katalon:option&quot;: {&#xa;    &quot;unlimitedExecutionMinutes&quot;: true,&#xa;    &quot;userId&quot;: 1423099,&#xa;    &quot;organizationId&quot;: &quot;1380540&quot;,&#xa;    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;usingTunnel&quot;: false&#xa;  },&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;119.0.6045.9 (c7ec5863fa5c563b4b9057148aa2ae3f09f7994e-refs/branch-heads/6045@{#87})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Program Files (x86)\\scoped_dir2376_810842952&quot;&#xa;  },&#xa;  &quot;os&quot;: &quot;windows&quot;,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;version&quot;: &quot;119&quot;,&#xa;  &quot;se:cdp&quot;: &quot;ws://172.48.42.231:4444/session/23214f3e2237adc2456a52d98febcc51/se/cdp&quot;,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;DIRECT&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webdriver.remote.sessionid&quot;: &quot;23214f3e2237adc2456a52d98febcc51&quot;,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 119.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="23214f3e2237adc2456a52d98febcc51"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Data-Driven/DD001 - Class Help" time="63.298" classname="Test Cases/Data-Driven/DD001 - Class Help" status="PASSED">
+         <system-out><![CDATA[31-01-2024T01:32:19 - [TEST_CASE][PASSED] - Test Cases/Data-Driven/DD001 - Class Help: Test Cases/Data-Driven/DD001 - Class Help
+
+31-01-2024T01:32:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Open ESO Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+31-01-2024T01:32:20 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Open ESO Page: Test Cases/ESO/Misc Tests/Open ESO Page
+
+31-01-2024T01:32:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-01-2024T01:32:21 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+31-01-2024T01:32:21 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+31-01-2024T01:32:21 - [MESSAGE][INFO] - User set preference: ['browserVersion', '119']
+
+31-01-2024T01:32:21 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1380540, tunnelId=, usingTunnel=false}']
+
+31-01-2024T01:32:21 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+31-01-2024T01:32:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T01:32:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-01-2024T01:32:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-01-2024T01:32:56 - [MESSAGE][PASSED] - Current window maximized
+
+31-01-2024T01:32:56 - [TEST_STEP][PASSED] - navigateToUrl("https://www.elderscrollsonline.com/en-us/home"): Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+31-01-2024T01:33:01 - [MESSAGE][PASSED] - Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+31-01-2024T01:33:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+31-01-2024T01:33:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+31-01-2024T01:33:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online"), 0): Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+31-01-2024T01:33:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+31-01-2024T01:33:05 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+31-01-2024T01:33:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Policy Accept"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+31-01-2024T01:33:06 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Policy Accept: Test Cases/ESO/Misc Tests/Policy Accept
+
+31-01-2024T01:33:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/div_Policy"), 0): Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+31-01-2024T01:33:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+31-01-2024T01:33:07 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+31-01-2024T01:33:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ESO/Page_Home/button_ACCEPT ALL")): Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+31-01-2024T01:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+31-01-2024T01:33:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+31-01-2024T01:33:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+31-01-2024T01:33:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ESO/Page_Home/i_fa fa-search")): Object: 'Object Repository/ESO/Page_Home/i_fa fa-search' is clicked on
+
+31-01-2024T01:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/i_fa fa-search' is clicked on
+
+31-01-2024T01:33:12 - [TEST_STEP][PASSED] - for ([i = 0, i <= 5, (i++)]): null
+
+31-01-2024T01:33:12 - [TEST_STEP][PASSED] - search = verifyElementVisible(findTestObject("ESO/Page_Home/inputsearchBox")): Object 'Object Repository/ESO/Page_Home/inputsearchBox' is visible
+
+31-01-2024T01:33:14 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/inputsearchBox' is visible
+
+31-01-2024T01:33:14 - [TEST_STEP][PASSED] - if (search): null
+
+31-01-2024T01:33:14 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T01:33:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+31-01-2024T01:33:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+31-01-2024T01:33:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ESO/Page_Home/inputsearchBox"), Class_Name): Text 'Templar' is set on object 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:33:20 - [MESSAGE][PASSED] - Text 'Templar' is set on object 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:33:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ESO/Page_Home/inputsearchBox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:33:22 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:33:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2024T01:33:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data-Driven/DD001 - Class Help" time="69.245" classname="Test Cases/Data-Driven/DD001 - Class Help" status="PASSED">
+         <system-out><![CDATA[31-01-2024T01:34:42 - [TEST_CASE][PASSED] - Test Cases/Data-Driven/DD001 - Class Help: Test Cases/Data-Driven/DD001 - Class Help
+
+31-01-2024T01:34:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Open ESO Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+31-01-2024T01:34:42 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Open ESO Page: Test Cases/ESO/Misc Tests/Open ESO Page
+
+31-01-2024T01:34:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-01-2024T01:34:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+31-01-2024T01:34:44 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+31-01-2024T01:34:44 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+31-01-2024T01:34:44 - [MESSAGE][INFO] - User set preference: ['browserVersion', '119']
+
+31-01-2024T01:34:44 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1380540, tunnelId=, usingTunnel=false}']
+
+31-01-2024T01:34:44 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+31-01-2024T01:34:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T01:35:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-01-2024T01:35:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-01-2024T01:35:17 - [MESSAGE][PASSED] - Current window maximized
+
+31-01-2024T01:35:17 - [TEST_STEP][PASSED] - navigateToUrl("https://www.elderscrollsonline.com/en-us/home"): Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+31-01-2024T01:35:23 - [MESSAGE][PASSED] - Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+31-01-2024T01:35:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+31-01-2024T01:35:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+31-01-2024T01:35:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online"), 0): Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+31-01-2024T01:35:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+31-01-2024T01:35:29 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+31-01-2024T01:35:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Policy Accept"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+31-01-2024T01:35:29 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Policy Accept: Test Cases/ESO/Misc Tests/Policy Accept
+
+31-01-2024T01:35:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/div_Policy"), 0): Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+31-01-2024T01:35:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+31-01-2024T01:35:31 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+31-01-2024T01:35:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ESO/Page_Home/button_ACCEPT ALL")): Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+31-01-2024T01:35:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+31-01-2024T01:35:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+31-01-2024T01:35:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+31-01-2024T01:35:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ESO/Page_Home/i_fa fa-search")): Object: 'Object Repository/ESO/Page_Home/i_fa fa-search' is clicked on
+
+31-01-2024T01:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/i_fa fa-search' is clicked on
+
+31-01-2024T01:35:38 - [TEST_STEP][PASSED] - for ([i = 0, i <= 5, (i++)]): null
+
+31-01-2024T01:35:38 - [TEST_STEP][PASSED] - search = verifyElementVisible(findTestObject("ESO/Page_Home/inputsearchBox")): Object 'Object Repository/ESO/Page_Home/inputsearchBox' is visible
+
+31-01-2024T01:35:41 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/inputsearchBox' is visible
+
+31-01-2024T01:35:41 - [TEST_STEP][PASSED] - if (search): null
+
+31-01-2024T01:35:41 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T01:35:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+31-01-2024T01:35:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+31-01-2024T01:35:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ESO/Page_Home/inputsearchBox"), Class_Name): Text 'Nightblade' is set on object 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:35:48 - [MESSAGE][PASSED] - Text 'Nightblade' is set on object 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:35:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ESO/Page_Home/inputsearchBox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:35:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:35:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2024T01:35:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data-Driven/DD001 - Class Help" time="56.958" classname="Test Cases/Data-Driven/DD001 - Class Help" status="PASSED">
+         <system-out><![CDATA[31-01-2024T01:35:52 - [TEST_CASE][PASSED] - Test Cases/Data-Driven/DD001 - Class Help: Test Cases/Data-Driven/DD001 - Class Help
+
+31-01-2024T01:35:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Open ESO Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+31-01-2024T01:35:52 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Open ESO Page: Test Cases/ESO/Misc Tests/Open ESO Page
+
+31-01-2024T01:35:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-01-2024T01:35:52 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+31-01-2024T01:35:52 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+31-01-2024T01:35:52 - [MESSAGE][INFO] - User set preference: ['browserVersion', '119']
+
+31-01-2024T01:35:52 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1380540, tunnelId=, usingTunnel=false}']
+
+31-01-2024T01:35:52 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+31-01-2024T01:35:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T01:36:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-01-2024T01:36:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-01-2024T01:36:24 - [MESSAGE][PASSED] - Current window maximized
+
+31-01-2024T01:36:24 - [TEST_STEP][PASSED] - navigateToUrl("https://www.elderscrollsonline.com/en-us/home"): Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+31-01-2024T01:36:25 - [MESSAGE][PASSED] - Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+31-01-2024T01:36:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+31-01-2024T01:36:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+31-01-2024T01:36:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online"), 0): Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+31-01-2024T01:36:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+31-01-2024T01:36:32 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+31-01-2024T01:36:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Policy Accept"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+31-01-2024T01:36:32 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Policy Accept: Test Cases/ESO/Misc Tests/Policy Accept
+
+31-01-2024T01:36:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/div_Policy"), 0): Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+31-01-2024T01:36:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+31-01-2024T01:36:33 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+31-01-2024T01:36:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ESO/Page_Home/button_ACCEPT ALL")): Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+31-01-2024T01:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+31-01-2024T01:36:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+31-01-2024T01:36:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+31-01-2024T01:36:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ESO/Page_Home/i_fa fa-search")): Object: 'Object Repository/ESO/Page_Home/i_fa fa-search' is clicked on
+
+31-01-2024T01:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/i_fa fa-search' is clicked on
+
+31-01-2024T01:36:38 - [TEST_STEP][PASSED] - for ([i = 0, i <= 5, (i++)]): null
+
+31-01-2024T01:36:38 - [TEST_STEP][PASSED] - search = verifyElementVisible(findTestObject("ESO/Page_Home/inputsearchBox")): Object 'Object Repository/ESO/Page_Home/inputsearchBox' is visible
+
+31-01-2024T01:36:40 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/inputsearchBox' is visible
+
+31-01-2024T01:36:40 - [TEST_STEP][PASSED] - if (search): null
+
+31-01-2024T01:36:40 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T01:36:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+31-01-2024T01:36:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+31-01-2024T01:36:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ESO/Page_Home/inputsearchBox"), Class_Name): Text 'Sorcerer' is set on object 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:36:46 - [MESSAGE][PASSED] - Text 'Sorcerer' is set on object 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:36:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ESO/Page_Home/inputsearchBox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:36:48 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:36:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2024T01:36:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data-Driven/DD001 - Class Help" time="51.284" classname="Test Cases/Data-Driven/DD001 - Class Help" status="PASSED">
+         <system-out><![CDATA[31-01-2024T01:36:49 - [TEST_CASE][PASSED] - Test Cases/Data-Driven/DD001 - Class Help: Test Cases/Data-Driven/DD001 - Class Help
+
+31-01-2024T01:36:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Open ESO Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+31-01-2024T01:36:49 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Open ESO Page: Test Cases/ESO/Misc Tests/Open ESO Page
+
+31-01-2024T01:36:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-01-2024T01:36:49 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+31-01-2024T01:36:49 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+31-01-2024T01:36:49 - [MESSAGE][INFO] - User set preference: ['browserVersion', '119']
+
+31-01-2024T01:36:49 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1380540, tunnelId=, usingTunnel=false}']
+
+31-01-2024T01:36:49 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+31-01-2024T01:36:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T01:37:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-01-2024T01:37:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-01-2024T01:37:14 - [MESSAGE][PASSED] - Current window maximized
+
+31-01-2024T01:37:14 - [TEST_STEP][PASSED] - navigateToUrl("https://www.elderscrollsonline.com/en-us/home"): Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+31-01-2024T01:37:15 - [MESSAGE][PASSED] - Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+31-01-2024T01:37:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+31-01-2024T01:37:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+31-01-2024T01:37:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online"), 0): Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+31-01-2024T01:37:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+31-01-2024T01:37:21 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+31-01-2024T01:37:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Policy Accept"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+31-01-2024T01:37:21 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Policy Accept: Test Cases/ESO/Misc Tests/Policy Accept
+
+31-01-2024T01:37:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/div_Policy"), 0): Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+31-01-2024T01:37:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+31-01-2024T01:37:23 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+31-01-2024T01:37:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ESO/Page_Home/button_ACCEPT ALL")): Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+31-01-2024T01:37:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+31-01-2024T01:37:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+31-01-2024T01:37:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+31-01-2024T01:37:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ESO/Page_Home/i_fa fa-search")): Object: 'Object Repository/ESO/Page_Home/i_fa fa-search' is clicked on
+
+31-01-2024T01:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/i_fa fa-search' is clicked on
+
+31-01-2024T01:37:28 - [TEST_STEP][PASSED] - for ([i = 0, i <= 5, (i++)]): null
+
+31-01-2024T01:37:28 - [TEST_STEP][PASSED] - search = verifyElementVisible(findTestObject("ESO/Page_Home/inputsearchBox")): Object 'Object Repository/ESO/Page_Home/inputsearchBox' is visible
+
+31-01-2024T01:37:30 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/inputsearchBox' is visible
+
+31-01-2024T01:37:30 - [TEST_STEP][PASSED] - if (search): null
+
+31-01-2024T01:37:30 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T01:37:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+31-01-2024T01:37:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+31-01-2024T01:37:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ESO/Page_Home/inputsearchBox"), Class_Name): Text 'Dragonknight' is set on object 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:37:36 - [MESSAGE][PASSED] - Text 'Dragonknight' is set on object 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:37:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ESO/Page_Home/inputsearchBox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:37:39 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:37:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2024T01:37:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data-Driven/DD001 - Class Help" time="62.32" classname="Test Cases/Data-Driven/DD001 - Class Help" status="PASSED">
+         <system-out><![CDATA[31-01-2024T01:37:40 - [TEST_CASE][PASSED] - Test Cases/Data-Driven/DD001 - Class Help: Test Cases/Data-Driven/DD001 - Class Help
+
+31-01-2024T01:37:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Open ESO Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+31-01-2024T01:37:40 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Open ESO Page: Test Cases/ESO/Misc Tests/Open ESO Page
+
+31-01-2024T01:37:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-01-2024T01:37:40 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+31-01-2024T01:37:40 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+31-01-2024T01:37:40 - [MESSAGE][INFO] - User set preference: ['browserVersion', '119']
+
+31-01-2024T01:37:40 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1380540, tunnelId=, usingTunnel=false}']
+
+31-01-2024T01:37:40 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+31-01-2024T01:37:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T01:38:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-01-2024T01:38:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-01-2024T01:38:05 - [MESSAGE][PASSED] - Current window maximized
+
+31-01-2024T01:38:05 - [TEST_STEP][PASSED] - navigateToUrl("https://www.elderscrollsonline.com/en-us/home"): Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+31-01-2024T01:38:13 - [MESSAGE][PASSED] - Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+31-01-2024T01:38:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+31-01-2024T01:38:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+31-01-2024T01:38:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online"), 0): Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+31-01-2024T01:38:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+31-01-2024T01:38:19 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+31-01-2024T01:38:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Policy Accept"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+31-01-2024T01:38:19 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Policy Accept: Test Cases/ESO/Misc Tests/Policy Accept
+
+31-01-2024T01:38:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/div_Policy"), 0): Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+31-01-2024T01:38:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+31-01-2024T01:38:21 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+31-01-2024T01:38:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ESO/Page_Home/button_ACCEPT ALL")): Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+31-01-2024T01:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+31-01-2024T01:38:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+31-01-2024T01:38:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+31-01-2024T01:38:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ESO/Page_Home/i_fa fa-search")): Object: 'Object Repository/ESO/Page_Home/i_fa fa-search' is clicked on
+
+31-01-2024T01:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/i_fa fa-search' is clicked on
+
+31-01-2024T01:38:27 - [TEST_STEP][PASSED] - for ([i = 0, i <= 5, (i++)]): null
+
+31-01-2024T01:38:27 - [TEST_STEP][PASSED] - search = verifyElementVisible(findTestObject("ESO/Page_Home/inputsearchBox")): Object 'Object Repository/ESO/Page_Home/inputsearchBox' is visible
+
+31-01-2024T01:38:30 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/inputsearchBox' is visible
+
+31-01-2024T01:38:30 - [TEST_STEP][PASSED] - if (search): null
+
+31-01-2024T01:38:30 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T01:38:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+31-01-2024T01:38:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+31-01-2024T01:38:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ESO/Page_Home/inputsearchBox"), Class_Name): Text 'Warden' is set on object 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:38:37 - [MESSAGE][PASSED] - Text 'Warden' is set on object 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:38:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ESO/Page_Home/inputsearchBox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:38:40 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:38:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2024T01:38:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data-Driven/DD001 - Class Help" time="58.727" classname="Test Cases/Data-Driven/DD001 - Class Help" status="PASSED">
+         <system-out><![CDATA[31-01-2024T01:41:40 - [TEST_CASE][PASSED] - Test Cases/Data-Driven/DD001 - Class Help: Test Cases/Data-Driven/DD001 - Class Help
+
+31-01-2024T01:41:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Open ESO Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+31-01-2024T01:41:40 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Open ESO Page: Test Cases/ESO/Misc Tests/Open ESO Page
+
+31-01-2024T01:41:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-01-2024T01:41:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+31-01-2024T01:41:41 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+31-01-2024T01:41:41 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+31-01-2024T01:41:41 - [MESSAGE][INFO] - User set preference: ['browserVersion', '119']
+
+31-01-2024T01:41:41 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1380540, tunnelId=, usingTunnel=false}']
+
+31-01-2024T01:41:41 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+31-01-2024T01:41:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T01:42:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-01-2024T01:42:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-01-2024T01:42:13 - [MESSAGE][PASSED] - Current window maximized
+
+31-01-2024T01:42:13 - [TEST_STEP][PASSED] - navigateToUrl("https://www.elderscrollsonline.com/en-us/home"): Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+31-01-2024T01:42:17 - [MESSAGE][PASSED] - Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+31-01-2024T01:42:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+31-01-2024T01:42:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+31-01-2024T01:42:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online"), 0): Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+31-01-2024T01:42:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+31-01-2024T01:42:22 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+31-01-2024T01:42:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Policy Accept"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+31-01-2024T01:42:22 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Policy Accept: Test Cases/ESO/Misc Tests/Policy Accept
+
+31-01-2024T01:42:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/div_Policy"), 0): Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+31-01-2024T01:42:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+31-01-2024T01:42:24 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+31-01-2024T01:42:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ESO/Page_Home/button_ACCEPT ALL")): Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+31-01-2024T01:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+31-01-2024T01:42:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+31-01-2024T01:42:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+31-01-2024T01:42:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ESO/Page_Home/i_fa fa-search")): Object: 'Object Repository/ESO/Page_Home/i_fa fa-search' is clicked on
+
+31-01-2024T01:42:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/i_fa fa-search' is clicked on
+
+31-01-2024T01:42:28 - [TEST_STEP][PASSED] - for ([i = 0, i <= 5, (i++)]): null
+
+31-01-2024T01:42:28 - [TEST_STEP][PASSED] - search = verifyElementVisible(findTestObject("ESO/Page_Home/inputsearchBox")): Object 'Object Repository/ESO/Page_Home/inputsearchBox' is visible
+
+31-01-2024T01:42:31 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/inputsearchBox' is visible
+
+31-01-2024T01:42:31 - [TEST_STEP][PASSED] - if (search): null
+
+31-01-2024T01:42:31 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T01:42:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+31-01-2024T01:42:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+31-01-2024T01:42:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ESO/Page_Home/inputsearchBox"), Class_Name): Text 'Necromancer' is set on object 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:42:36 - [MESSAGE][PASSED] - Text 'Necromancer' is set on object 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:42:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ESO/Page_Home/inputsearchBox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:42:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:42:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2024T01:42:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data-Driven/DD001 - Class Help" time="53.753" classname="Test Cases/Data-Driven/DD001 - Class Help" status="PASSED">
+         <system-out><![CDATA[31-01-2024T01:42:39 - [TEST_CASE][PASSED] - Test Cases/Data-Driven/DD001 - Class Help: Test Cases/Data-Driven/DD001 - Class Help
+
+31-01-2024T01:42:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Open ESO Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+31-01-2024T01:42:39 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Open ESO Page: Test Cases/ESO/Misc Tests/Open ESO Page
+
+31-01-2024T01:42:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-01-2024T01:42:39 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+31-01-2024T01:42:39 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+31-01-2024T01:42:39 - [MESSAGE][INFO] - User set preference: ['browserVersion', '119']
+
+31-01-2024T01:42:39 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1380540, tunnelId=, usingTunnel=false}']
+
+31-01-2024T01:42:39 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+31-01-2024T01:42:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T01:43:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-01-2024T01:43:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-01-2024T01:43:05 - [MESSAGE][PASSED] - Current window maximized
+
+31-01-2024T01:43:05 - [TEST_STEP][PASSED] - navigateToUrl("https://www.elderscrollsonline.com/en-us/home"): Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+31-01-2024T01:43:10 - [MESSAGE][PASSED] - Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+31-01-2024T01:43:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+31-01-2024T01:43:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+31-01-2024T01:43:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online"), 0): Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+31-01-2024T01:43:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+31-01-2024T01:43:15 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+31-01-2024T01:43:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Policy Accept"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+31-01-2024T01:43:15 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Policy Accept: Test Cases/ESO/Misc Tests/Policy Accept
+
+31-01-2024T01:43:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/div_Policy"), 0): Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+31-01-2024T01:43:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+31-01-2024T01:43:17 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+31-01-2024T01:43:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ESO/Page_Home/button_ACCEPT ALL")): Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+31-01-2024T01:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+31-01-2024T01:43:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+31-01-2024T01:43:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+31-01-2024T01:43:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ESO/Page_Home/i_fa fa-search")): Object: 'Object Repository/ESO/Page_Home/i_fa fa-search' is clicked on
+
+31-01-2024T01:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/i_fa fa-search' is clicked on
+
+31-01-2024T01:43:22 - [TEST_STEP][PASSED] - for ([i = 0, i <= 5, (i++)]): null
+
+31-01-2024T01:43:22 - [TEST_STEP][PASSED] - search = verifyElementVisible(findTestObject("ESO/Page_Home/inputsearchBox")): Object 'Object Repository/ESO/Page_Home/inputsearchBox' is visible
+
+31-01-2024T01:43:24 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/inputsearchBox' is visible
+
+31-01-2024T01:43:24 - [TEST_STEP][PASSED] - if (search): null
+
+31-01-2024T01:43:24 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T01:43:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+31-01-2024T01:43:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+31-01-2024T01:43:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ESO/Page_Home/inputsearchBox"), Class_Name): Text 'Arcanist' is set on object 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:43:30 - [MESSAGE][PASSED] - Text 'Arcanist' is set on object 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:43:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ESO/Page_Home/inputsearchBox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:43:32 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ESO/Page_Home/inputsearchBox'
+
+31-01-2024T01:43:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2024T01:43:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[31-01-2024T01:32:19 - [TEST_SUITE][FAILED] - TS005 - Data Cases: Test Cases/Data-Driven/DD001 - Class Help FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/ESO/Page_Home/inputsearchBox' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at DD001 - Class Help.run(DD001 - Class Help:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706664733597.run(TempTestSuite1706664733597.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/ESO/Page_Home/inputsearchBox' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[31-01-2024T01:32:19 - [TEST_SUITE][FAILED] - TS005 - Data Cases: Test Cases/Data-Driven/DD001 - Class Help FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/ESO/Page_Home/inputsearchBox' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at DD001 - Class Help.run(DD001 - Class Help:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706664733597.run(TempTestSuite1706664733597.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/ESO/Page_Home/inputsearchBox' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

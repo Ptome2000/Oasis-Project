@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case to search for characters in game</description>
+   <name>DD002 - Meet the Characters</name>
+   <tag>Data-Driven</tag>
+   <comment></comment>
+   <testCaseGuid>ead5c3d4-2ef7-42bb-be52-c61aaa0fa6c1</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>b625be74-323a-4b60-8c30-ebe4d5ec1c05</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Companions</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>b53e1329-1c80-493b-bc4f-de8d529f9c6f</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/NPCS</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>b625be74-323a-4b60-8c30-ebe4d5ec1c05</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Companion_Name</value>
+      <variableId>84ab1567-aa14-486c-9d6a-f6943d7111ef</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>84ab1567-aa14-486c-9d6a-f6943d7111ef</id>
+      <masked>false</masked>
+      <name>Character_Name</name>
+   </variable>
+</TestCaseEntity>

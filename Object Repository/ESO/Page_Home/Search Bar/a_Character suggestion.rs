@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Character suggestion</name>
+   <tag></tag>
+   <elementGuidId>5191bf9b-4c83-4c65-8dff-f8765bafd2f1</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.unibox__search-content.unibox__search-content--link.gl-link-internal.gl-link-checked</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;unibox-suggest-box&quot;)/section[@class=&quot;unibox-n-section unibox__cluster unibox__cluster--_ unibox__cluster--1-entries&quot;]/div[@class=&quot;unibox__selectable&quot;]/div[@class=&quot;unibox__content-container&quot;]/a[@class=&quot;unibox__search-content unibox__search-content--link gl-link-internal gl-link-checked&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='unibox-suggest-box']/section/div/div[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>04ea806e-7c0f-4d1d-bfab-e4de307275f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>unibox__search-content unibox__search-content--link gl-link-internal gl-link-checked</value>
+      <webElementGuid>2a75537e-a820-4c1e-b1d0-696b0ec5a4dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.elderscrollsonline.com/en-us/news/post/62073</value>
+      <webElementGuid>946b4e5b-9993-4db4-a5bb-c0b764b3a646</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Meet the Character –</value>
+      <webElementGuid>f9740fc4-eb49-421e-af7c-ffe8a55f9d91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Meet the Character – </value>
+      <webElementGuid>3dbcf275-ea1e-4859-9f4c-97cf214bcace</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;unibox-suggest-box&quot;)/section[@class=&quot;unibox-n-section unibox__cluster unibox__cluster--_ unibox__cluster--1-entries&quot;]/div[@class=&quot;unibox__selectable&quot;]/div[@class=&quot;unibox__content-container&quot;]/a[@class=&quot;unibox__search-content unibox__search-content--link gl-link-internal gl-link-checked&quot;]</value>
+      <webElementGuid>a34a7bae-8d37-4bdd-bced-24fc92d216a8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='unibox-suggest-box']/section/div/div[2]/a</value>
+      <webElementGuid>d26eefb0-6b73-4b8e-b233-aa68de1a4056</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://www.elderscrollsonline.com/en-us/news/post/62073')]</value>
+      <webElementGuid>4a6a52c5-4397-45bf-b654-6510b9b7f506</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/div[2]/a</value>
+      <webElementGuid>44a135c3-d35c-4bdb-bea7-66da8b967f12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://www.elderscrollsonline.com/en-us/news/post/62073' and @title = 'Meet the Character – Ember' and (text() = 'Meet the Character – Ember' or . = 'Meet the Character – Ember')]</value>
+      <webElementGuid>657b9f96-e41d-4ee1-9c55-7a10c4fbc6aa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

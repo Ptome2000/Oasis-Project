@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS005 - DDT</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>127253c8-5737-4b95-af23-fb6df3a54348</testSuiteGuid>
+   <testCaseLink>
+      <guid>c8a557b4-704a-43d1-8c9c-e8b3df4a2345</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data-Driven/DD001 - Class Help</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>310d860e-e671-4cab-bf14-bab2b52472e0</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Classes</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>310d860e-e671-4cab-bf14-bab2b52472e0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Class_Name</value>
+         <variableId>be0161c6-eec7-4612-9911-d45618b53feb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9a4789cb-fa00-4531-af4c-c065b17c2e78</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>''</defaultValue>
+         <description></description>
+         <id>84ab1567-aa14-486c-9d6a-f6943d7111ef</id>
+         <masked>false</masked>
+         <name>Companion_Name</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/Data-Driven/DD002 - Meet the Characters</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d0d60e5a-ce66-484f-b0e1-ce23336bc3c4</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Companions</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>d0d60e5a-ce66-484f-b0e1-ce23336bc3c4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Companion_Name</value>
+         <variableId>84ab1567-aa14-486c-9d6a-f6943d7111ef</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0b224920-5ad9-417a-8b68-fe038449612f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>''</defaultValue>
+         <description></description>
+         <id>84ab1567-aa14-486c-9d6a-f6943d7111ef</id>
+         <masked>false</masked>
+         <name>Character_Name</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/Data-Driven/DD002 - Meet the Characters</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>044393ce-a68c-4870-adf2-9f043486cdaa</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/NPCS</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>044393ce-a68c-4870-adf2-9f043486cdaa</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>﻿Character_Name</value>
+         <variableId>84ab1567-aa14-486c-9d6a-f6943d7111ef</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

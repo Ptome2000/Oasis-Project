@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Character suggestion</name>
+   <tag></tag>
+   <elementGuidId>4db8a248-94e3-48af-b46d-2d2c773add05</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.unibox__content-container</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Meet the Character – Ember' or . = 'Meet the Character – Ember')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='unibox-suggest-box']/section/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>882ee53c-a71b-4c9d-98ba-c5b56d586cdd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>unibox__content-container</value>
+      <webElementGuid>f6008553-6aee-480b-98a5-cec7398d3b91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Meet the Character – Ember</value>
+      <webElementGuid>79936d3b-42f0-4fda-8ad8-4b5865ee3a36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;unibox-suggest-box&quot;)/section[@class=&quot;unibox-n-section unibox__cluster unibox__cluster--_ unibox__cluster--1-entries&quot;]/div[@class=&quot;unibox__selectable&quot;]/div[@class=&quot;unibox__content-container&quot;]</value>
+      <webElementGuid>a04e2fef-e07f-47c6-80fa-78b8ee7baaa0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='unibox-suggest-box']/section/div/div[2]</value>
+      <webElementGuid>319b2db8-22a2-4bce-a7da-ecdcce8d926b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/div/section/div/div[2]</value>
+      <webElementGuid>9037d2ae-6b43-4e52-88b3-c75f8ea7593b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Meet the Character – Ember' or . = 'Meet the Character – Ember')]</value>
+      <webElementGuid>26bf0e3d-04a5-4610-ae50-cc175e19ea0a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

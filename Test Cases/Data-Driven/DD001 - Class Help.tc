@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DD001 - Class Help</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aba49588-2dd6-4d63-bd3c-e37443993bfb</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>101f810d-ad8a-4cac-b004-e9de23ecc200</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Classes</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>101f810d-ad8a-4cac-b004-e9de23ecc200</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Class_Name</value>
+      <variableId>be0161c6-eec7-4612-9911-d45618b53feb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'\r\n'</defaultValue>
+      <description></description>
+      <id>be0161c6-eec7-4612-9911-d45618b53feb</id>
+      <masked>false</masked>
+      <name>Class_Name</name>
+   </variable>
+</TestCaseEntity>

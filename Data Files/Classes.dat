@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Data for all ESO available classes</description>
+   <name>Classes</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>f8643eca-2cc1-4da8-bce7-e9fa7af1d279</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Templar Aedric+Spear Dawn%27s+Wrath Restoring+Light</data>
+   <data>Nightblade Assassination Shadow Siphoning</data>
+   <data>Sorcerer Daedric+Summoning Dark+Magic Storm+Calling</data>
+   <data>Dragonknight Ardent+FLame Draconic+Power Earthen+Heart</data>
+   <data>Warden Animal+Companions Green+Balance Winter%27s+Embrace</data>
+   <data>Necromancer Grave+Lord Bone+Tyrant Living+Death</data>
+   <data>Arcanist Herald+of+the+Tome Curative+Runeforms Soldier+of+Apocrypha</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Class_Name</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Skill Tree 1</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>Skill Tree 2</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>Skill Tree 3</name>
+      <size>7</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

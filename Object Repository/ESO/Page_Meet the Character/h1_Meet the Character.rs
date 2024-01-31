@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Meet the Character</name>
+   <tag></tag>
+   <elementGuidId>47ee806b-758e-4a0b-856b-0cf2743df41a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;post-title&quot;)/div[@class=&quot;col-sm-12 text-center&quot;]/h1[1]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='post-title']/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>d8cc8a8a-1dd2-48e5-b579-60e8490f605d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Meet the Character – Ember</value>
+      <webElementGuid>4b39ad68-58f6-40b1-b23e-9d646cdaa95f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;post-title&quot;)/div[@class=&quot;col-sm-12 text-center&quot;]/h1[1]</value>
+      <webElementGuid>1c7f49f1-8d5b-4bbd-9e98-c4754e841564</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='post-title']/div/h1</value>
+      <webElementGuid>8af7f350-bffb-44e1-af09-29a8934a8a95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>74dfb622-3ab6-4ab0-8f44-79ae61aa55fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>&#xd;
+</value>
+      <webElementGuid>37f1342e-98fe-4bdd-a861-bf8e2ee56d79</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,11 +1,16 @@
 {
-  "keywordFileContentHash": "C54F0E968FC40DAAF33D067DDB7EB8E8",
+  "keywordFileContentHash": "E6EA80326C65F216F58344ABE8FD2AB1",
   "keywordClasses": [
     {
       "name": "helpers.Misc",
       "keywordMethods": [
         {
           "name": "LoginPage",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "OpenSearchBar",
           "parameters": [],
           "javadoc": ""
         }

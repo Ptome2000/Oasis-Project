@@ -28,4 +28,25 @@ public class Misc {
 		WebUI.openBrowser('')
 		WebUI.navigateToUrl('https://account.elderscrollsonline.com/en-us/login')
 	}
+
+	@Keyword
+	def OpenSearchBar() {
+
+		
+		
+		//	Search bar doesn't always appear, try 5 times
+
+		for (int i = 0; i <= 5; i++) {
+			WebUI.click(findTestObject('Object Repository/ESO/Page_Home/Search Bar/i_fa fa-search'))
+			boolean search = WebUI.verifyElementVisible(findTestObject('ESO/Page_Home/Search Bar/inputsearchBox'), FailureHandling.OPTIONAL)
+
+			if (search) {
+				break
+			} else if (i == 5) {
+				throw new com.kms.katalon.core.exception.StepFailedException()
+			} else {
+				WebUI.refresh()
+			}
+		}
+	}
 }

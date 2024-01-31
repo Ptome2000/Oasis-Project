@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_fa fa-search</name>
+   <tag></tag>
+   <elementGuidId>4b313fe8-d430-4b35-b09c-bc22bc8858ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-search</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='universal-nav']/div/div/div[6]/div/div/div/div[9]/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>cf81d4a2-039c-45d8-b601-b778cca63ae4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-search</value>
+      <webElementGuid>5dfa0dd0-c794-417f-86da-cf9991028542</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>fb68bd53-ad49-4f40-826d-25a3da99515b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;universal-nav&quot;)/div[@class=&quot;un-wrapper-wrap&quot;]/div[@class=&quot;un-wrapper&quot;]/div[@class=&quot;un-mobile-wrapper&quot;]/div[@class=&quot;un-mobile-box&quot;]/div[@class=&quot;un-second-level&quot;]/div[@class=&quot;links&quot;]/div[@class=&quot;link picked&quot;]/a[@class=&quot;gl-link-internal gl-link-checked&quot;]/i[@class=&quot;fa fa-search&quot;]</value>
+      <webElementGuid>972a8cbc-4c1e-4065-91e2-9eae3b0b8c6f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='universal-nav']/div/div/div[6]/div/div/div/div[9]/a/i</value>
+      <webElementGuid>0a8c5e65-c6ef-4b4d-b9b0-11df481d2ed7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/i</value>
+      <webElementGuid>5e67201a-61ca-444b-ab00-60794f6c3ca5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
