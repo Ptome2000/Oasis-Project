@@ -42,8 +42,7 @@ while (index <= 2) {
         default:
             throw new com.kms.katalon.core.exception.StepFailedException('Unknown Page found in the Forum')
     }
-    
 }
 
-WebUI.takeAreaScreenshotAsCheckpoint('', null)
+WebUI.takeFullPageScreenshotAsCheckpoint('Checkpoint', FailureHandling.STOP_ON_FAILURE)
 

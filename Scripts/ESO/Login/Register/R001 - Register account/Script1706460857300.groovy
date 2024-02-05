@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('ESO/Login/Register/R000 - Register Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.takeFullPageScreenshotAsCheckpoint('Checkpoint')
+
 WebUI.selectOptionByValue(findTestObject('null'), 'PT', true)
 
 WebUI.setText(findTestObject('null'), User)
