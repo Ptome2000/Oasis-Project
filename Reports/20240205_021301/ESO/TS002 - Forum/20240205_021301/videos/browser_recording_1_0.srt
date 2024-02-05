@@ -1,0 +1,32 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. callTestCase(findTestCase("ESO/Forum Validation/F001 - Enter Forum Page"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. navigateToUrl("https://forums.elderscrollsonline.com/en/categories/patch-notes")
+
+4
+00:00:00,000 --> 00:00:00,000
+9. verifyElementPresent(findTestObject("ESO/Page_Forum/div_Categories"), 0)
+
+5
+00:00:00,000 --> 00:00:00,000
+5. index = 0
+
+6
+00:00:00,000 --> 00:00:00,000
+9. while (index <= 2)
+
+7
+00:00:00,000 --> 00:00:00,000
+1. if (index == 0)
+
+8
+00:00:00,000 --> 00:00:00,000
+1. click(findTestObject("ESO/Page_Forum/a_Dev Tracker"))
+

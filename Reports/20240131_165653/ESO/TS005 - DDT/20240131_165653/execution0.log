@@ -24983,9 +24983,7 @@ Caused by: com.kms.katalon.core.exception.StepFailedException: Text &amp;apos;ME
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2024-01-31T18:55:35.784194300Z</date>
   <millis>1706727335784</millis>

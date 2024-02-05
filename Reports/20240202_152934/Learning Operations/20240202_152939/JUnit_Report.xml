@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Learning Operations" time="29.043" tests="3" failures="0" errors="0">
+   <testsuite name="Learning Operations" tests="3" failures="0" errors="0" time="29.043" skipped="0" timestamp="02-02-2024T15:29:47" hostname="Careca Delas - Careca-Desktop.home" id="Test Suites/Learning Operations">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240202_152934\\Learning Operations\\20240202_152939"/>
+         <property name="logFiles" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240202_152934\\Learning Operations\\20240202_152939\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Careca Delas - Careca-Desktop.home"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="33415aab85d0bf10e81bb1434e1b4fca"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Browser Operations/001 - Basic Operations" time="11.281" classname="Test Cases/Browser Operations/001 - Basic Operations" status="PASSED">
+         <system-out><![CDATA[02-02-2024T15:29:47 - [TEST_CASE][PASSED] - Test Cases/Browser Operations/001 - Basic Operations: Test Cases/Browser Operations/001 - Basic Operations
+
+02-02-2024T15:29:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-02-2024T15:29:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-02-2024T15:29:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-02-2024T15:29:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-02-2024T15:29:52 - [TEST_STEP][PASSED] - navigateToUrl("google.com"): Navigate to 'http://google.com' successfully
+
+02-02-2024T15:29:53 - [MESSAGE][PASSED] - Navigate to 'http://google.com' successfully
+
+02-02-2024T15:29:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-02-2024T15:29:53 - [MESSAGE][PASSED] - Current window maximized
+
+02-02-2024T15:29:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+02-02-2024T15:29:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+02-02-2024T15:29:58 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+02-02-2024T15:29:58 - [MESSAGE][PASSED] - Refresh successfully
+
+02-02-2024T15:29:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-02-2024T15:29:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Browser Operations/002 - Advanced Operations" time="7.453" classname="Test Cases/Browser Operations/002 - Advanced Operations" status="PASSED">
+         <system-out><![CDATA[02-02-2024T15:29:59 - [TEST_CASE][PASSED] - Test Cases/Browser Operations/002 - Advanced Operations: Test Cases/Browser Operations/002 - Advanced Operations
+
+02-02-2024T15:29:59 - [TEST_STEP][PASSED] - openBrowser("google.com"): Browser is opened with url: 'google.com'
+
+02-02-2024T15:29:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-02-2024T15:29:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-02-2024T15:30:01 - [MESSAGE][PASSED] - Browser is opened with url: 'google.com'
+
+02-02-2024T15:30:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-02-2024T15:30:01 - [MESSAGE][PASSED] - Current window maximized
+
+02-02-2024T15:30:01 - [TEST_STEP][PASSED] - header = getWindowTitle(): Current window's title is: 'Google'
+
+02-02-2024T15:30:01 - [MESSAGE][PASSED] - Current window's title is: 'Google'
+
+02-02-2024T15:30:01 - [TEST_STEP][PASSED] - tab = getWindowIndex(): Current window's index is: 0
+
+02-02-2024T15:30:01 - [MESSAGE][PASSED] - Current window's index is: 0
+
+02-02-2024T15:30:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+02-02-2024T15:30:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-02-2024T15:30:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Browser Operations/003 - JavaScript Operations"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Browser Operations/003 - JavaScript Operations' successfully
+
+02-02-2024T15:30:04 - [TEST_CASE][PASSED] - Test Cases/Browser Operations/003 - JavaScript Operations: Test Cases/Browser Operations/003 - JavaScript Operations
+
+02-02-2024T15:30:05 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+02-02-2024T15:30:05 - [TEST_STEP][PASSED] - js = driver: null
+
+02-02-2024T15:30:05 - [TEST_STEP][PASSED] - js.executeScript("window.open();"): null
+
+02-02-2024T15:30:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Browser Operations/003 - JavaScript Operations' successfully
+
+02-02-2024T15:30:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Browser Operations/004 - Switching Operations"), ["tab":tab], STOP_ON_FAILURE): Call Test Case 'Test Cases/Browser Operations/004 - Switching Operations' successfully
+
+02-02-2024T15:30:05 - [TEST_CASE][PASSED] - Test Cases/Browser Operations/004 - Switching Operations: Test Cases/Browser Operations/004 - Switching Operations
+
+02-02-2024T15:30:05 - [TEST_STEP][PASSED] - switchToWindowIndex(tab + 1): Switched to window with index: '1'
+
+02-02-2024T15:30:05 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+02-02-2024T15:30:05 - [TEST_STEP][PASSED] - navigateToUrl("https://en.wikipedia.org/wiki/The_Elder_Scrolls_Online"): Navigate to 'https://en.wikipedia.org/wiki/The_Elder_Scrolls_Online' successfully
+
+02-02-2024T15:30:06 - [MESSAGE][PASSED] - Navigate to 'https://en.wikipedia.org/wiki/The_Elder_Scrolls_Online' successfully
+
+02-02-2024T15:30:06 - [TEST_STEP][PASSED] - switchToWindowTitle("Google"): Switched to window with title: 'Google'
+
+02-02-2024T15:30:06 - [MESSAGE][PASSED] - Switched to window with title: 'Google'
+
+02-02-2024T15:30:06 - [TEST_STEP][PASSED] - switchToWindowUrl("https://en.wikipedia.org/wiki/The_Elder_Scrolls_Online"): Switched to window with url: 'https://en.wikipedia.org/wiki/The_Elder_Scrolls_Online'
+
+02-02-2024T15:30:06 - [MESSAGE][PASSED] - Switched to window with url: 'https://en.wikipedia.org/wiki/The_Elder_Scrolls_Online'
+
+02-02-2024T15:30:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Browser Operations/004 - Switching Operations' successfully
+
+02-02-2024T15:30:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Browser Operations/005 - Closing Operations"), ["tab":tab], STOP_ON_FAILURE): Call Test Case 'Test Cases/Browser Operations/005 - Closing Operations' successfully
+
+02-02-2024T15:30:06 - [TEST_CASE][PASSED] - Test Cases/Browser Operations/005 - Closing Operations: Test Cases/Browser Operations/005 - Closing Operations
+
+02-02-2024T15:30:06 - [TEST_STEP][PASSED] - closeWindowIndex(tab): Window with index 0 is closed
+
+02-02-2024T15:30:06 - [MESSAGE][PASSED] - Window with index 0 is closed
+
+02-02-2024T15:30:06 - [TEST_STEP][PASSED] - closeWindowUrl("https://en.wikipedia.org/wiki/The_Elder_Scrolls_Online"): Window with url: 'https://en.wikipedia.org/wiki/The_Elder_Scrolls_Online' is closed
+
+02-02-2024T15:30:06 - [MESSAGE][PASSED] - Window with url: 'https://en.wikipedia.org/wiki/The_Elder_Scrolls_Online' is closed
+
+02-02-2024T15:30:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Browser Operations/005 - Closing Operations' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Browser Operations/006 - Assertions" time="10.106" classname="Test Cases/Browser Operations/006 - Assertions" status="PASSED">
+         <system-out><![CDATA[02-02-2024T15:30:06 - [TEST_CASE][PASSED] - Test Cases/Browser Operations/006 - Assertions: Test Cases/Browser Operations/006 - Assertions
+
+02-02-2024T15:30:06 - [TEST_STEP][PASSED] - openBrowser("https://www.elderscrollsonline.com/en-us/home"): Browser is opened with url: 'https://www.elderscrollsonline.com/en-us/home'
+
+02-02-2024T15:30:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+02-02-2024T15:30:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-02-2024T15:30:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-02-2024T15:30:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.elderscrollsonline.com/en-us/home'
+
+02-02-2024T15:30:10 - [TEST_STEP][PASSED] - header = getWindowTitle(): Current window's title is: 'Home - The Elder Scrolls Online'
+
+02-02-2024T15:30:10 - [MESSAGE][PASSED] - Current window's title is: 'Home - The Elder Scrolls Online'
+
+02-02-2024T15:30:10 - [TEST_STEP][PASSED] - verifyMatch(header, "Home - The Elder Scrolls Online", true): Actual text 'Home - The Elder Scrolls Online' and expected text 'Home - The Elder Scrolls Online' are matched  using regular expression
+
+02-02-2024T15:30:10 - [MESSAGE][PASSED] - Actual text 'Home - The Elder Scrolls Online' and expected text 'Home - The Elder Scrolls Online' are matched  using regular expression
+
+02-02-2024T15:30:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ESO/Page_Home/h2_LATEST NEWS"), 0): Object 'Object Repository/ESO/Page_Home/h2_LATEST NEWS' is present
+
+02-02-2024T15:30:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T15:30:11 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/h2_LATEST NEWS' is present
+
+02-02-2024T15:30:11 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("ESO/Page_Home/button_ACCEPT ALL")): Object 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clickable
+
+02-02-2024T15:30:12 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clickable
+
+02-02-2024T15:30:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ESO/Page_Home/a_The Elder Scrolls  Online")): Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is visible
+
+02-02-2024T15:30:12 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is visible
+
+02-02-2024T15:30:12 - [TEST_STEP][PASSED] - verifyElementInViewport(findTestObject("ESO/Page_Home/div_Policy"), 0): Object 'Object Repository/ESO/Page_Home/div_Policy' is present and visible in viewport
+
+02-02-2024T15:30:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T15:30:12 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/div_Policy' is present and visible in viewport
+
+02-02-2024T15:30:12 - [TEST_STEP][PASSED] - click(findTestObject("ESO/Page_Home/button_ACCEPT ALL")): Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+02-02-2024T15:30:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+02-02-2024T15:30:13 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+02-02-2024T15:30:14 - [MESSAGE][PASSED] - Refresh successfully
+
+02-02-2024T15:30:14 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("ESO/Page_Home/button_ACCEPT ALL"), 0): Web element with id: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' located by 'By.xpath: //button[@id='onetrust-accept-btn-handler']' is not present after '30' second(s)
+
+02-02-2024T15:30:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T15:30:15 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' located by 'By.xpath: //button[@id='onetrust-accept-btn-handler']' is not present after '30' second(s)
+
+02-02-2024T15:30:15 - [TEST_STEP][PASSED] - verifyTextPresent("DISCOVER TAMRIEL", false): Text 'DISCOVER TAMRIEL' is present on page 
+
+02-02-2024T15:30:16 - [MESSAGE][PASSED] - Text 'DISCOVER TAMRIEL' is present on page 
+
+02-02-2024T15:30:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ESO/Page_Home/a_Buy Now"), "BUY NOW"): Actual text and expected text of test object 'Object Repository/ESO/Page_Home/a_Buy Now' are matched.
+
+02-02-2024T15:30:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ESO/Page_Home/a_Buy Now' are matched.
+
+02-02-2024T15:30:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-02-2024T15:30:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-02-2024T15:29:47 - [TEST_SUITE][PASSED] - Learning Operations: Test Cases/Browser Operations/006 - Assertions]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

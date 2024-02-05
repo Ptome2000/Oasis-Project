@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS006 - Crown Store,Chrome 121.0.0.0,,,02-02-2024 15:31:36,02-02-2024 15:32:04,28.040s,PASSED
+,,,,,,,
+Test Cases/ESO/Crown Store Validation/Buy Crowns/BC001 - Validate Amounts,Chrome 121.0.0.0,,,02-02-2024 15:31:36,02-02-2024 15:32:04,27.792s,PASSED
+"callTestCase(findTestCase(""ESO/Crown Store Validation/Buy Crowns/BC000 - Enter View""), [:], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,02-02-2024 15:31:38,02-02-2024 15:32:00,22.313s,PASSED
+for (int val : Values),Chrome 121.0.0.0,,,02-02-2024 15:32:00,02-02-2024 15:32:04,3.962s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,02-02-2024 15:32:04,02-02-2024 15:32:04,0.394s,PASSED
+,,,,,,,
+Test Cases/ESO/Crown Store Validation/CS001 - Validate Amounts,Chrome 121.0.0.0,,,02-02-2024 15:32:04,02-02-2024 15:32:04,0.072s,PASSED
+return null,Chrome 121.0.0.0,,,02-02-2024 15:32:04,02-02-2024 15:32:04,0.001s,PASSED

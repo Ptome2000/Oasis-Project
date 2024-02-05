@@ -1,0 +1,435 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS005 - DDT,Chrome 120.0.0.0,,,31-01-2024 22:47:48,31-01-2024 22:58:29,10m - 41.753s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD001 - Class Help,Chrome 120.0.0.0,,,31-01-2024 22:47:48,31-01-2024 22:48:06,18.510s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:47:48,31-01-2024 22:47:59,10.890s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:47:59,31-01-2024 22:48:04,4.905s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:48:04,31-01-2024 22:48:05,1.015s,PASSED
+"setText(findTestObject(""Object Repository/ESO/Page_Home/Search Bar/inputsearchBox""), Class_Name)",Chrome 120.0.0.0,,,31-01-2024 22:48:05,31-01-2024 22:48:06,0.596s,PASSED
+"sendKeys(findTestObject(""Object Repository/ESO/Page_Home/Search Bar/inputsearchBox""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,31-01-2024 22:48:06,31-01-2024 22:48:06,0.522s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:48:06,31-01-2024 22:48:06,0.234s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD001 - Class Help,Chrome 120.0.0.0,,,31-01-2024 22:48:06,31-01-2024 22:48:17,10.906s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:48:06,31-01-2024 22:48:14,7.349s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:48:14,31-01-2024 22:48:15,1.234s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:48:15,31-01-2024 22:48:16,1.012s,PASSED
+"setText(findTestObject(""Object Repository/ESO/Page_Home/Search Bar/inputsearchBox""), Class_Name)",Chrome 120.0.0.0,,,31-01-2024 22:48:16,31-01-2024 22:48:17,0.574s,PASSED
+"sendKeys(findTestObject(""Object Repository/ESO/Page_Home/Search Bar/inputsearchBox""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,31-01-2024 22:48:17,31-01-2024 22:48:17,0.518s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:48:17,31-01-2024 22:48:17,0.204s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD001 - Class Help,Chrome 120.0.0.0,,,31-01-2024 22:48:17,31-01-2024 22:48:28,10.519s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:48:17,31-01-2024 22:48:24,7.020s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:48:24,31-01-2024 22:48:26,1.203s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:48:26,31-01-2024 22:48:27,1.016s,PASSED
+"setText(findTestObject(""Object Repository/ESO/Page_Home/Search Bar/inputsearchBox""), Class_Name)",Chrome 120.0.0.0,,,31-01-2024 22:48:27,31-01-2024 22:48:27,0.561s,PASSED
+"sendKeys(findTestObject(""Object Repository/ESO/Page_Home/Search Bar/inputsearchBox""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,31-01-2024 22:48:27,31-01-2024 22:48:28,0.503s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:48:28,31-01-2024 22:48:28,0.204s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD001 - Class Help,Chrome 120.0.0.0,,,31-01-2024 22:48:28,31-01-2024 22:48:39,10.731s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:48:28,31-01-2024 22:48:35,7.235s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:48:35,31-01-2024 22:48:36,1.175s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:48:36,31-01-2024 22:48:37,1.012s,PASSED
+"setText(findTestObject(""Object Repository/ESO/Page_Home/Search Bar/inputsearchBox""), Class_Name)",Chrome 120.0.0.0,,,31-01-2024 22:48:37,31-01-2024 22:48:38,0.586s,PASSED
+"sendKeys(findTestObject(""Object Repository/ESO/Page_Home/Search Bar/inputsearchBox""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,31-01-2024 22:48:38,31-01-2024 22:48:38,0.505s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:48:38,31-01-2024 22:48:39,0.205s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD001 - Class Help,Chrome 120.0.0.0,,,31-01-2024 22:48:39,31-01-2024 22:48:49,10.664s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:48:39,31-01-2024 22:48:46,6.973s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:48:46,31-01-2024 22:48:47,1.394s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:48:47,31-01-2024 22:48:48,1.008s,PASSED
+"setText(findTestObject(""Object Repository/ESO/Page_Home/Search Bar/inputsearchBox""), Class_Name)",Chrome 120.0.0.0,,,31-01-2024 22:48:48,31-01-2024 22:48:49,0.554s,PASSED
+"sendKeys(findTestObject(""Object Repository/ESO/Page_Home/Search Bar/inputsearchBox""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,31-01-2024 22:48:49,31-01-2024 22:48:49,0.507s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:48:49,31-01-2024 22:48:49,0.218s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD001 - Class Help,Chrome 120.0.0.0,,,31-01-2024 22:48:49,31-01-2024 22:49:00,10.666s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:48:49,31-01-2024 22:48:56,6.987s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:48:56,31-01-2024 22:48:58,1.382s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:48:58,31-01-2024 22:48:59,1.002s,PASSED
+"setText(findTestObject(""Object Repository/ESO/Page_Home/Search Bar/inputsearchBox""), Class_Name)",Chrome 120.0.0.0,,,31-01-2024 22:48:59,31-01-2024 22:48:59,0.565s,PASSED
+"sendKeys(findTestObject(""Object Repository/ESO/Page_Home/Search Bar/inputsearchBox""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,31-01-2024 22:48:59,31-01-2024 22:49:00,0.502s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:49:00,31-01-2024 22:49:00,0.204s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD001 - Class Help,Chrome 120.0.0.0,,,31-01-2024 22:49:00,31-01-2024 22:49:10,10.339s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:49:00,31-01-2024 22:49:06,6.469s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:49:06,31-01-2024 22:49:08,1.352s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:49:08,31-01-2024 22:49:09,1.010s,PASSED
+"setText(findTestObject(""Object Repository/ESO/Page_Home/Search Bar/inputsearchBox""), Class_Name)",Chrome 120.0.0.0,,,31-01-2024 22:49:09,31-01-2024 22:49:10,0.782s,PASSED
+"sendKeys(findTestObject(""Object Repository/ESO/Page_Home/Search Bar/inputsearchBox""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,31-01-2024 22:49:10,31-01-2024 22:49:10,0.496s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:49:10,31-01-2024 22:49:10,0.219s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:49:10,31-01-2024 22:49:29,18.499s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:49:10,31-01-2024 22:49:11,0.416s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:49:11,31-01-2024 22:49:17,6.711s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:49:17,31-01-2024 22:49:19,1.163s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:49:19,31-01-2024 22:49:19,0.538s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:49:19,31-01-2024 22:49:20,1.014s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:49:20,31-01-2024 22:49:20,0.269s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:49:20,31-01-2024 22:49:23,2.653s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:49:23,31-01-2024 22:49:28,4.723s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:49:28,31-01-2024 22:49:28,0.370s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:49:28,31-01-2024 22:49:29,0.349s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:49:29,31-01-2024 22:49:29,0.224s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:49:29,31-01-2024 22:49:47,17.995s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:49:29,31-01-2024 22:49:29,0.017s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:49:29,31-01-2024 22:49:35,6.325s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:49:35,31-01-2024 22:49:36,1.166s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:49:36,31-01-2024 22:49:37,0.675s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:49:37,31-01-2024 22:49:38,1.013s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:49:38,31-01-2024 22:49:38,0.265s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:49:38,31-01-2024 22:49:41,2.715s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:49:41,31-01-2024 22:49:45,3.996s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:49:45,31-01-2024 22:49:45,0.333s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:49:45,31-01-2024 22:49:46,0.332s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:49:46,31-01-2024 22:49:47,1.148s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:49:47,31-01-2024 22:50:05,17.927s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:49:47,31-01-2024 22:49:47,0.013s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:49:47,31-01-2024 22:49:54,7.045s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:49:54,31-01-2024 22:49:55,1.170s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:49:55,31-01-2024 22:49:56,0.669s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:49:56,31-01-2024 22:49:57,1.011s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:49:57,31-01-2024 22:49:57,0.282s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:49:57,31-01-2024 22:50:00,2.688s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:50:00,31-01-2024 22:50:04,4.142s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:50:04,31-01-2024 22:50:04,0.344s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:50:04,31-01-2024 22:50:05,0.331s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:50:05,31-01-2024 22:50:05,0.222s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:50:05,31-01-2024 22:50:21,16.743s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:50:05,31-01-2024 22:50:05,0.013s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:50:05,31-01-2024 22:50:11,6.416s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:50:11,31-01-2024 22:50:12,1.271s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:50:12,31-01-2024 22:50:13,0.675s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:50:13,31-01-2024 22:50:14,1.005s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:50:14,31-01-2024 22:50:14,0.262s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:50:14,31-01-2024 22:50:17,2.183s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:50:17,31-01-2024 22:50:21,3.985s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:50:21,31-01-2024 22:50:21,0.361s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:50:21,31-01-2024 22:50:21,0.325s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:50:21,31-01-2024 22:50:21,0.234s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:50:21,31-01-2024 22:50:39,17.830s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:50:21,31-01-2024 22:50:22,0.014s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:50:22,31-01-2024 22:50:29,7.311s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:50:29,31-01-2024 22:50:30,1.259s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:50:30,31-01-2024 22:50:31,0.782s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:50:31,31-01-2024 22:50:32,1.015s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:50:32,31-01-2024 22:50:32,0.264s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:50:32,31-01-2024 22:50:34,2.321s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:50:34,31-01-2024 22:50:38,3.949s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:50:38,31-01-2024 22:50:39,0.339s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:50:39,31-01-2024 22:50:39,0.347s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:50:39,31-01-2024 22:50:39,0.220s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:50:39,31-01-2024 22:50:56,16.699s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:50:39,31-01-2024 22:50:39,0.011s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:50:39,31-01-2024 22:50:46,6.518s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:50:46,31-01-2024 22:50:47,1.221s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:50:47,31-01-2024 22:50:48,0.690s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:50:48,31-01-2024 22:50:49,1.004s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:50:49,31-01-2024 22:50:49,0.280s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:50:49,31-01-2024 22:50:51,2.377s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:50:51,31-01-2024 22:50:55,3.688s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:50:55,31-01-2024 22:50:55,0.342s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:50:55,31-01-2024 22:50:56,0.324s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:50:56,31-01-2024 22:50:56,0.236s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:50:56,31-01-2024 22:51:13,17.158s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:50:56,31-01-2024 22:50:56,0.012s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:50:56,31-01-2024 22:51:02,6.293s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:51:02,31-01-2024 22:51:03,1.074s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:51:03,31-01-2024 22:51:04,0.672s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:51:04,31-01-2024 22:51:05,1.016s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:51:05,31-01-2024 22:51:05,0.264s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:51:05,31-01-2024 22:51:08,2.535s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:51:08,31-01-2024 22:51:12,4.373s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:51:12,31-01-2024 22:51:13,0.347s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:51:13,31-01-2024 22:51:13,0.330s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:51:13,31-01-2024 22:51:13,0.222s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:51:13,31-01-2024 22:51:31,17.594s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:51:13,31-01-2024 22:51:13,0.011s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:51:13,31-01-2024 22:51:21,7.333s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:51:21,31-01-2024 22:51:22,1.187s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:51:22,31-01-2024 22:51:22,0.668s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:51:22,31-01-2024 22:51:23,1.003s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:51:23,31-01-2024 22:51:24,0.264s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:51:24,31-01-2024 22:51:26,2.066s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:51:26,31-01-2024 22:51:30,4.158s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:51:30,31-01-2024 22:51:30,0.342s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:51:30,31-01-2024 22:51:31,0.337s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:51:31,31-01-2024 22:51:31,0.215s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:51:31,31-01-2024 22:51:52,21.098s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:51:31,31-01-2024 22:51:31,0.010s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:51:31,31-01-2024 22:51:38,7.508s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:51:38,31-01-2024 22:51:40,1.181s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:51:40,31-01-2024 22:51:40,0.798s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:51:40,31-01-2024 22:51:41,1.012s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:51:41,31-01-2024 22:51:42,0.265s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:51:42,31-01-2024 22:51:44,2.081s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:51:44,31-01-2024 22:51:48,4.655s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:51:48,31-01-2024 22:51:49,0.367s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:51:49,31-01-2024 22:51:49,0.496s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:51:49,31-01-2024 22:51:52,2.716s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:51:52,31-01-2024 22:52:12,19.877s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:51:52,31-01-2024 22:51:52,0.012s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:51:52,31-01-2024 22:52:01,9.230s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:52:01,31-01-2024 22:52:03,1.409s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:52:03,31-01-2024 22:52:03,0.545s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:52:03,31-01-2024 22:52:04,1.002s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:52:04,31-01-2024 22:52:04,0.254s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:52:04,31-01-2024 22:52:07,2.395s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:52:07,31-01-2024 22:52:11,4.073s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:52:11,31-01-2024 22:52:11,0.360s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:52:11,31-01-2024 22:52:12,0.354s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:52:12,31-01-2024 22:52:12,0.236s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:52:12,31-01-2024 22:52:30,18.235s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:52:12,31-01-2024 22:52:12,0.013s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:52:12,31-01-2024 22:52:18,6.474s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:52:18,31-01-2024 22:52:20,1.218s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:52:20,31-01-2024 22:52:20,0.562s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:52:20,31-01-2024 22:52:21,1.011s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:52:21,31-01-2024 22:52:21,0.261s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:52:21,31-01-2024 22:52:24,2.831s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:52:24,31-01-2024 22:52:29,4.973s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:52:29,31-01-2024 22:52:29,0.327s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:52:29,31-01-2024 22:52:30,0.325s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:52:30,31-01-2024 22:52:30,0.222s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:52:30,31-01-2024 22:52:51,20.931s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:52:30,31-01-2024 22:52:30,0.010s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:52:30,31-01-2024 22:52:38,7.524s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:52:38,31-01-2024 22:52:39,1.855s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:52:39,31-01-2024 22:52:40,0.652s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:52:40,31-01-2024 22:52:41,1.012s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:52:41,31-01-2024 22:52:41,0.259s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:52:41,31-01-2024 22:52:46,4.964s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:52:46,31-01-2024 22:52:50,3.743s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:52:50,31-01-2024 22:52:50,0.329s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:52:50,31-01-2024 22:52:51,0.334s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:52:51,31-01-2024 22:52:51,0.239s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:52:51,31-01-2024 22:53:12,20.981s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:52:51,31-01-2024 22:52:51,0.010s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:52:51,31-01-2024 22:52:58,6.648s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:52:58,31-01-2024 22:52:59,1.321s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:52:59,31-01-2024 22:53:00,0.596s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:53:00,31-01-2024 22:53:01,1.014s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:53:01,31-01-2024 22:53:01,0.261s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:53:01,31-01-2024 22:53:06,4.844s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:53:06,31-01-2024 22:53:11,5.340s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:53:11,31-01-2024 22:53:11,0.367s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:53:11,31-01-2024 22:53:12,0.338s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:53:12,31-01-2024 22:53:12,0.233s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:53:12,31-01-2024 22:53:33,20.825s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:53:12,31-01-2024 22:53:12,0.011s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:53:12,31-01-2024 22:53:19,6.486s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:53:19,31-01-2024 22:53:23,4.078s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:53:23,31-01-2024 22:53:23,0.536s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:53:23,31-01-2024 22:53:24,1.009s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:53:24,31-01-2024 22:53:24,0.266s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:53:24,31-01-2024 22:53:27,2.896s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:53:27,31-01-2024 22:53:32,4.626s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:53:32,31-01-2024 22:53:32,0.337s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:53:32,31-01-2024 22:53:33,0.325s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:53:33,31-01-2024 22:53:33,0.229s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:53:33,31-01-2024 22:53:51,18.381s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:53:33,31-01-2024 22:53:33,0.012s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:53:33,31-01-2024 22:53:39,6.230s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:53:39,31-01-2024 22:53:40,1.253s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:53:40,31-01-2024 22:53:41,0.690s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:53:41,31-01-2024 22:53:42,1.008s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:53:42,31-01-2024 22:53:42,0.361s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:53:42,31-01-2024 22:53:46,3.268s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:53:46,31-01-2024 22:53:50,4.661s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:53:50,31-01-2024 22:53:51,0.340s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:53:51,31-01-2024 22:53:51,0.330s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:53:51,31-01-2024 22:53:51,0.221s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:53:51,31-01-2024 22:54:10,18.753s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:53:51,31-01-2024 22:53:51,0.017s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:53:51,31-01-2024 22:53:57,6.239s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:53:57,31-01-2024 22:53:59,1.268s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:53:59,31-01-2024 22:53:59,0.543s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:53:59,31-01-2024 22:54:00,1.002s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:54:00,31-01-2024 22:54:01,0.468s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:54:01,31-01-2024 22:54:04,2.754s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:54:04,31-01-2024 22:54:09,5.563s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:54:09,31-01-2024 22:54:09,0.352s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:54:09,31-01-2024 22:54:10,0.312s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:54:10,31-01-2024 22:54:10,0.224s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:54:10,31-01-2024 22:54:30,19.597s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:54:10,31-01-2024 22:54:10,0.009s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:54:10,31-01-2024 22:54:18,7.805s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:54:18,31-01-2024 22:54:19,1.128s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:54:19,31-01-2024 22:54:20,0.638s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:54:20,31-01-2024 22:54:21,1.009s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:54:21,31-01-2024 22:54:21,0.361s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:54:21,31-01-2024 22:54:24,3.234s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:54:24,31-01-2024 22:54:29,4.534s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:54:29,31-01-2024 22:54:29,0.327s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:54:29,31-01-2024 22:54:29,0.314s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:54:29,31-01-2024 22:54:30,0.229s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:54:30,31-01-2024 22:54:50,19.999s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:54:30,31-01-2024 22:54:30,0.008s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:54:30,31-01-2024 22:54:38,7.990s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:54:38,31-01-2024 22:54:39,1.500s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:54:39,31-01-2024 22:54:40,0.649s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:54:40,31-01-2024 22:54:41,1.009s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:54:41,31-01-2024 22:54:41,0.251s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:54:41,31-01-2024 22:54:44,3.101s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:54:44,31-01-2024 22:54:49,4.562s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:54:49,31-01-2024 22:54:49,0.356s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:54:49,31-01-2024 22:54:49,0.333s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:54:49,31-01-2024 22:54:50,0.230s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:54:50,31-01-2024 22:55:10,20.642s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:54:50,31-01-2024 22:54:50,0.009s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:54:50,31-01-2024 22:54:58,8.345s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:54:58,31-01-2024 22:55:00,1.598s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:55:00,31-01-2024 22:55:00,0.664s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:55:00,31-01-2024 22:55:01,1.006s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:55:01,31-01-2024 22:55:01,0.263s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:55:01,31-01-2024 22:55:04,2.700s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:55:04,31-01-2024 22:55:08,4.253s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:55:08,31-01-2024 22:55:09,0.339s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:55:09,31-01-2024 22:55:09,0.333s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:55:09,31-01-2024 22:55:10,1.124s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:55:10,31-01-2024 22:55:31,20.650s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:55:10,31-01-2024 22:55:10,0.007s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:55:10,31-01-2024 22:55:17,6.539s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:55:17,31-01-2024 22:55:18,1.146s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:55:18,31-01-2024 22:55:18,0.559s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:55:18,31-01-2024 22:55:19,1.002s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:55:19,31-01-2024 22:55:20,0.466s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:55:20,31-01-2024 22:55:26,5.866s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:55:26,31-01-2024 22:55:30,4.173s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:55:30,31-01-2024 22:55:30,0.337s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:55:30,31-01-2024 22:55:31,0.321s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:55:31,31-01-2024 22:55:31,0.224s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:55:31,31-01-2024 22:55:51,19.638s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:55:31,31-01-2024 22:55:31,0.009s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:55:31,31-01-2024 22:55:37,6.315s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:55:37,31-01-2024 22:55:38,1.135s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:55:38,31-01-2024 22:55:39,0.573s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:55:39,31-01-2024 22:55:40,1.003s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:55:40,31-01-2024 22:55:40,0.252s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:55:40,31-01-2024 22:55:43,2.990s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:55:43,31-01-2024 22:55:50,6.402s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:55:50,31-01-2024 22:55:50,0.343s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:55:50,31-01-2024 22:55:50,0.333s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:55:50,31-01-2024 22:55:51,0.265s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:55:51,31-01-2024 22:56:08,17.790s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:55:51,31-01-2024 22:55:51,0.008s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:55:51,31-01-2024 22:55:57,6.385s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:55:57,31-01-2024 22:55:58,1.182s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:55:58,31-01-2024 22:55:59,0.669s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:55:59,31-01-2024 22:56:00,1.012s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:56:00,31-01-2024 22:56:00,0.263s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:56:00,31-01-2024 22:56:03,2.726s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:56:03,31-01-2024 22:56:07,4.637s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:56:07,31-01-2024 22:56:08,0.358s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:56:08,31-01-2024 22:56:08,0.319s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:56:08,31-01-2024 22:56:08,0.224s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:56:08,31-01-2024 22:56:27,19.070s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:56:08,31-01-2024 22:56:08,0.007s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:56:08,31-01-2024 22:56:16,7.205s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:56:16,31-01-2024 22:56:17,1.203s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:56:17,31-01-2024 22:56:18,0.864s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:56:18,31-01-2024 22:56:19,1.011s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:56:19,31-01-2024 22:56:19,0.248s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:56:19,31-01-2024 22:56:22,3.538s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:56:22,31-01-2024 22:56:26,4.078s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:56:26,31-01-2024 22:56:27,0.343s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:56:27,31-01-2024 22:56:27,0.323s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:56:27,31-01-2024 22:56:27,0.240s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:56:27,31-01-2024 22:56:47,19.630s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:56:27,31-01-2024 22:56:27,0.009s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:56:27,31-01-2024 22:56:35,7.873s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:56:35,31-01-2024 22:56:37,1.493s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:56:37,31-01-2024 22:56:37,0.646s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:56:37,31-01-2024 22:56:38,1.003s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:56:38,31-01-2024 22:56:39,0.263s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:56:39,31-01-2024 22:56:42,2.976s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:56:42,31-01-2024 22:56:46,4.463s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:56:46,31-01-2024 22:56:46,0.338s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:56:46,31-01-2024 22:56:47,0.335s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:56:47,31-01-2024 22:56:47,0.220s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:56:47,31-01-2024 22:57:06,19.030s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:56:47,31-01-2024 22:56:47,0.007s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:56:47,31-01-2024 22:56:54,7.210s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:56:54,31-01-2024 22:56:55,1.159s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:56:55,31-01-2024 22:56:56,0.974s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:56:56,31-01-2024 22:56:57,1.012s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:56:57,31-01-2024 22:56:58,0.250s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:56:58,31-01-2024 22:57:01,2.957s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:57:01,31-01-2024 22:57:05,4.530s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:57:05,31-01-2024 22:57:06,0.361s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:57:06,31-01-2024 22:57:06,0.320s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:57:06,31-01-2024 22:57:06,0.240s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:57:06,31-01-2024 22:57:25,18.892s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:57:06,31-01-2024 22:57:06,0.007s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:57:06,31-01-2024 22:57:14,7.595s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:57:14,31-01-2024 22:57:15,1.172s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:57:15,31-01-2024 22:57:16,0.659s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:57:16,31-01-2024 22:57:17,1.005s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:57:17,31-01-2024 22:57:17,0.293s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:57:17,31-01-2024 22:57:20,2.964s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:57:20,31-01-2024 22:57:24,4.299s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:57:24,31-01-2024 22:57:24,0.345s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:57:24,31-01-2024 22:57:25,0.323s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:57:25,31-01-2024 22:57:25,0.221s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:57:25,31-01-2024 22:57:47,22.108s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:57:25,31-01-2024 22:57:25,0.008s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:57:25,31-01-2024 22:57:33,8.423s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:57:33,31-01-2024 22:57:37,3.639s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:57:37,31-01-2024 22:57:38,0.554s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:57:38,31-01-2024 22:57:39,1.016s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:57:39,31-01-2024 22:57:39,0.249s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:57:39,31-01-2024 22:57:42,2.871s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:57:42,31-01-2024 22:57:46,4.409s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:57:46,31-01-2024 22:57:47,0.341s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:57:47,31-01-2024 22:57:47,0.330s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:57:47,31-01-2024 22:57:47,0.260s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:57:47,31-01-2024 22:58:10,22.980s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:57:47,31-01-2024 22:57:47,0.007s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:57:47,31-01-2024 22:57:54,6.967s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:57:54,31-01-2024 22:57:55,1.177s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:57:55,31-01-2024 22:57:56,0.646s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:57:56,31-01-2024 22:57:57,1.016s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:57:57,31-01-2024 22:57:57,0.249s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:57:57,31-01-2024 22:58:04,6.740s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:58:04,31-01-2024 22:58:09,4.613s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:58:09,31-01-2024 22:58:09,0.340s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:58:09,31-01-2024 22:58:09,0.336s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:58:09,31-01-2024 22:58:10,0.871s,PASSED
+,,,,,,,
+Test Cases/Data-Driven/DD002 - Meet the Characters,Chrome 120.0.0.0,Test Case to search for characters in game,Data-Driven,31-01-2024 22:58:10,31-01-2024 22:58:29,19.329s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Companions""), false)",Chrome 120.0.0.0,,,31-01-2024 22:58:10,31-01-2024 22:58:10,0.007s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:58:10,31-01-2024 22:58:17,6.819s,PASSED
+helpers.Misc.OpenSearchBar(),Chrome 120.0.0.0,,,31-01-2024 22:58:17,31-01-2024 22:58:18,1.193s,PASSED
+"setText(findTestObject(""ESO/Page_Home/Search Bar/inputsearchBox""), Character_Name)",Chrome 120.0.0.0,,,31-01-2024 22:58:18,31-01-2024 22:58:19,0.693s,PASSED
+delay(1),Chrome 120.0.0.0,,,31-01-2024 22:58:19,31-01-2024 22:58:20,1.002s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Search Bar/div_Character suggestion""), 0)",Chrome 120.0.0.0,,,31-01-2024 22:58:20,31-01-2024 22:58:20,0.251s,PASSED
+"click(findTestObject(""ESO/Page_Home/Search Bar/a_Character suggestion""))",Chrome 120.0.0.0,,,31-01-2024 22:58:20,31-01-2024 22:58:24,3.545s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A002 - Valid Age""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:58:24,31-01-2024 22:58:29,4.933s,PASSED
+"verifyTextPresent(Character_Name.toUpperCase(), false)",Chrome 120.0.0.0,,,31-01-2024 22:58:29,31-01-2024 22:58:29,0.340s,PASSED
+"verifyTextPresent(""MEET THE CHARACTER"", false)",Chrome 120.0.0.0,,,31-01-2024 22:58:29,31-01-2024 22:58:29,0.325s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 22:58:29,31-01-2024 22:58:29,0.213s,PASSED

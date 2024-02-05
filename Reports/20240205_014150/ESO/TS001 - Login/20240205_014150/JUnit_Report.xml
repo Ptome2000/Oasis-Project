@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS001 - Login" time="40.838" tests="1" failures="0" errors="0">
+   <testsuite name="TS001 - Login" tests="1" failures="0" errors="0" time="40.838" skipped="0" timestamp="05-02-2024T01:41:56" hostname="Careca Delas - Careca-Desktop.home" id="Test Suites/ESO/TS001 - Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240205_014150\\ESO\\TS001 - Login\\20240205_014150"/>
+         <property name="logFiles" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240205_014150\\ESO\\TS001 - Login\\20240205_014150\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240205_014150\\ESO\\TS001 - Login\\20240205_014150\\1707097357123.png"/>
+         <property name="hostName" value="Careca Delas - Careca-Desktop.home"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 121.0.6167.140"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="b2f3fbffe34d1abbf80d7d0aa1bcf872"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ESO/Login/L001 - Login with account" time="0.031" classname="Test Cases/ESO/Login/L001 - Login with account" status="PASSED">
+         <system-out><![CDATA[05-02-2024T01:42:37 - [TEST_CASE][PASSED] - Test Cases/ESO/Login/L001 - Login with account: Evaluating variables for test case]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-02-2024T01:41:56 - [TEST_SUITE][INCOMPLETE] - TS001 - Login: null]]></system-out>
+      <system-err><![CDATA[05-02-2024T01:41:56 - [TEST_SUITE][INCOMPLETE] - TS001 - Login: null]]></system-err>
+   </testsuite>
+</testsuites>

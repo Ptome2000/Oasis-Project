@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS003 - Age,Chrome 120.0.0.0,,,31-01-2024 22:34:35,31-01-2024 22:35:23,47.825s,PASSED
+,,,,,,,
+Test Cases/ESO/Age Valitadion/A001 - Invalid Age,Chrome 120.0.0.0,,,31-01-2024 22:34:36,31-01-2024 22:34:45,9.452s,PASSED
+"callTestCase(findTestCase(""ESO/Age Valitadion/A000 - Age Validation""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,31-01-2024 22:34:36,31-01-2024 22:34:41,4.869s,PASSED
+"sendKeys(findTestObject(""ESO/Page_Age_Verification/input_Age Verification_month""), helpers.getTodayDate.month())",Chrome 120.0.0.0,,,31-01-2024 22:34:41,31-01-2024 22:34:41,0.433s,PASSED
+"sendKeys(findTestObject(""ESO/Page_Age_Verification/input_Age Verification_day""), helpers.getTodayDate.day())",Chrome 120.0.0.0,,,31-01-2024 22:34:41,31-01-2024 22:34:42,0.530s,PASSED
+"sendKeys(findTestObject(""ESO/Page_Age_Verification/input_Age Verification_year""), helpers.getTodayDate.UnderYear())",Chrome 120.0.0.0,,,31-01-2024 22:34:42,31-01-2024 22:34:42,0.526s,PASSED
+"click(findTestObject(""ESO/Page_Age_Verification/button_Submit""))",Chrome 120.0.0.0,,,31-01-2024 22:34:42,31-01-2024 22:34:44,2.274s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/ESO/Page_Age_Verification/h4_Access Denied""))",Chrome 120.0.0.0,,,31-01-2024 22:34:44,31-01-2024 22:34:45,0.525s,PASSED
+,,,,,,,
+Test Cases/ESO/Age Valitadion/A002 - Valid Age,Chrome 120.0.0.0,,,31-01-2024 22:34:45,31-01-2024 22:35:23,38.220s,PASSED
+try,Chrome 120.0.0.0,,,31-01-2024 22:34:45,31-01-2024 22:35:21,35.631s,FAILED
+catch (Exception BrowserNotOpenedException),Chrome 120.0.0.0,,,31-01-2024 22:35:21,31-01-2024 22:35:23,2.500s,PASSED

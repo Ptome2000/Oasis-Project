@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS004 - Home,Android - Chrome 114.0.0.0,,,03-02-2024 19:22:17,03-02-2024 19:24:36,2m - 18.934s,PASSED
+,,,,,,,
+Test Cases/ESO/Home Validation/H001 - Home Page,Android - Chrome 114.0.0.0,,,03-02-2024 19:22:17,03-02-2024 19:23:25,1m - 8.396s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Android - Chrome 114.0.0.0,,,03-02-2024 19:22:17,03-02-2024 19:23:16,58.979s,PASSED
+"verifyElementVisible(findTestObject(""ESO/Page_Home/h2_LATEST NEWS""), STOP_ON_FAILURE)",Android - Chrome 114.0.0.0,,,03-02-2024 19:23:16,03-02-2024 19:23:19,3.063s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Navigation Bar/a_This is ESO""), 0)",Android - Chrome 114.0.0.0,,,03-02-2024 19:23:19,03-02-2024 19:23:21,1.457s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Navigation Bar/a_Classes""), 0)",Android - Chrome 114.0.0.0,,,03-02-2024 19:23:21,03-02-2024 19:23:22,1.507s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Navigation Bar/a_UpdatesDLC""), 0)",Android - Chrome 114.0.0.0,,,03-02-2024 19:23:22,03-02-2024 19:23:24,1.477s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Navigation Bar/a_Patch Notes""), 0)",Android - Chrome 114.0.0.0,,,03-02-2024 19:23:24,03-02-2024 19:23:25,1.517s,PASSED
+,,,,,,,
+Test Cases/ESO/Home Validation/H002 - Return to Home,Android - Chrome 114.0.0.0,,,03-02-2024 19:23:25,03-02-2024 19:24:36,1m - 10.338s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Android - Chrome 114.0.0.0,,,03-02-2024 19:23:25,03-02-2024 19:24:20,54.470s,PASSED
+headerBefore = getWindowTitle(),Android - Chrome 114.0.0.0,,,03-02-2024 19:24:20,03-02-2024 19:24:21,0.616s,PASSED
+"verifyMatch(headerBefore, HomeTitle, false)",Android - Chrome 114.0.0.0,,,03-02-2024 19:24:21,03-02-2024 19:24:21,0.267s,PASSED
+"callTestCase(findTestCase(""ESO/Home Validation/Buy Now Section/B001 - Buy Now Page""), [:], STOP_ON_FAILURE)",Android - Chrome 114.0.0.0,,,03-02-2024 19:24:21,03-02-2024 19:24:30,9.358s,PASSED
+back(),Android - Chrome 114.0.0.0,,,03-02-2024 19:24:30,03-02-2024 19:24:31,0.980s,PASSED
+delay(3),Android - Chrome 114.0.0.0,,,03-02-2024 19:24:31,03-02-2024 19:24:34,3.007s,PASSED
+headerAfter = getWindowTitle(),Android - Chrome 114.0.0.0,,,03-02-2024 19:24:34,03-02-2024 19:24:35,0.667s,PASSED
+"verifyMatch(headerAfter, HomeTitle, false)",Android - Chrome 114.0.0.0,,,03-02-2024 19:24:35,03-02-2024 19:24:35,0.002s,PASSED
+closeBrowser(),Android - Chrome 114.0.0.0,,,03-02-2024 19:24:35,03-02-2024 19:24:36,0.842s,PASSED

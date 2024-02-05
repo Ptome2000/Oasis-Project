@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS006 - Crown Store" time="28.04" tests="2" failures="0" errors="0">
+   <testsuite name="TS006 - Crown Store" tests="2" failures="0" errors="0" time="28.04" skipped="0" timestamp="02-02-2024T15:31:36" hostname="Careca Delas - Careca-Desktop.home" id="Test Suites/ESO/TS006 - Crown Store">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240202_153125\\ESO\\TS006 - Crown Store\\20240202_153130"/>
+         <property name="logFiles" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240202_153125\\ESO\\TS006 - Crown Store\\20240202_153130\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Careca Delas - Careca-Desktop.home"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="981b550afb6ea8f9a600b2fc5debb365"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ESO/Crown Store Validation/Buy Crowns/BC001 - Validate Amounts" time="27.792" classname="Test Cases/ESO/Crown Store Validation/Buy Crowns/BC001 - Validate Amounts" status="PASSED">
+         <system-out><![CDATA[02-02-2024T15:31:36 - [TEST_CASE][PASSED] - Test Cases/ESO/Crown Store Validation/Buy Crowns/BC001 - Validate Amounts: Test Cases/ESO/Crown Store Validation/Buy Crowns/BC001 - Validate Amounts
+
+02-02-2024T15:31:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Crown Store Validation/Buy Crowns/BC000 - Enter View"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Crown Store Validation/Buy Crowns/BC000 - Enter View' successfully
+
+02-02-2024T15:31:38 - [TEST_CASE][PASSED] - Test Cases/ESO/Crown Store Validation/Buy Crowns/BC000 - Enter View: Test Cases/ESO/Crown Store Validation/Buy Crowns/BC000 - Enter View
+
+02-02-2024T15:31:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Open ESO Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+02-02-2024T15:31:38 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Open ESO Page: Test Cases/ESO/Misc Tests/Open ESO Page
+
+02-02-2024T15:31:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-02-2024T15:31:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-02-2024T15:31:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-02-2024T15:31:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-02-2024T15:31:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-02-2024T15:31:40 - [MESSAGE][PASSED] - Current window maximized
+
+02-02-2024T15:31:40 - [TEST_STEP][PASSED] - navigateToUrl("https://www.elderscrollsonline.com/en-us/home"): Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+02-02-2024T15:31:42 - [MESSAGE][PASSED] - Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+02-02-2024T15:31:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+02-02-2024T15:31:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-02-2024T15:31:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online"), 0): Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+02-02-2024T15:31:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T15:31:46 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+02-02-2024T15:31:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Policy Accept"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+02-02-2024T15:31:46 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Policy Accept: Test Cases/ESO/Misc Tests/Policy Accept
+
+02-02-2024T15:31:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/div_Policy"), 0): Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+02-02-2024T15:31:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T15:31:46 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+02-02-2024T15:31:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ESO/Page_Home/button_ACCEPT ALL")): Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+02-02-2024T15:31:47 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+02-02-2024T15:31:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+02-02-2024T15:31:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+02-02-2024T15:31:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/ESO/Page_Home/img_Buy Crowns"), OPTIONAL): Object 'Object Repository/ESO/Page_Home/img_Buy Crowns' is visible
+
+02-02-2024T15:31:48 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/img_Buy Crowns' is visible
+
+02-02-2024T15:31:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ESO/Page_Home/a_Buy Crowns")): Object: 'Object Repository/ESO/Page_Home/a_Buy Crowns' is clicked on
+
+02-02-2024T15:31:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/a_Buy Crowns' is clicked on
+
+02-02-2024T15:31:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Age Valitadion/A002 - Valid Age"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Age Valitadion/A002 - Valid Age' successfully
+
+02-02-2024T15:31:48 - [TEST_CASE][PASSED] - Test Cases/ESO/Age Valitadion/A002 - Valid Age: Test Cases/ESO/Age Valitadion/A002 - Valid Age
+
+02-02-2024T15:31:49 - [TEST_STEP][PASSED] - try: Web element with id: 'Object Repository/ESO/Page_Age_Verification/h4_Access Denied' located by 'By.xpath: //*[(text() = 'Access Denied' or . = 'Access Denied')]' is not present after '30' second(s)
+
+02-02-2024T15:31:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ESO/Page_Age_Verification/input_Age Verification_month"), helpers.getTodayDate.month()): Keys '02' sent to object: 'Object Repository/ESO/Page_Age_Verification/input_Age Verification_month'
+
+02-02-2024T15:31:49 - [MESSAGE][PASSED] - helpers.getTodayDate.month is PASSED
+
+02-02-2024T15:31:52 - [MESSAGE][PASSED] - Keys '02' sent to object: 'Object Repository/ESO/Page_Age_Verification/input_Age Verification_month'
+
+02-02-2024T15:31:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ESO/Page_Age_Verification/input_Age Verification_day"), helpers.getTodayDate.day()): Keys '02' sent to object: 'Object Repository/ESO/Page_Age_Verification/input_Age Verification_day'
+
+02-02-2024T15:31:52 - [MESSAGE][PASSED] - helpers.getTodayDate.day is PASSED
+
+02-02-2024T15:31:52 - [MESSAGE][PASSED] - Keys '02' sent to object: 'Object Repository/ESO/Page_Age_Verification/input_Age Verification_day'
+
+02-02-2024T15:31:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ESO/Page_Age_Verification/input_Age Verification_year"), helpers.getTodayDate.OverYear()): Keys '2006' sent to object: 'Object Repository/ESO/Page_Age_Verification/input_Age Verification_year'
+
+02-02-2024T15:31:52 - [MESSAGE][PASSED] - helpers.getTodayDate.OverYear is PASSED
+
+02-02-2024T15:31:53 - [MESSAGE][PASSED] - Keys '2006' sent to object: 'Object Repository/ESO/Page_Age_Verification/input_Age Verification_year'
+
+02-02-2024T15:31:53 - [TEST_STEP][PASSED] - click(findTestObject("ESO/Page_Age_Verification/button_Submit")): Object: 'Object Repository/ESO/Page_Age_Verification/button_Submit' is clicked on
+
+02-02-2024T15:31:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Age_Verification/button_Submit' is clicked on
+
+02-02-2024T15:31:56 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("ESO/Page_Age_Verification/h4_Access Denied"), 0): Web element with id: 'Object Repository/ESO/Page_Age_Verification/h4_Access Denied' located by 'By.xpath: //*[(text() = 'Access Denied' or . = 'Access Denied')]' is not present after '30' second(s)
+
+02-02-2024T15:31:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T15:31:59 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ESO/Page_Age_Verification/h4_Access Denied' located by 'By.xpath: //*[(text() = 'Access Denied' or . = 'Access Denied')]' is not present after '30' second(s)
+
+02-02-2024T15:31:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Age Valitadion/A002 - Valid Age' successfully
+
+02-02-2024T15:31:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ESO/Page_Buy Crowns/h1_Buy Crowns"), "Buy Crowns".toUpperCase()): Actual text and expected text of test object 'Object Repository/ESO/Page_Buy Crowns/h1_Buy Crowns' are matched.
+
+02-02-2024T15:32:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ESO/Page_Buy Crowns/h1_Buy Crowns' are matched.
+
+02-02-2024T15:32:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Crown Store Validation/Buy Crowns/BC000 - Enter View' successfully
+
+02-02-2024T15:32:00 - [TEST_STEP][PASSED] - for (int val : Values): Object 'Object Repository/ESO/Page_Buy Crowns/img_C21000' is present
+
+02-02-2024T15:32:00 - [TEST_STEP][PASSED] - verifyTextPresent(val.toString(), false): Text '750' is present on page 
+
+02-02-2024T15:32:01 - [MESSAGE][PASSED] - Text '750' is present on page 
+
+02-02-2024T15:32:01 - [TEST_STEP][PASSED] - img = Crowns.getAt(val): null
+
+02-02-2024T15:32:01 - [TEST_STEP][PASSED] - verifyElementPresent(img, 0): Object 'Object Repository/ESO/Page_Buy Crowns/img_C750' is present
+
+02-02-2024T15:32:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T15:32:01 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Buy Crowns/img_C750' is present
+
+02-02-2024T15:32:01 - [TEST_STEP][PASSED] - verifyTextPresent(val.toString(), false): Text '1500' is present on page 
+
+02-02-2024T15:32:01 - [MESSAGE][PASSED] - Text '1500' is present on page 
+
+02-02-2024T15:32:01 - [TEST_STEP][PASSED] - img = Crowns.getAt(val): null
+
+02-02-2024T15:32:01 - [TEST_STEP][PASSED] - verifyElementPresent(img, 0): Object 'Object Repository/ESO/Page_Buy Crowns/img_C1500' is present
+
+02-02-2024T15:32:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T15:32:02 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Buy Crowns/img_C1500' is present
+
+02-02-2024T15:32:02 - [TEST_STEP][PASSED] - verifyTextPresent(val.toString(), false): Text '3000' is present on page 
+
+02-02-2024T15:32:02 - [MESSAGE][PASSED] - Text '3000' is present on page 
+
+02-02-2024T15:32:02 - [TEST_STEP][PASSED] - img = Crowns.getAt(val): null
+
+02-02-2024T15:32:02 - [TEST_STEP][PASSED] - verifyElementPresent(img, 0): Object 'Object Repository/ESO/Page_Buy Crowns/img_C3000' is present
+
+02-02-2024T15:32:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T15:32:02 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Buy Crowns/img_C3000' is present
+
+02-02-2024T15:32:02 - [TEST_STEP][PASSED] - verifyTextPresent(val.toString(), false): Text '5500' is present on page 
+
+02-02-2024T15:32:02 - [MESSAGE][PASSED] - Text '5500' is present on page 
+
+02-02-2024T15:32:02 - [TEST_STEP][PASSED] - img = Crowns.getAt(val): null
+
+02-02-2024T15:32:02 - [TEST_STEP][PASSED] - verifyElementPresent(img, 0): Object 'Object Repository/ESO/Page_Buy Crowns/img_C5500' is present
+
+02-02-2024T15:32:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T15:32:03 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Buy Crowns/img_C5500' is present
+
+02-02-2024T15:32:03 - [TEST_STEP][PASSED] - verifyTextPresent(val.toString(), false): Text '14000' is present on page 
+
+02-02-2024T15:32:03 - [MESSAGE][PASSED] - Text '14000' is present on page 
+
+02-02-2024T15:32:03 - [TEST_STEP][PASSED] - img = Crowns.getAt(val): null
+
+02-02-2024T15:32:03 - [TEST_STEP][PASSED] - verifyElementPresent(img, 0): Object 'Object Repository/ESO/Page_Buy Crowns/img_C14000' is present
+
+02-02-2024T15:32:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T15:32:03 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Buy Crowns/img_C14000' is present
+
+02-02-2024T15:32:03 - [TEST_STEP][PASSED] - verifyTextPresent(val.toString(), false): Text '21000' is present on page 
+
+02-02-2024T15:32:04 - [MESSAGE][PASSED] - Text '21000' is present on page 
+
+02-02-2024T15:32:04 - [TEST_STEP][PASSED] - img = Crowns.getAt(val): null
+
+02-02-2024T15:32:04 - [TEST_STEP][PASSED] - verifyElementPresent(img, 0): Object 'Object Repository/ESO/Page_Buy Crowns/img_C21000' is present
+
+02-02-2024T15:32:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T15:32:04 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Buy Crowns/img_C21000' is present
+
+02-02-2024T15:32:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-02-2024T15:32:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ESO/Crown Store Validation/CS001 - Validate Amounts" time="0.072" classname="Test Cases/ESO/Crown Store Validation/CS001 - Validate Amounts" status="PASSED">
+         <system-out><![CDATA[02-02-2024T15:32:04 - [TEST_CASE][PASSED] - Test Cases/ESO/Crown Store Validation/CS001 - Validate Amounts: Test Cases/ESO/Crown Store Validation/CS001 - Validate Amounts
+
+02-02-2024T15:32:04 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-02-2024T15:31:36 - [TEST_SUITE][PASSED] - TS006 - Crown Store: Test Cases/ESO/Crown Store Validation/CS001 - Validate Amounts]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

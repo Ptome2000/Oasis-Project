@@ -23,3 +23,5 @@ WebUI.navigateToUrl('https://forums.elderscrollsonline.com/en/categories/patch-n
 
 WebUI.verifyElementPresent(findTestObject('ESO/Page_Forum/div_Categories'), 0)
 
+WebUI.takeFullPageScreenshotAsCheckpoint('Checkpoint', FailureHandling.STOP_ON_FAILURE)
+

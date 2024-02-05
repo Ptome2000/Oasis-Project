@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS004 - Home,Windows - Edge Chromium 120,,,02-02-2024 20:22:58,02-02-2024 20:25:16,2m - 17.406s,PASSED
+,,,,,,,
+Test Cases/ESO/Home Validation/H001 - Home Page,Windows - Edge Chromium 120,,,02-02-2024 20:22:59,02-02-2024 20:24:08,1m - 9.300s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Windows - Edge Chromium 120,,,02-02-2024 20:22:59,02-02-2024 20:23:57,57.360s,PASSED
+"verifyElementVisible(findTestObject(""ESO/Page_Home/h2_LATEST NEWS""), STOP_ON_FAILURE)",Windows - Edge Chromium 120,,,02-02-2024 20:23:57,02-02-2024 20:23:59,2.634s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Navigation Bar/a_This is ESO""), 0)",Windows - Edge Chromium 120,,,02-02-2024 20:23:59,02-02-2024 20:24:01,1.907s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Navigation Bar/a_Classes""), 0)",Windows - Edge Chromium 120,,,02-02-2024 20:24:01,02-02-2024 20:24:04,2.891s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Navigation Bar/a_UpdatesDLC""), 0)",Windows - Edge Chromium 120,,,02-02-2024 20:24:04,02-02-2024 20:24:06,1.852s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Navigation Bar/a_Patch Notes""), 0)",Windows - Edge Chromium 120,,,02-02-2024 20:24:06,02-02-2024 20:24:08,2.097s,PASSED
+,,,,,,,
+Test Cases/ESO/Home Validation/H002 - Return to Home,Windows - Edge Chromium 120,,,02-02-2024 20:24:08,02-02-2024 20:25:16,1m - 7.860s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Windows - Edge Chromium 120,,,02-02-2024 20:24:08,02-02-2024 20:24:56,47.406s,PASSED
+headerBefore = getWindowTitle(),Windows - Edge Chromium 120,,,02-02-2024 20:24:56,02-02-2024 20:24:56,0.486s,PASSED
+"verifyMatch(headerBefore, HomeTitle, false)",Windows - Edge Chromium 120,,,02-02-2024 20:24:56,02-02-2024 20:24:56,0.253s,PASSED
+"callTestCase(findTestCase(""ESO/Home Validation/Buy Now Section/B001 - Buy Now Page""), [:], STOP_ON_FAILURE)",Windows - Edge Chromium 120,,,02-02-2024 20:24:56,02-02-2024 20:25:07,11.170s,PASSED
+back(),Windows - Edge Chromium 120,,,02-02-2024 20:25:07,02-02-2024 20:25:11,3.053s,PASSED
+delay(3),Windows - Edge Chromium 120,,,02-02-2024 20:25:11,02-02-2024 20:25:14,3.012s,PASSED
+headerAfter = getWindowTitle(),Windows - Edge Chromium 120,,,02-02-2024 20:25:14,02-02-2024 20:25:14,0.902s,PASSED
+"verifyMatch(headerAfter, HomeTitle, false)",Windows - Edge Chromium 120,,,02-02-2024 20:25:14,02-02-2024 20:25:14,0.003s,PASSED
+closeBrowser(),Windows - Edge Chromium 120,,,02-02-2024 20:25:14,02-02-2024 20:25:16,1.417s,PASSED

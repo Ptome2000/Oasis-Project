@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_C21000</name>
+   <tag></tag>
+   <elementGuidId>a9696a0f-651c-4596-9724-fb81173bf717</elementGuidId>
+   <imagePath>Screenshots/Targets/Page_Buy Crowns/img_C21000.png</imagePath>
+   <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value>Screenshots/Targets/Page_Buy Crowns/img_C21000.png</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.full-size.text-center.zl-link.gl-link-checked > div.crown-pack > img.img-responsive</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = 'https://esosslfiles-a.akamaihd.net/ape/uploads/2022/04/fc035b05d62595b4542e45390f1169c6.jpg']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='buy-crowns-page-1']/a/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>252952bb-3213-42af-9017-b442043c20e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img-responsive</value>
+      <webElementGuid>7b3bf7b3-a24a-4acf-8d31-bb6c1502f9cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://esosslfiles-a.akamaihd.net/ape/uploads/2022/04/fc035b05d62595b4542e45390f1169c6.jpg</value>
+      <webElementGuid>aab19dcc-6cb9-4f9e-9746-eb5c2fa7c916</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;buy-crowns-page-1&quot;)/a[@class=&quot;full-size text-center zl-link gl-link-checked&quot;]/div[@class=&quot;crown-pack&quot;]/img[@class=&quot;img-responsive&quot;]</value>
+      <webElementGuid>bde6fef6-f8c7-4a33-8cb4-e0d29689b0c5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='buy-crowns-page-1']/a/div/img</value>
+      <webElementGuid>997632e1-c122-4972-891d-1fa4498ff05f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://esosslfiles-a.akamaihd.net/ape/uploads/2022/04/fc035b05d62595b4542e45390f1169c6.jpg')]</value>
+      <webElementGuid>df418bed-5974-4e0b-b03f-f8d2d6fa94ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a/div/img</value>
+      <webElementGuid>f0478dab-1e5c-4e66-87ce-7b2dbac288ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://esosslfiles-a.akamaihd.net/ape/uploads/2022/04/fc035b05d62595b4542e45390f1169c6.jpg']</value>
+      <webElementGuid>551bbe37-73f6-4ac0-ab7f-b27ab0ab8125</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

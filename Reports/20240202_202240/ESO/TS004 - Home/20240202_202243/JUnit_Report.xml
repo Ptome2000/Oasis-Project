@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS004 - Home" time="137.406" tests="2" failures="0" errors="0">
+   <testsuite name="TS004 - Home" tests="2" failures="0" errors="0" time="137.406" skipped="0" timestamp="02-02-2024T20:22:58" hostname="Careca Delas - Careca-Desktop.home" id="Test Suites/ESO/TS004 - Home">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240202_202240\\ESO\\TS004 - Home\\20240202_202243"/>
+         <property name="logFiles" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240202_202240\\ESO\\TS004 - Home\\20240202_202243\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Careca Delas - Careca-Desktop.home"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;platform&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;requestId&quot;: &quot;68b8216b-8b0c-4661-8f12-98964b89a55d&quot;,&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;Chromium&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;browserName&quot;: &quot;MicrosoftEdge&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;katalon:option&quot;: {&#xa;    &quot;unlimitedExecutionMinutes&quot;: true,&#xa;    &quot;userId&quot;: 1423099,&#xa;    &quot;organizationId&quot;: &quot;1380540&quot;,&#xa;    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;usingTunnel&quot;: false&#xa;  },&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;ms:edgeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:62603&quot;&#xa;  },&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;os&quot;: &quot;windows&quot;,&#xa;  &quot;msedge&quot;: {&#xa;    &quot;msedgedriverVersion&quot;: &quot;120.0.2210.61 (50ab4bd76cf1b5ff9d6705778b6ee170df56f154)&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Windows\\SystemTemp\\scoped_dir4244_1500779570&quot;&#xa;  },&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;version&quot;: &quot;120&quot;,&#xa;  &quot;se:cdp&quot;: &quot;ws://172.48.126.21:4444/session/a6944266470d49079cf33023931dd211/se/cdp&quot;,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;DIRECT&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webdriver.remote.sessionid&quot;: &quot;a6944266470d49079cf33023931dd211&quot;,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Edge Chromium 120"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="a6944266470d49079cf33023931dd211"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ESO/Home Validation/H001 - Home Page" time="69.3" classname="Test Cases/ESO/Home Validation/H001 - Home Page" status="PASSED">
+         <system-out><![CDATA[02-02-2024T20:22:59 - [TEST_CASE][PASSED] - Test Cases/ESO/Home Validation/H001 - Home Page: Test Cases/ESO/Home Validation/H001 - Home Page
+
+02-02-2024T20:22:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Open ESO Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+02-02-2024T20:22:59 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Open ESO Page: Test Cases/ESO/Misc Tests/Open ESO Page
+
+02-02-2024T20:23:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-02-2024T20:23:00 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+02-02-2024T20:23:00 - [MESSAGE][INFO] - User set preference: ['browserName', 'msedge']
+
+02-02-2024T20:23:00 - [MESSAGE][INFO] - User set preference: ['browserVersion', '120']
+
+02-02-2024T20:23:00 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1380540, tunnelId=, usingTunnel=false}']
+
+02-02-2024T20:23:00 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+02-02-2024T20:23:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-02-2024T20:23:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-02-2024T20:23:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-02-2024T20:23:38 - [MESSAGE][PASSED] - Current window maximized
+
+02-02-2024T20:23:38 - [TEST_STEP][PASSED] - navigateToUrl("https://www.elderscrollsonline.com/en-us/home"): Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+02-02-2024T20:23:46 - [MESSAGE][PASSED] - Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+02-02-2024T20:23:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+02-02-2024T20:23:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-02-2024T20:23:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online"), 0): Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+02-02-2024T20:23:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T20:23:51 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+02-02-2024T20:23:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Policy Accept"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+02-02-2024T20:23:51 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Policy Accept: Test Cases/ESO/Misc Tests/Policy Accept
+
+02-02-2024T20:23:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/div_Policy"), 0): Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+02-02-2024T20:23:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T20:23:53 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+02-02-2024T20:23:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ESO/Page_Home/button_ACCEPT ALL")): Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+02-02-2024T20:23:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+02-02-2024T20:23:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+02-02-2024T20:23:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+02-02-2024T20:23:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ESO/Page_Home/h2_LATEST NEWS"), STOP_ON_FAILURE): Object 'Object Repository/ESO/Page_Home/h2_LATEST NEWS' is visible
+
+02-02-2024T20:23:59 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/h2_LATEST NEWS' is visible
+
+02-02-2024T20:23:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ESO/Page_Home/Navigation Bar/a_This is ESO"), 0): Object 'Object Repository/ESO/Page_Home/Navigation Bar/a_This is ESO' is present
+
+02-02-2024T20:23:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T20:24:01 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/Navigation Bar/a_This is ESO' is present
+
+02-02-2024T20:24:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ESO/Page_Home/Navigation Bar/a_Classes"), 0): Object 'Object Repository/ESO/Page_Home/Navigation Bar/a_Classes' is present
+
+02-02-2024T20:24:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T20:24:04 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/Navigation Bar/a_Classes' is present
+
+02-02-2024T20:24:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ESO/Page_Home/Navigation Bar/a_UpdatesDLC"), 0): Object 'Object Repository/ESO/Page_Home/Navigation Bar/a_UpdatesDLC' is present
+
+02-02-2024T20:24:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T20:24:06 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/Navigation Bar/a_UpdatesDLC' is present
+
+02-02-2024T20:24:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ESO/Page_Home/Navigation Bar/a_Patch Notes"), 0): Object 'Object Repository/ESO/Page_Home/Navigation Bar/a_Patch Notes' is present
+
+02-02-2024T20:24:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T20:24:08 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/Navigation Bar/a_Patch Notes' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ESO/Home Validation/H002 - Return to Home" time="67.86" classname="Test Cases/ESO/Home Validation/H002 - Return to Home" status="PASSED">
+         <system-out><![CDATA[02-02-2024T20:24:08 - [TEST_CASE][PASSED] - Test Cases/ESO/Home Validation/H002 - Return to Home: Test Cases/ESO/Home Validation/H002 - Return to Home
+
+02-02-2024T20:24:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Open ESO Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+02-02-2024T20:24:08 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Open ESO Page: Test Cases/ESO/Misc Tests/Open ESO Page
+
+02-02-2024T20:24:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-02-2024T20:24:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+02-02-2024T20:24:10 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+02-02-2024T20:24:10 - [MESSAGE][INFO] - User set preference: ['browserName', 'msedge']
+
+02-02-2024T20:24:10 - [MESSAGE][INFO] - User set preference: ['browserVersion', '120']
+
+02-02-2024T20:24:10 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1380540, tunnelId=, usingTunnel=false}']
+
+02-02-2024T20:24:10 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+02-02-2024T20:24:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-02-2024T20:24:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-02-2024T20:24:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-02-2024T20:24:38 - [MESSAGE][PASSED] - Current window maximized
+
+02-02-2024T20:24:38 - [TEST_STEP][PASSED] - navigateToUrl("https://www.elderscrollsonline.com/en-us/home"): Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+02-02-2024T20:24:45 - [MESSAGE][PASSED] - Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+02-02-2024T20:24:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+02-02-2024T20:24:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-02-2024T20:24:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online"), 0): Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+02-02-2024T20:24:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T20:24:50 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+02-02-2024T20:24:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Policy Accept"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+02-02-2024T20:24:50 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Policy Accept: Test Cases/ESO/Misc Tests/Policy Accept
+
+02-02-2024T20:24:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/div_Policy"), 0): Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+02-02-2024T20:24:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T20:24:52 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+02-02-2024T20:24:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ESO/Page_Home/button_ACCEPT ALL")): Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+02-02-2024T20:24:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+02-02-2024T20:24:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+02-02-2024T20:24:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+02-02-2024T20:24:56 - [TEST_STEP][PASSED] - headerBefore = getWindowTitle(): Current window's title is: 'Home - The Elder Scrolls Online'
+
+02-02-2024T20:24:56 - [MESSAGE][PASSED] - Current window's title is: 'Home - The Elder Scrolls Online'
+
+02-02-2024T20:24:56 - [TEST_STEP][PASSED] - verifyMatch(headerBefore, HomeTitle, false): Actual text 'Home - The Elder Scrolls Online' and expected text 'Home - The Elder Scrolls Online' are matched 
+
+02-02-2024T20:24:56 - [MESSAGE][PASSED] - Actual text 'Home - The Elder Scrolls Online' and expected text 'Home - The Elder Scrolls Online' are matched 
+
+02-02-2024T20:24:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Home Validation/Buy Now Section/B001 - Buy Now Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Home Validation/Buy Now Section/B001 - Buy Now Page' successfully
+
+02-02-2024T20:24:56 - [TEST_CASE][PASSED] - Test Cases/ESO/Home Validation/Buy Now Section/B001 - Buy Now Page: Test Cases/ESO/Home Validation/Buy Now Section/B001 - Buy Now Page
+
+02-02-2024T20:24:56 - [TEST_STEP][PASSED] - click(findTestObject("ESO/Page_Home/a_Buy Now")): Object: 'Object Repository/ESO/Page_Home/a_Buy Now' is clicked on
+
+02-02-2024T20:24:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/a_Buy Now' is clicked on
+
+02-02-2024T20:24:59 - [TEST_STEP][PASSED] - verifyElementInViewport(findTestObject("ESO/Page_Buy Now/h1_Buy Now"), 0): Object 'Object Repository/ESO/Page_Buy Now/h1_Buy Now' is present and visible in viewport
+
+02-02-2024T20:24:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T20:25:07 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Buy Now/h1_Buy Now' is present and visible in viewport
+
+02-02-2024T20:25:07 - [TEST_STEP][PASSED] - header = getWindowTitle(): Current window's title is: 'Buy Now - The Elder Scrolls Online'
+
+02-02-2024T20:25:07 - [MESSAGE][PASSED] - Current window's title is: 'Buy Now - The Elder Scrolls Online'
+
+02-02-2024T20:25:07 - [TEST_STEP][PASSED] - verifyMatch(header, BuyNowTitle, false): Actual text 'Buy Now - The Elder Scrolls Online' and expected text 'Buy Now - The Elder Scrolls Online' are matched 
+
+02-02-2024T20:25:07 - [MESSAGE][PASSED] - Actual text 'Buy Now - The Elder Scrolls Online' and expected text 'Buy Now - The Elder Scrolls Online' are matched 
+
+02-02-2024T20:25:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Home Validation/Buy Now Section/B001 - Buy Now Page' successfully
+
+02-02-2024T20:25:07 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+02-02-2024T20:25:11 - [MESSAGE][PASSED] - Navigate back successfully
+
+02-02-2024T20:25:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+02-02-2024T20:25:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-02-2024T20:25:14 - [TEST_STEP][PASSED] - headerAfter = getWindowTitle(): Current window's title is: 'Home - The Elder Scrolls Online'
+
+02-02-2024T20:25:14 - [MESSAGE][PASSED] - Current window's title is: 'Home - The Elder Scrolls Online'
+
+02-02-2024T20:25:14 - [TEST_STEP][PASSED] - verifyMatch(headerAfter, HomeTitle, false): Actual text 'Home - The Elder Scrolls Online' and expected text 'Home - The Elder Scrolls Online' are matched 
+
+02-02-2024T20:25:14 - [MESSAGE][PASSED] - Actual text 'Home - The Elder Scrolls Online' and expected text 'Home - The Elder Scrolls Online' are matched 
+
+02-02-2024T20:25:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-02-2024T20:25:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-02-2024T20:22:58 - [TEST_SUITE][PASSED] - TS004 - Home: Test Cases/ESO/Home Validation/H002 - Return to Home]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

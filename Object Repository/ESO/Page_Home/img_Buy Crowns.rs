@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Buy Crowns</name>
+   <tag></tag>
+   <elementGuidId>80de591a-08e7-4a37-930f-e9c9181918b8</elementGuidId>
+   <imagePath>Screenshots/Targets/Page_Home/img_Buy Crowns.png</imagePath>
+   <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value>Screenshots/Targets/Page_Home/img_Buy Crowns.png</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.mobile-hide</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='universal-nav']/div/div/div[6]/div/div/div/div[8]/a/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>0cec0118-ddad-40a8-8cc9-0e62b0628188</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mobile-hide</value>
+      <webElementGuid>3fe87a27-2038-416e-b34d-a59f762b2b1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://esossl-a.akamaihd.net/uploads/website/jdfjhfdg/icon-crown.png</value>
+      <webElementGuid>cb1b4c92-cde4-4912-88e6-97908e8e6787</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;universal-nav&quot;)/div[@class=&quot;un-wrapper-wrap&quot;]/div[@class=&quot;un-wrapper&quot;]/div[@class=&quot;un-mobile-wrapper&quot;]/div[@class=&quot;un-mobile-box&quot;]/div[@class=&quot;un-second-level&quot;]/div[@class=&quot;links&quot;]/div[@class=&quot;link picked&quot;]/a[@class=&quot;gl-link-internal gl-link-checked&quot;]/img[@class=&quot;mobile-hide&quot;]</value>
+      <webElementGuid>fe0ab3c9-13cb-49ab-b9cb-5dd33f0d8f15</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='universal-nav']/div/div/div[6]/div/div/div/div[8]/a/img</value>
+      <webElementGuid>1284560b-f03a-477e-941d-51e8902eaf78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://esossl-a.akamaihd.net/uploads/website/jdfjhfdg/icon-crown.png')]</value>
+      <webElementGuid>9af05970-afd8-4c20-804e-32cbd88ee5fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>fc5f1135-46ee-4f50-b293-b4a3abedd230</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://esossl-a.akamaihd.net/uploads/website/jdfjhfdg/icon-crown.png']</value>
+      <webElementGuid>1be66da3-f9d4-473e-88ec-b7648e47b986</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

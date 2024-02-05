@@ -1,0 +1,12 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+2
+00:00:00,000 --> 00:00:00,000
+5. navigateToUrl("https://forums.elderscrollsonline.com/en/categories/patch-notes")
+
+3
+00:00:00,000 --> 00:00:00,000
+9. verifyElementPresent(findTestObject("ESO/Page_Forum/div_Categories"), 0)
+

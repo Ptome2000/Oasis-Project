@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS004 - Home,Windows - Firefox 120.0,,,02-02-2024 20:23:00,02-02-2024 20:25:46,2m - 46.275s,PASSED
+,,,,,,,
+Test Cases/ESO/Home Validation/H001 - Home Page,Windows - Firefox 120.0,,,02-02-2024 20:23:00,02-02-2024 20:24:15,1m - 14.496s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Windows - Firefox 120.0,,,02-02-2024 20:23:01,02-02-2024 20:24:01,1m - 0.273s,PASSED
+"verifyElementVisible(findTestObject(""ESO/Page_Home/h2_LATEST NEWS""), STOP_ON_FAILURE)",Windows - Firefox 120.0,,,02-02-2024 20:24:01,02-02-2024 20:24:05,3.571s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Navigation Bar/a_This is ESO""), 0)",Windows - Firefox 120.0,,,02-02-2024 20:24:05,02-02-2024 20:24:08,3.774s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Navigation Bar/a_Classes""), 0)",Windows - Firefox 120.0,,,02-02-2024 20:24:08,02-02-2024 20:24:10,1.809s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Navigation Bar/a_UpdatesDLC""), 0)",Windows - Firefox 120.0,,,02-02-2024 20:24:10,02-02-2024 20:24:12,1.679s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Navigation Bar/a_Patch Notes""), 0)",Windows - Firefox 120.0,,,02-02-2024 20:24:12,02-02-2024 20:24:15,2.954s,PASSED
+,,,,,,,
+Test Cases/ESO/Home Validation/H002 - Return to Home,Windows - Firefox 120.0,,,02-02-2024 20:24:15,02-02-2024 20:25:46,1m - 31.566s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Windows - Firefox 120.0,,,02-02-2024 20:24:15,02-02-2024 20:25:11,56.312s,PASSED
+headerBefore = getWindowTitle(),Windows - Firefox 120.0,,,02-02-2024 20:25:11,02-02-2024 20:25:12,0.560s,PASSED
+"verifyMatch(headerBefore, HomeTitle, false)",Windows - Firefox 120.0,,,02-02-2024 20:25:12,02-02-2024 20:25:12,0.255s,PASSED
+"callTestCase(findTestCase(""ESO/Home Validation/Buy Now Section/B001 - Buy Now Page""), [:], STOP_ON_FAILURE)",Windows - Firefox 120.0,,,02-02-2024 20:25:12,02-02-2024 20:25:38,25.592s,PASSED
+back(),Windows - Firefox 120.0,,,02-02-2024 20:25:38,02-02-2024 20:25:39,1.734s,PASSED
+delay(3),Windows - Firefox 120.0,,,02-02-2024 20:25:39,02-02-2024 20:25:42,3.011s,PASSED
+headerAfter = getWindowTitle(),Windows - Firefox 120.0,,,02-02-2024 20:25:42,02-02-2024 20:25:43,0.473s,PASSED
+"verifyMatch(headerAfter, HomeTitle, false)",Windows - Firefox 120.0,,,02-02-2024 20:25:43,02-02-2024 20:25:43,0.003s,PASSED
+closeBrowser(),Windows - Firefox 120.0,,,02-02-2024 20:25:43,02-02-2024 20:25:46,3.490s,PASSED
