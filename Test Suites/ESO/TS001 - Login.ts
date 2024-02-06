@@ -22,7 +22,7 @@
       <guid>859fe34d-4066-45c9-93f5-fd00a1de62ef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ESO/Login/Register/R001 - Register account</testCaseId>
+      <testCaseId>Test Cases/ESO/Login/Register/R001 - Insert Values</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

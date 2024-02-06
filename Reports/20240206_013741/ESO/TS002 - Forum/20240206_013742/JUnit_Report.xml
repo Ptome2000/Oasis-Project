@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS002 - Forum" time="70.795" tests="2" failures="0" errors="0">
+   <testsuite name="TS002 - Forum" tests="2" failures="0" errors="0" time="70.795" skipped="0" timestamp="06-02-2024T01:37:49" hostname="Careca Delas - Careca-Desktop.home" id="Test Suites/ESO/TS002 - Forum">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240206_013741\\ESO\\TS002 - Forum\\20240206_013742"/>
+         <property name="logFiles" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240206_013741\\ESO\\TS002 - Forum\\20240206_013742\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-Checkpoint.png"/>
+         <property name="hostName" value="Careca Delas - Careca-Desktop.home"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;platform&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;requestId&quot;: &quot;c57e7b3a-73eb-49c6-bbc9-12f766c3b9aa&quot;,&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;120.0.0.0&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;katalon:option&quot;: {&#xa;    &quot;unlimitedExecutionMinutes&quot;: true,&#xa;    &quot;userId&quot;: 1423099,&#xa;    &quot;organizationId&quot;: &quot;1380540&quot;,&#xa;    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;usingTunnel&quot;: false&#xa;  },&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;120.0.6099.5 (dc7563588833ccad6482a3aa5848108c4387e7e5-refs/branch-heads/6099@{#21})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Windows\\SystemTemp\\scoped_dir5336_1308338047&quot;&#xa;  },&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;version&quot;: &quot;120&quot;,&#xa;  &quot;se:cdp&quot;: &quot;ws://172.48.104.90:4444/session/3cc5a174e533db76f374eb9729d2e43f/se/cdp&quot;,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;DIRECT&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webdriver.remote.sessionid&quot;: &quot;3cc5a174e533db76f374eb9729d2e43f&quot;,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="3cc5a174e533db76f374eb9729d2e43f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ESO/Forum Validation/F001 - Enter Forum Page" time="70.078" classname="Test Cases/ESO/Forum Validation/F001 - Enter Forum Page" status="PASSED">
+         <system-out><![CDATA[06-02-2024T01:37:49 - [TEST_CASE][PASSED] - Test Cases/ESO/Forum Validation/F001 - Enter Forum Page: Test Cases/ESO/Forum Validation/F001 - Enter Forum Page
+
+06-02-2024T01:37:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-02-2024T01:37:50 - [MESSAGE][INFO] - Opening browser
+
+06-02-2024T01:37:50 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+06-02-2024T01:37:50 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+06-02-2024T01:37:50 - [MESSAGE][INFO] - User set preference: ['browserVersion', '120']
+
+06-02-2024T01:37:50 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1380540, tunnelId=, usingTunnel=false}']
+
+06-02-2024T01:37:50 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+06-02-2024T01:37:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-02-2024T01:38:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-02-2024T01:38:21 - [TEST_STEP][PASSED] - navigateToUrl("https://forums.elderscrollsonline.com/en/categories/patch-notes"): Navigate to 'https://forums.elderscrollsonline.com/en/categories/patch-notes' successfully
+
+06-02-2024T01:38:21 - [MESSAGE][INFO] - Checking url
+
+06-02-2024T01:38:21 - [MESSAGE][INFO] - Navigating to 'https://forums.elderscrollsonline.com/en/categories/patch-notes'
+
+06-02-2024T01:38:25 - [MESSAGE][PASSED] - Navigate to 'https://forums.elderscrollsonline.com/en/categories/patch-notes' successfully
+
+06-02-2024T01:38:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ESO/Page_Forum/div_Categories"), 0): Object 'Object Repository/ESO/Page_Forum/div_Categories' is present
+
+06-02-2024T01:38:25 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Forum/div_Categories'
+
+06-02-2024T01:38:26 - [MESSAGE][INFO] - Checking object
+
+06-02-2024T01:38:26 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+06-02-2024T01:38:26 - [MESSAGE][INFO] - Checking timeout
+
+06-02-2024T01:38:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+06-02-2024T01:38:26 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Forum/div_Categories' located by 'By.xpath: //div[@id='universal-nav']/div/div/div[6]/div/div/div' in '30' second(s)
+
+06-02-2024T01:38:26 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+06-02-2024T01:38:28 - [MESSAGE][INFO] - Found 19 web elements with id: 'Object Repository/ESO/Page_Forum/div_Categories' located by 'By.xpath: //div[@id='universal-nav']/div/div/div[6]/div/div/div' in '30' second(s)
+
+06-02-2024T01:38:28 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Forum/div_Categories' is present
+
+06-02-2024T01:38:28 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Checkpoint", STOP_ON_FAILURE): Taking screenshot successfully
+
+06-02-2024T01:38:59 - [MESSAGE][INFO] - 0 hidden object(s)
+
+06-02-2024T01:38:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Checkpoint.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ESO/Forum Validation/F002 - Forum Options" time="0.563" classname="Test Cases/ESO/Forum Validation/F002 - Forum Options" status="PASSED">
+         <system-out><![CDATA[06-02-2024T01:38:59 - [TEST_CASE][PASSED] - Test Cases/ESO/Forum Validation/F002 - Forum Options: Evaluating variables for test case]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-02-2024T01:37:49 - [TEST_SUITE][INCOMPLETE] - TS002 - Forum: null]]></system-out>
+      <system-err><![CDATA[06-02-2024T01:37:49 - [TEST_SUITE][INCOMPLETE] - TS002 - Forum: null]]></system-err>
+   </testsuite>
+</testsuites>

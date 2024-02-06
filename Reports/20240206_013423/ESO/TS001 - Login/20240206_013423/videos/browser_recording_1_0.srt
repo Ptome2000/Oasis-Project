@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. callTestCase(findTestCase("ESO/Login/L000 - Login Page"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("https://account.elderscrollsonline.com/en-us/login")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. verifyElementVisible(findTestObject("Object Repository/ESO/Page_Login/body_Sign In                                                                                                                            UserID"))
+
+4
+00:00:00,000 --> 00:00:00,000
+9. verifyElementVisible(findTestObject("Object Repository/ESO/Page_Login/a_Sign In"), STOP_ON_FAILURE)
+
+5
+00:00:00,000 --> 00:00:00,000
+5. setText(findTestObject("Object Repository/ESO/Page_Login/input_userscreen_name"), LoginUser)
+
+6
+00:00:00,000 --> 00:00:00,000
+9. setText(findTestObject("Object Repository/ESO/Page_Login/input_userpassword"), LoginPassword)
+
+7
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("Object Repository/ESO/Page_Login/a_Sign In"))
+

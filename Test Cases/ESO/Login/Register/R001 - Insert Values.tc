@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>R001 - Register account</name>
+   <name>R001 - Insert Values</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d49a9a63-2c3e-4be1-aa86-60d2caeb877c</testCaseGuid>

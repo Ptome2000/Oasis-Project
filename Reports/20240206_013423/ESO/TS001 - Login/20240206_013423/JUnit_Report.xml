@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS001 - Login" time="12.722" tests="2" failures="0" errors="0">
+   <testsuite name="TS001 - Login" tests="2" failures="0" errors="0" time="12.722" skipped="0" timestamp="06-02-2024T01:34:29" hostname="Careca Delas - Careca-Desktop.home" id="Test Suites/ESO/TS001 - Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240206_013423\\ESO\\TS001 - Login\\20240206_013423"/>
+         <property name="logFiles" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240206_013423\\ESO\\TS001 - Login\\20240206_013423\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Careca Delas - Careca-Desktop.home"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="bb43d5eb196dcd392cc3ff87fc35309b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ESO/Login/L001 - Login with account" time="12.391" classname="Test Cases/ESO/Login/L001 - Login with account" status="PASSED">
+         <system-out><![CDATA[06-02-2024T01:34:29 - [TEST_CASE][PASSED] - Test Cases/ESO/Login/L001 - Login with account: Test Cases/ESO/Login/L001 - Login with account
+
+06-02-2024T01:34:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Login/L000 - Login Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Login/L000 - Login Page' successfully
+
+06-02-2024T01:34:30 - [MESSAGE][INFO] - Checking called Test Case
+
+06-02-2024T01:34:30 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/ESO/Login/L000 - Login Page'
+
+06-02-2024T01:34:30 - [TEST_CASE][PASSED] - Test Cases/ESO/Login/L000 - Login Page: Test Cases/ESO/Login/L000 - Login Page
+
+06-02-2024T01:34:30 - [TEST_STEP][PASSED] - openBrowser("https://account.elderscrollsonline.com/en-us/login"): Browser is opened with url: 'https://account.elderscrollsonline.com/en-us/login'
+
+06-02-2024T01:34:31 - [MESSAGE][INFO] - Opening browser
+
+06-02-2024T01:34:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-02-2024T01:34:31 - [MESSAGE][INFO] - User set preference: ['property', '--window-size=1500,1000']
+
+06-02-2024T01:34:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-02-2024T01:34:34 - [MESSAGE][INFO] - Navigating browser to: 'https://account.elderscrollsonline.com/en-us/login'
+
+06-02-2024T01:34:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://account.elderscrollsonline.com/en-us/login'
+
+06-02-2024T01:34:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/ESO/Page_Login/body_Sign In                                                                                                                            UserID")): Switching to default content
+
+06-02-2024T01:34:38 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Login/body_Sign In                                                                                                                            UserID'
+
+06-02-2024T01:34:38 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Login/iframe'
+
+06-02-2024T01:34:38 - [MESSAGE][INFO] - Checking object
+
+06-02-2024T01:34:38 - [MESSAGE][INFO] - Object: 'Object Repository/ESO/Page_Login/body_Sign In                                                                                                                            UserID' has parent object(s)
+
+06-02-2024T01:34:38 - [MESSAGE][INFO] - Switching to iframe: 'Object Repository/ESO/Page_Login/iframe'
+
+06-02-2024T01:34:38 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+06-02-2024T01:34:38 - [MESSAGE][INFO] - Checking timeout
+
+06-02-2024T01:34:38 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Login/iframe' located by 'By.xpath: //div[@id='bam-login']/bam-login/iframe' in '30' second(s)
+
+06-02-2024T01:34:38 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+06-02-2024T01:34:39 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ESO/Page_Login/iframe' located by 'By.xpath: //div[@id='bam-login']/bam-login/iframe' in '30' second(s)
+
+06-02-2024T01:34:39 - [MESSAGE][INFO] - Switched to iframe: 'Object Repository/ESO/Page_Login/iframe'
+
+06-02-2024T01:34:39 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+06-02-2024T01:34:39 - [MESSAGE][INFO] - Checking timeout
+
+06-02-2024T01:34:39 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Login/body_Sign In                                                                                                                            UserID' located by 'By.xpath: //html[@id='main-html']/body' in '30' second(s)
+
+06-02-2024T01:34:39 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+06-02-2024T01:34:39 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ESO/Page_Login/body_Sign In                                                                                                                            UserID' located by 'By.xpath: //html[@id='main-html']/body' in '30' second(s)
+
+06-02-2024T01:34:39 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Login/body_Sign In                                                                                                                            UserID' is visible
+
+06-02-2024T01:34:39 - [MESSAGE][INFO] - Switching to default content
+
+06-02-2024T01:34:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/ESO/Page_Login/a_Sign In"), STOP_ON_FAILURE): Switching to default content
+
+06-02-2024T01:34:39 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Login/a_Sign In'
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Login/iframe'
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Checking object
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Object: 'Object Repository/ESO/Page_Login/a_Sign In' has parent object(s)
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Switching to iframe: 'Object Repository/ESO/Page_Login/iframe'
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Checking timeout
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Login/iframe' located by 'By.xpath: //div[@id='bam-login']/bam-login/iframe' in '30' second(s)
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ESO/Page_Login/iframe' located by 'By.xpath: //div[@id='bam-login']/bam-login/iframe' in '30' second(s)
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Switched to iframe: 'Object Repository/ESO/Page_Login/iframe'
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Checking timeout
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Login/a_Sign In' located by 'By.xpath: //a[@id='submit-sign-in']' in '30' second(s)
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ESO/Page_Login/a_Sign In' located by 'By.xpath: //a[@id='submit-sign-in']' in '30' second(s)
+
+06-02-2024T01:34:40 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Login/a_Sign In' is visible
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Switching to default content
+
+06-02-2024T01:34:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Login/L000 - Login Page' successfully
+
+06-02-2024T01:34:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ESO/Page_Login/input_userscreen_name"), LoginUser): Switching to default content
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Login/input_userscreen_name'
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Login/iframe'
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Checking object
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Checking text
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Object: 'Object Repository/ESO/Page_Login/input_userscreen_name' has parent object(s)
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Switching to iframe: 'Object Repository/ESO/Page_Login/iframe'
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Checking timeout
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Login/iframe' located by 'By.xpath: //div[@id='bam-login']/bam-login/iframe' in '30' second(s)
+
+06-02-2024T01:34:40 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ESO/Page_Login/iframe' located by 'By.xpath: //div[@id='bam-login']/bam-login/iframe' in '30' second(s)
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Switched to iframe: 'Object Repository/ESO/Page_Login/iframe'
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Checking timeout
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Login/input_userscreen_name' located by 'By.xpath: //input[@id='sign-in-email']' in '30' second(s)
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ESO/Page_Login/input_userscreen_name' located by 'By.xpath: //input[@id='sign-in-email']' in '30' second(s)
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/ESO/Page_Login/input_userscreen_name'
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Checking timeout
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Login/input_userscreen_name' located by 'By.xpath: //input[@id='sign-in-email']' in '30' second(s)
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ESO/Page_Login/input_userscreen_name' located by 'By.xpath: //input[@id='sign-in-email']' in '30' second(s)
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Setting text of object 'Object Repository/ESO/Page_Login/input_userscreen_name' to value 'PedroTesting'
+
+06-02-2024T01:34:41 - [MESSAGE][PASSED] - Text 'PedroTesting' is set on object 'Object Repository/ESO/Page_Login/input_userscreen_name'
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Switching to default content
+
+06-02-2024T01:34:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ESO/Page_Login/input_userpassword"), LoginPassword): Switching to default content
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Login/input_userpassword'
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Login/iframe'
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Checking object
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Checking text
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Object: 'Object Repository/ESO/Page_Login/input_userpassword' has parent object(s)
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Switching to iframe: 'Object Repository/ESO/Page_Login/iframe'
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Checking timeout
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Login/iframe' located by 'By.xpath: //div[@id='bam-login']/bam-login/iframe' in '30' second(s)
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ESO/Page_Login/iframe' located by 'By.xpath: //div[@id='bam-login']/bam-login/iframe' in '30' second(s)
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Switched to iframe: 'Object Repository/ESO/Page_Login/iframe'
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Checking timeout
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Login/input_userpassword' located by 'By.xpath: //input[@id='sign-in-password']' in '30' second(s)
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ESO/Page_Login/input_userpassword' located by 'By.xpath: //input[@id='sign-in-password']' in '30' second(s)
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/ESO/Page_Login/input_userpassword'
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Checking timeout
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Login/input_userpassword' located by 'By.xpath: //input[@id='sign-in-password']' in '30' second(s)
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ESO/Page_Login/input_userpassword' located by 'By.xpath: //input[@id='sign-in-password']' in '30' second(s)
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Setting text of object 'Object Repository/ESO/Page_Login/input_userpassword' to value 'Abacate123'
+
+06-02-2024T01:34:41 - [MESSAGE][PASSED] - Text 'Abacate123' is set on object 'Object Repository/ESO/Page_Login/input_userpassword'
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Switching to default content
+
+06-02-2024T01:34:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ESO/Page_Login/a_Sign In")): Switching to default content
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Login/a_Sign In'
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Login/iframe'
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Checking object
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Object: 'Object Repository/ESO/Page_Login/a_Sign In' has parent object(s)
+
+06-02-2024T01:34:41 - [MESSAGE][INFO] - Switching to iframe: 'Object Repository/ESO/Page_Login/iframe'
+
+06-02-2024T01:34:42 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+06-02-2024T01:34:42 - [MESSAGE][INFO] - Checking timeout
+
+06-02-2024T01:34:42 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Login/iframe' located by 'By.xpath: //div[@id='bam-login']/bam-login/iframe' in '30' second(s)
+
+06-02-2024T01:34:42 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+06-02-2024T01:34:42 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ESO/Page_Login/iframe' located by 'By.xpath: //div[@id='bam-login']/bam-login/iframe' in '30' second(s)
+
+06-02-2024T01:34:42 - [MESSAGE][INFO] - Switched to iframe: 'Object Repository/ESO/Page_Login/iframe'
+
+06-02-2024T01:34:42 - [MESSAGE][INFO] - Checking timeout
+
+06-02-2024T01:34:42 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+06-02-2024T01:34:42 - [MESSAGE][INFO] - Checking timeout
+
+06-02-2024T01:34:42 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Login/a_Sign In' located by 'By.xpath: //a[@id='submit-sign-in']' in '30' second(s)
+
+06-02-2024T01:34:42 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+06-02-2024T01:34:42 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ESO/Page_Login/a_Sign In' located by 'By.xpath: //a[@id='submit-sign-in']' in '30' second(s)
+
+06-02-2024T01:34:42 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/ESO/Page_Login/a_Sign In'
+
+06-02-2024T01:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Login/a_Sign In' is clicked on
+
+06-02-2024T01:34:42 - [MESSAGE][INFO] - Switching to default content]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ESO/Login/Register/R001 - Register account" time="0.115" classname="Test Cases/ESO/Login/Register/R001 - Register account" status="PASSED">
+         <system-out><![CDATA[06-02-2024T01:34:42 - [TEST_CASE][PASSED] - Test Cases/ESO/Login/Register/R001 - Register account: (Default) Question = Elder Scrolls]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-02-2024T01:34:29 - [TEST_SUITE][INCOMPLETE] - TS001 - Login: null]]></system-out>
+      <system-err><![CDATA[06-02-2024T01:34:29 - [TEST_SUITE][INCOMPLETE] - TS001 - Login: null]]></system-err>
+   </testsuite>
+</testsuites>

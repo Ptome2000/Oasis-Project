@@ -17,25 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('ESO/Login/Register/R000 - Register Page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.takeFullPageScreenshotAsCheckpoint('Checkpoint')
+WebUI.navigateToUrl('https://account.elderscrollsonline.com/en-us/agegate?URL=%2fen-us%2fregister%2faccount-information')
 
-WebUI.selectOptionByValue(findTestObject('null'), 'PT', true)
+WebUI.callTestCase(findTestCase('ESO/Age Valitadion/A002 - Valid Age'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('null'), User)
+WebUI.verifyElementVisible(findTestObject('ESO/Page_Login/Page_Register/input_useremail'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('null'), Email)
+WebUI.verifyElementVisible(findTestObject('ESO/Page_Login/Page_Register/input_useremail_confirmation'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('null'), Email)
+WebUI.verifyElementVisible(findTestObject('ESO/Page_Login/Page_Register/input_userpassword'))
 
-WebUI.setText(findTestObject('null'), Password)
+WebUI.verifyElementVisible(findTestObject('ESO/Page_Login/Page_Register/input_userpassword_confirmation'))
 
-WebUI.setText(findTestObject('null'), Password)
+WebUI.verifyElementVisible(findTestObject('ESO/Page_Login/Page_Register/input_userscreen_name'))
 
-WebUI.selectOptionByValue(findTestObject('Page_Register/select_What is the last name of your favori_c3a5d2'), '9', true)
+WebUI.verifyElementVisible(findTestObject('ESO/Page_Login/Page_Register/input_usersecret_answer'))
 
-WebUI.setText(findTestObject('null'), Question)
-
-WebUI.click(findTestObject('null'))
+WebUI.takeScreenshotAsCheckpoint('Register_Form', FailureHandling.OPTIONAL)
 
