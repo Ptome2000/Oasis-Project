@@ -6,12 +6,12 @@
    <elementGuidId>e7181310-8d6b-487e-ad14-3fe46dd477b6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='sign-in-password']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#sign-in-password</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='sign-in-password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -93,7 +93,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/ESO/Page_Login/iframe</value>
+      <value>Object Repository/ESO/Page_Login/Login_Form</value>
       <webElementGuid>dbbe4c29-d16f-42b9-aabd-c235d2636a7f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>

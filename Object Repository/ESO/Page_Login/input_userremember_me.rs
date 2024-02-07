@@ -6,12 +6,12 @@
    <elementGuidId>a4bfaf16-2fff-436b-8cbe-1e8d5a4f0a59</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='persist-signin']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#persist-signin</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='persist-signin']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -69,7 +69,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/ESO/Page_Login/iframe</value>
+      <value>Object Repository/ESO/Page_Login/Login_Form</value>
       <webElementGuid>8361114f-3fc1-4905-b637-b0b7a99487e9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>

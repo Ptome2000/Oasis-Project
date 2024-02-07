@@ -1,0 +1,52 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("https://www.elderscrollsonline.com/en-us/home")
+
+2
+00:00:00,000 --> 00:00:00,000
+5. header = getWindowTitle()
+
+3
+00:00:00,000 --> 00:00:00,000
+9. verifyMatch(header, "Home - The Elder Scrolls Online", true)
+
+4
+00:00:00,000 --> 00:00:00,000
+13. verifyElementPresent(findTestObject("ESO/Page_Home/h2_LATEST NEWS"), 0)
+
+5
+00:00:00,000 --> 00:00:00,000
+17. verifyElementClickable(findTestObject("ESO/Page_Home/button_ACCEPT ALL"))
+
+6
+00:00:00,000 --> 00:00:00,000
+21. verifyElementVisible(findTestObject("ESO/Page_Home/a_The Elder Scrolls  Online"))
+
+7
+00:00:00,000 --> 00:00:00,000
+25. verifyElementInViewport(findTestObject("ESO/Page_Home/div_Policy"), 0)
+
+8
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("ESO/Page_Home/button_ACCEPT ALL"))
+
+9
+00:00:00,000 --> 00:00:00,000
+33. refresh()
+
+10
+00:00:00,000 --> 00:00:00,000
+37. verifyElementNotPresent(findTestObject("ESO/Page_Home/button_ACCEPT ALL"), 0)
+
+11
+00:00:00,000 --> 00:00:00,000
+41. verifyTextPresent("DISCOVER TAMRIEL", false)
+
+12
+00:00:00,000 --> 00:00:00,000
+45. verifyElementText(findTestObject("ESO/Page_Home/a_Buy Now"), "BUY NOW")
+
+13
+00:00:00,000 --> 00:00:00,000
+49. closeBrowser()
+

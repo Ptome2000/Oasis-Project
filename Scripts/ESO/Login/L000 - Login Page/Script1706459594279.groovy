@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://account.elderscrollsonline.com/en-us/login')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/ESO/Page_Login/body_Sign In                                                                                                                            UserID'))
+WebUI.verifyElementPresent(findTestObject('ESO/Page_Login/Login_Form'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/ESO/Page_Login/a_Sign In'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Object Repository/ESO/Page_Login/a_Sign In'), 0)
 

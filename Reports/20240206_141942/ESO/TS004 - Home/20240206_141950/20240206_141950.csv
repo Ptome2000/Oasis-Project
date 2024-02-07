@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS004 - Home,Windows - IE 11,,,06-02-2024 14:21:17,06-02-2024 14:22:37,1m - 20.150s,FAILED
+,,,,,,,
+Test Cases/ESO/Home Validation/H001 - Home Page,Windows - IE 11,,,06-02-2024 14:21:17,06-02-2024 14:22:37,1m - 20.011s,FAILED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Windows - IE 11,,,06-02-2024 14:21:17,06-02-2024 14:22:37,1m - 19.715s,FAILED
+Video,Windows - IE 11,,,06-02-2024 14:22:37,06-02-2024 14:22:37,0.001s,PASSED

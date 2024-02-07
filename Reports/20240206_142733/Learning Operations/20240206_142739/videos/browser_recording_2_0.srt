@@ -1,0 +1,68 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("google.com")
+
+2
+00:00:00,000 --> 00:00:00,000
+5. maximizeWindow()
+
+3
+00:00:00,000 --> 00:00:00,000
+9. header = getWindowTitle()
+
+4
+00:00:00,000 --> 00:00:00,000
+13. tab = getWindowIndex()
+
+5
+00:00:00,000 --> 00:00:00,000
+17. delay(3)
+
+6
+00:00:00,000 --> 00:00:00,000
+21. callTestCase(findTestCase("Browser Operations/003 - JavaScript Operations"), [:], STOP_ON_FAILURE)
+
+7
+00:00:00,000 --> 00:00:00,000
+1. driver = getWebDriver()
+
+8
+00:00:00,000 --> 00:00:00,000
+5. js = driver
+
+9
+00:00:00,000 --> 00:00:00,000
+9. js.executeScript("window.open();")
+
+10
+00:00:00,000 --> 00:00:00,000
+25. callTestCase(findTestCase("Browser Operations/004 - Switching Operations"), ["tab":tab], STOP_ON_FAILURE)
+
+11
+00:00:00,000 --> 00:00:00,000
+1. switchToWindowIndex(tab + 1)
+
+12
+00:00:00,000 --> 00:00:00,000
+5. navigateToUrl("https://en.wikipedia.org/wiki/The_Elder_Scrolls_Online")
+
+13
+00:00:00,000 --> 00:00:00,000
+9. switchToWindowTitle("Google")
+
+14
+00:00:00,000 --> 00:00:00,000
+13. switchToWindowUrl("https://en.wikipedia.org/wiki/The_Elder_Scrolls_Online")
+
+15
+00:00:00,000 --> 00:00:00,000
+29. callTestCase(findTestCase("Browser Operations/005 - Closing Operations"), ["tab":tab], STOP_ON_FAILURE)
+
+16
+00:00:00,000 --> 00:00:00,000
+1. closeWindowIndex(tab)
+
+17
+00:00:00,000 --> 00:00:00,000
+5. closeWindowUrl("https://en.wikipedia.org/wiki/The_Elder_Scrolls_Online")
+

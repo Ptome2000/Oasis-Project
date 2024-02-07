@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. callTestCase(findTestCase("ESO/Misc Tests/Open ESO Page"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. maximizeWindow()
+
+4
+00:00:00,000 --> 00:00:00,000
+9. navigateToUrl("https://www.elderscrollsonline.com/en-us/home")
+
+5
+00:00:00,000 --> 00:00:00,000
+13. delay(3)
+
+6
+00:00:00,000 --> 00:00:00,000
+17. verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online"), 0)
+

@@ -4,18 +4,23 @@
    <name>a_Sign In</name>
    <tag></tag>
    <elementGuidId>250e4b07-4f76-4b21-89b4-e83279cc472e</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='submit-sign-in']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@href = 'javascript:submitSignInForm();' and @id = 'submit-sign-in' and (text() = 'Sign In' or . = 'Sign In') and @ref_element = 'Object Repository/ESO/Page_Login/iframe']</value>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#submit-sign-in</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'javascript:submitSignInForm();' and @id = 'submit-sign-in' and (text() = 'Sign In' or . = 'Sign In')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='submit-sign-in']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +31,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>a1253224-5ccd-4160-888e-4b224acb0fd6</webElementGuid>
+      <webElementGuid>4e3f8947-bb48-417a-8aef-46f022544676</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +39,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:submitSignInForm();</value>
-      <webElementGuid>37bb2243-ac03-4df1-94f9-6b2e2a527bf8</webElementGuid>
+      <webElementGuid>9ea80529-3036-485a-b9c7-4fb8414c3718</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-default submit-form</value>
-      <webElementGuid>6bb65758-b68f-4234-81b6-3aefc76512fb</webElementGuid>
+      <webElementGuid>75afa564-e537-4001-bfc8-dc24b0d1f90e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +55,7 @@
       <name>id</name>
       <type>Main</type>
       <value>submit-sign-in</value>
-      <webElementGuid>2e8a0f61-728a-4513-b937-50988f957e03</webElementGuid>
+      <webElementGuid>804fdc96-a046-430d-afe7-87a6af6e8c67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +63,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sign In</value>
-      <webElementGuid>bec21769-57eb-4a32-a433-80252cc57300</webElementGuid>
+      <webElementGuid>3f72cada-576b-4fd9-97ec-473aeb217b73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,15 +71,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;submit-sign-in&quot;)</value>
-      <webElementGuid>1dcb0e01-81de-423f-834a-81f9fad11d8b</webElementGuid>
+      <webElementGuid>1919e733-7401-406d-bbae-9f60d525b2b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/ESO/Page_Login/iframe</value>
-      <webElementGuid>15cf0992-1312-487a-8222-0422625f152e</webElementGuid>
+      <value>Object Repository/ESO/Page_Login/Login_Form</value>
+      <webElementGuid>11ef54ab-192c-485b-8e54-cfa125c75b3a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,7 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='submit-sign-in']</value>
-      <webElementGuid>3f794dfc-03a4-4e8d-bd36-2c1cbcb6e15b</webElementGuid>
+      <webElementGuid>28363db4-c81c-4020-ae63-501ecaf56b75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +95,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='sign-in-form']/div[6]/a</value>
-      <webElementGuid>a938ee19-e04a-45aa-8a5a-233e69669caf</webElementGuid>
+      <webElementGuid>5f04a57f-17c3-41e8-b13e-7efd0be0f1ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +103,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Sign In')]</value>
-      <webElementGuid>3ea216ea-6d47-4e2a-878d-dc341a414c51</webElementGuid>
+      <webElementGuid>1d4ca430-2dfc-4427-9884-6b4a8f3ae6b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +111,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'javascript:submitSignInForm();')]</value>
-      <webElementGuid>de94b194-1f44-49a8-8469-9f4b80fc96a5</webElementGuid>
+      <webElementGuid>82ba4880-182f-4f96-a9a2-23b487a5b088</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +119,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/a</value>
-      <webElementGuid>33ca8803-81f5-4508-aa96-f5cb17c9d356</webElementGuid>
+      <webElementGuid>f59ff12e-fe1a-4964-9834-3b9b76151ca9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +127,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'javascript:submitSignInForm();' and @id = 'submit-sign-in' and (text() = 'Sign In' or . = 'Sign In')]</value>
-      <webElementGuid>ab4dedea-5c0f-4d05-bce6-253b1e4d8212</webElementGuid>
+      <webElementGuid>4a91f39e-7885-4575-beb9-629d2aa5e3cb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

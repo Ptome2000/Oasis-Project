@@ -6,12 +6,12 @@
    <elementGuidId>76c41948-a734-443d-b63f-d4e5a73833a1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='sign-in-email']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#sign-in-email</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='sign-in-email']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -93,7 +93,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/ESO/Page_Login/iframe</value>
+      <value>Object Repository/ESO/Page_Login/Login_Form</value>
       <webElementGuid>1c23f928-9be2-422d-8cc0-97d97af7f750</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
