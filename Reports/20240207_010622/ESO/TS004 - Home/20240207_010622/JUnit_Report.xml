@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS004 - Home" time="12.535" tests="2" failures="0" errors="0">
+   <testsuite name="TS004 - Home" tests="2" failures="0" errors="0" time="12.535" skipped="0" timestamp="07-02-2024T01:06:28" hostname="Careca Delas - Careca-Desktop.home" id="Test Suites/ESO/TS004 - Home">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240207_010622\\ESO\\TS004 - Home\\20240207_010622"/>
+         <property name="logFiles" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240207_010622\\ESO\\TS004 - Home\\20240207_010622\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Careca Delas - Careca-Desktop.home"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="3be3a57633afb6233a5a6efa83e92147"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ESO/Home Validation/H001 - Home Page" time="12.291" classname="Test Cases/ESO/Home Validation/H001 - Home Page" status="PASSED">
+         <system-out><![CDATA[07-02-2024T01:06:28 - [TEST_CASE][PASSED] - Test Cases/ESO/Home Validation/H001 - Home Page: Test Cases/ESO/Home Validation/H001 - Home Page
+
+07-02-2024T01:06:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Open ESO Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+07-02-2024T01:06:29 - [MESSAGE][INFO] - Checking called Test Case
+
+07-02-2024T01:06:29 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page'
+
+07-02-2024T01:06:29 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Open ESO Page: Test Cases/ESO/Misc Tests/Open ESO Page
+
+07-02-2024T01:06:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-02-2024T01:06:29 - [MESSAGE][INFO] - Opening browser
+
+07-02-2024T01:06:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-02-2024T01:06:30 - [MESSAGE][INFO] - User set preference: ['property', '--window-size=1500,1000']
+
+07-02-2024T01:06:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-02-2024T01:06:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-02-2024T01:06:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+07-02-2024T01:06:32 - [MESSAGE][INFO] - Maximizing current window
+
+07-02-2024T01:06:32 - [MESSAGE][PASSED] - Current window maximized
+
+07-02-2024T01:06:32 - [TEST_STEP][PASSED] - navigateToUrl("https://www.elderscrollsonline.com/en-us/home"): Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+07-02-2024T01:06:32 - [MESSAGE][INFO] - Checking url
+
+07-02-2024T01:06:32 - [MESSAGE][INFO] - Navigating to 'https://www.elderscrollsonline.com/en-us/home'
+
+07-02-2024T01:06:34 - [MESSAGE][PASSED] - Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+07-02-2024T01:06:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+07-02-2024T01:06:34 - [MESSAGE][INFO] - Delaying browser in 3 second(s)
+
+07-02-2024T01:06:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+07-02-2024T01:06:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online"), 0): Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+07-02-2024T01:06:37 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online'
+
+07-02-2024T01:06:37 - [MESSAGE][INFO] - Checking object
+
+07-02-2024T01:06:37 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+07-02-2024T01:06:37 - [MESSAGE][INFO] - Checking timeout
+
+07-02-2024T01:06:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+07-02-2024T01:06:37 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' located by 'By.xpath: //a[@id='navbarTopLogo']' in '30' second(s)
+
+07-02-2024T01:06:37 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+07-02-2024T01:06:37 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' located by 'By.xpath: //a[@id='navbarTopLogo']' in '30' second(s)
+
+07-02-2024T01:06:37 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+07-02-2024T01:06:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Policy Accept"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+07-02-2024T01:06:37 - [MESSAGE][INFO] - Checking called Test Case
+
+07-02-2024T01:06:37 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept'
+
+07-02-2024T01:06:37 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Policy Accept: Test Cases/ESO/Misc Tests/Policy Accept
+
+07-02-2024T01:06:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/div_Policy"), 0): Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+07-02-2024T01:06:37 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Home/div_Policy'
+
+07-02-2024T01:06:38 - [MESSAGE][INFO] - Checking object
+
+07-02-2024T01:06:38 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+07-02-2024T01:06:38 - [MESSAGE][INFO] - Checking timeout
+
+07-02-2024T01:06:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+07-02-2024T01:06:38 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Home/div_Policy' located by 'By.xpath: id("onetrust-banner-sdk")/div[1]/div[@class="ot-sdk-container"]/div[@class="ot-sdk-row"]' in '30' second(s)
+
+07-02-2024T01:06:38 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+07-02-2024T01:06:38 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ESO/Page_Home/div_Policy' located by 'By.xpath: id("onetrust-banner-sdk")/div[1]/div[@class="ot-sdk-container"]/div[@class="ot-sdk-row"]' in '30' second(s)
+
+07-02-2024T01:06:38 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+07-02-2024T01:06:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ESO/Page_Home/button_ACCEPT ALL")): Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+07-02-2024T01:06:38 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Home/button_ACCEPT ALL'
+
+07-02-2024T01:06:38 - [MESSAGE][INFO] - Checking object
+
+07-02-2024T01:06:38 - [MESSAGE][INFO] - Checking timeout
+
+07-02-2024T01:06:38 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+07-02-2024T01:06:38 - [MESSAGE][INFO] - Checking timeout
+
+07-02-2024T01:06:38 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' located by 'By.xpath: //button[@id='onetrust-accept-btn-handler']' in '30' second(s)
+
+07-02-2024T01:06:38 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+07-02-2024T01:06:38 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' located by 'By.xpath: //button[@id='onetrust-accept-btn-handler']' in '30' second(s)
+
+07-02-2024T01:06:38 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL'
+
+07-02-2024T01:06:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+07-02-2024T01:06:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+07-02-2024T01:06:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+07-02-2024T01:06:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ESO/Page_Home/h2_LATEST NEWS"), STOP_ON_FAILURE): Object 'Object Repository/ESO/Page_Home/h2_LATEST NEWS' is visible
+
+07-02-2024T01:06:38 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Home/h2_LATEST NEWS'
+
+07-02-2024T01:06:38 - [MESSAGE][INFO] - Checking object
+
+07-02-2024T01:06:38 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+07-02-2024T01:06:38 - [MESSAGE][INFO] - Checking timeout
+
+07-02-2024T01:06:38 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Home/h2_LATEST NEWS' located by 'By.xpath: //smart-block[@id='sb-13291 ']/h2' in '30' second(s)
+
+07-02-2024T01:06:38 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+07-02-2024T01:06:39 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ESO/Page_Home/h2_LATEST NEWS' located by 'By.xpath: //smart-block[@id='sb-13291 ']/h2' in '30' second(s)
+
+07-02-2024T01:06:39 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/h2_LATEST NEWS' is visible
+
+07-02-2024T01:06:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ESO/Page_Home/Navigation Bar/a_This is ESO"), 0): Object 'Object Repository/ESO/Page_Home/Navigation Bar/a_This is ESO' is present
+
+07-02-2024T01:06:39 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Home/Navigation Bar/a_This is ESO'
+
+07-02-2024T01:06:39 - [MESSAGE][INFO] - Checking object
+
+07-02-2024T01:06:39 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+07-02-2024T01:06:39 - [MESSAGE][INFO] - Checking timeout
+
+07-02-2024T01:06:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+07-02-2024T01:06:39 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Home/Navigation Bar/a_This is ESO' located by 'By.xpath: //div[@id='universal-nav']/div/div/div[6]/div/div[2]/div/div/div/a' in '30' second(s)
+
+07-02-2024T01:06:39 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+07-02-2024T01:06:39 - [MESSAGE][INFO] - Found 29 web elements with id: 'Object Repository/ESO/Page_Home/Navigation Bar/a_This is ESO' located by 'By.xpath: //div[@id='universal-nav']/div/div/div[6]/div/div[2]/div/div/div/a' in '30' second(s)
+
+07-02-2024T01:06:39 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/Navigation Bar/a_This is ESO' is present
+
+07-02-2024T01:06:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ESO/Page_Home/Navigation Bar/a_Classes"), 0): Object 'Object Repository/ESO/Page_Home/Navigation Bar/a_Classes' is present
+
+07-02-2024T01:06:39 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Home/Navigation Bar/a_Classes'
+
+07-02-2024T01:06:39 - [MESSAGE][INFO] - Checking object
+
+07-02-2024T01:06:39 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+07-02-2024T01:06:39 - [MESSAGE][INFO] - Checking timeout
+
+07-02-2024T01:06:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+07-02-2024T01:06:39 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Home/Navigation Bar/a_Classes' located by 'By.xpath: //div[@id='universal-nav']/div/div/div[6]/div/div[2]/div/div/div[2]/a' in '30' second(s)
+
+07-02-2024T01:06:39 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+07-02-2024T01:06:40 - [MESSAGE][INFO] - Found 7 web elements with id: 'Object Repository/ESO/Page_Home/Navigation Bar/a_Classes' located by 'By.xpath: //div[@id='universal-nav']/div/div/div[6]/div/div[2]/div/div/div[2]/a' in '30' second(s)
+
+07-02-2024T01:06:40 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/Navigation Bar/a_Classes' is present
+
+07-02-2024T01:06:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ESO/Page_Home/Navigation Bar/a_UpdatesDLC"), 0): Object 'Object Repository/ESO/Page_Home/Navigation Bar/a_UpdatesDLC' is present
+
+07-02-2024T01:06:40 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Home/Navigation Bar/a_UpdatesDLC'
+
+07-02-2024T01:06:40 - [MESSAGE][INFO] - Checking object
+
+07-02-2024T01:06:40 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+07-02-2024T01:06:40 - [MESSAGE][INFO] - Checking timeout
+
+07-02-2024T01:06:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+07-02-2024T01:06:40 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Home/Navigation Bar/a_UpdatesDLC' located by 'By.xpath: //div[@id='universal-nav']/div/div/div[6]/div/div[2]/div/div/div[3]/a' in '30' second(s)
+
+07-02-2024T01:06:40 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+07-02-2024T01:06:40 - [MESSAGE][INFO] - Found 6 web elements with id: 'Object Repository/ESO/Page_Home/Navigation Bar/a_UpdatesDLC' located by 'By.xpath: //div[@id='universal-nav']/div/div/div[6]/div/div[2]/div/div/div[3]/a' in '30' second(s)
+
+07-02-2024T01:06:40 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/Navigation Bar/a_UpdatesDLC' is present
+
+07-02-2024T01:06:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ESO/Page_Home/Navigation Bar/a_Patch Notes"), 0): Object 'Object Repository/ESO/Page_Home/Navigation Bar/a_Patch Notes' is present
+
+07-02-2024T01:06:40 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Home/Navigation Bar/a_Patch Notes'
+
+07-02-2024T01:06:40 - [MESSAGE][INFO] - Checking object
+
+07-02-2024T01:06:40 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+07-02-2024T01:06:40 - [MESSAGE][INFO] - Checking timeout
+
+07-02-2024T01:06:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+07-02-2024T01:06:40 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Home/Navigation Bar/a_Patch Notes' located by 'By.xpath: //div[@id='universal-nav']/div/div/div[6]/div/div[2]/div/div/div[5]/a' in '30' second(s)
+
+07-02-2024T01:06:40 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+07-02-2024T01:06:41 - [MESSAGE][INFO] - Found 3 web elements with id: 'Object Repository/ESO/Page_Home/Navigation Bar/a_Patch Notes' located by 'By.xpath: //div[@id='universal-nav']/div/div/div[6]/div/div[2]/div/div/div[5]/a' in '30' second(s)
+
+07-02-2024T01:06:41 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/Navigation Bar/a_Patch Notes' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ESO/Home Validation/H002 - Return to Home" time="0.038" classname="Test Cases/ESO/Home Validation/H002 - Return to Home" status="PASSED">
+         <system-out><![CDATA[07-02-2024T01:06:41 - [TEST_CASE][PASSED] - Test Cases/ESO/Home Validation/H002 - Return to Home: Evaluating variables for test case]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-02-2024T01:06:28 - [TEST_SUITE][INCOMPLETE] - TS004 - Home: null]]></system-out>
+      <system-err><![CDATA[07-02-2024T01:06:28 - [TEST_SUITE][INCOMPLETE] - TS004 - Home: null]]></system-err>
+   </testsuite>
+</testsuites>

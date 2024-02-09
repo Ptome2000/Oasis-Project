@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('ESO/Misc Tests/Open ESO Page'), [:], FailureHan
 
 String headerBefore = WebUI.getWindowTitle()
 
-WebUI.verifyMatch(headerBefore, GlobalVariable.HomeTitle, false)
+WebUI.verifyMatch(headerBefore, HomeHeader, false)
 
 WebUI.callTestCase(findTestCase('ESO/Home Validation/Buy Now Section/B001 - Buy Now Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -31,7 +31,7 @@ WebUI.delay(3)
 
 String headerAfter = WebUI.getWindowTitle()
 
-WebUI.verifyMatch(headerAfter, GlobalVariable.HomeTitle, false)
+WebUI.verifyMatch(headerAfter, HomeHeader, false)
 
 WebUI.closeBrowser()
 

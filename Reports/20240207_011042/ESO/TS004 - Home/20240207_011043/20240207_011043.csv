@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS004 - Home,Chrome 121.0.0.0,,,07-02-2024 01:10:51,07-02-2024 01:11:13,22.128s,PASSED
+,,,,,,,
+Test Cases/ESO/Home Validation/H002 - Return to Home,Chrome 121.0.0.0,,,07-02-2024 01:10:51,07-02-2024 01:11:13,21.910s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,07-02-2024 01:10:52,07-02-2024 01:11:06,14.039s,PASSED
+headerBefore = getWindowTitle(),Chrome 121.0.0.0,,,07-02-2024 01:11:06,07-02-2024 01:11:06,0.202s,PASSED
+"verifyMatch(headerBefore, HomeHeader, false)",Chrome 121.0.0.0,,,07-02-2024 01:11:06,07-02-2024 01:11:06,0.042s,PASSED
+"callTestCase(findTestCase(""ESO/Home Validation/Buy Now Section/B001 - Buy Now Page""), [:], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,07-02-2024 01:11:06,07-02-2024 01:11:10,3.367s,PASSED
+back(),Chrome 121.0.0.0,,,07-02-2024 01:11:10,07-02-2024 01:11:10,0.117s,PASSED
+delay(3),Chrome 121.0.0.0,,,07-02-2024 01:11:10,07-02-2024 01:11:13,3.009s,PASSED
+headerAfter = getWindowTitle(),Chrome 121.0.0.0,,,07-02-2024 01:11:13,07-02-2024 01:11:13,0.012s,PASSED
+"verifyMatch(headerAfter, HomeHeader, false)",Chrome 121.0.0.0,,,07-02-2024 01:11:13,07-02-2024 01:11:13,0.006s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,07-02-2024 01:11:13,07-02-2024 01:11:13,0.350s,PASSED

@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS004 - Home,Chrome 121.0.0.0,,,07-02-2024 01:16:27,07-02-2024 01:16:57,29.704s,PASSED
+,,,,,,,
+Test Cases/ESO/Home Validation/H002 - Return to Home,Chrome 121.0.0.0,,,07-02-2024 01:16:27,07-02-2024 01:16:45,17.928s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,07-02-2024 01:16:28,07-02-2024 01:16:37,9.201s,PASSED
+headerBefore = getWindowTitle(),Chrome 121.0.0.0,,,07-02-2024 01:16:37,07-02-2024 01:16:37,0.024s,PASSED
+"verifyMatch(headerBefore, HomeHeader, false)",Chrome 121.0.0.0,,,07-02-2024 01:16:37,07-02-2024 01:16:37,0.027s,PASSED
+"callTestCase(findTestCase(""ESO/Home Validation/Buy Now Section/B001 - Buy Now Page""), [:], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,07-02-2024 01:16:37,07-02-2024 01:16:40,3.385s,PASSED
+back(),Chrome 121.0.0.0,,,07-02-2024 01:16:40,07-02-2024 01:16:41,0.135s,PASSED
+delay(3),Chrome 121.0.0.0,,,07-02-2024 01:16:41,07-02-2024 01:16:44,3.007s,PASSED
+headerAfter = getWindowTitle(),Chrome 121.0.0.0,,,07-02-2024 01:16:44,07-02-2024 01:16:44,0.009s,PASSED
+"verifyMatch(headerAfter, HomeHeader, false)",Chrome 121.0.0.0,,,07-02-2024 01:16:44,07-02-2024 01:16:44,0.004s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,07-02-2024 01:16:44,07-02-2024 01:16:45,1.649s,PASSED
+,,,,,,,
+Test Cases/ESO/Home Validation/H001 - Home Page,Chrome 121.0.0.0,,,07-02-2024 01:16:45,07-02-2024 01:16:57,11.590s,PASSED
+"callTestCase(findTestCase(""ESO/Misc Tests/Open ESO Page""), [:], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,07-02-2024 01:16:48,07-02-2024 01:16:55,7.215s,PASSED
+"verifyElementVisible(findTestObject(""ESO/Page_Home/h2_LATEST NEWS""), STOP_ON_FAILURE)",Chrome 121.0.0.0,,,07-02-2024 01:16:55,07-02-2024 01:16:56,0.786s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Navigation Bar/a_This is ESO""), 0)",Chrome 121.0.0.0,,,07-02-2024 01:16:56,07-02-2024 01:16:56,0.293s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Navigation Bar/a_Classes""), 0)",Chrome 121.0.0.0,,,07-02-2024 01:16:56,07-02-2024 01:16:56,0.322s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Navigation Bar/a_UpdatesDLC""), 0)",Chrome 121.0.0.0,,,07-02-2024 01:16:56,07-02-2024 01:16:56,0.283s,PASSED
+"verifyElementPresent(findTestObject(""ESO/Page_Home/Navigation Bar/a_Patch Notes""), 0)",Chrome 121.0.0.0,,,07-02-2024 01:16:56,07-02-2024 01:16:57,0.295s,PASSED

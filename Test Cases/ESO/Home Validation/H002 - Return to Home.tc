@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>68a3fb34-6f31-4807-8057-b0213adec16c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c9b666d2-b8cd-4ec2-b272-63273317117c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Home - The Elder Scrolls Online'</defaultValue>
+      <description></description>
+      <id>c9b666d2-b8cd-4ec2-b272-63273317117c</id>
+      <masked>false</masked>
+      <name>HomeHeader</name>
+   </variable>
 </TestCaseEntity>

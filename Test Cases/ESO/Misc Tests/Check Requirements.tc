@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verify Desktop Icon</name>
+   <name>Check Requirements</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>55ad4a97-8d7f-46a5-9707-b199ef5739aa</testCaseGuid>
+   <testCaseGuid>82cb87d3-5596-4966-bcb2-8a780e6e26b9</testCaseGuid>
 </TestCaseEntity>

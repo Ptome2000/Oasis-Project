@@ -1,0 +1,56 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. callTestCase(findTestCase("ESO/Misc Tests/Open ESO Page"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. maximizeWindow()
+
+4
+00:00:00,000 --> 00:00:00,000
+9. navigateToUrl("https://www.elderscrollsonline.com/en-us/home")
+
+5
+00:00:00,000 --> 00:00:00,000
+13. delay(3)
+
+6
+00:00:00,000 --> 00:00:00,000
+17. verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online"), 0)
+
+7
+00:00:00,000 --> 00:00:00,000
+21. callTestCase(findTestCase("ESO/Misc Tests/Policy Accept"), [:], STOP_ON_FAILURE)
+
+8
+00:00:00,000 --> 00:00:00,000
+1. verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/div_Policy"), 0)
+
+9
+00:00:00,000 --> 00:00:00,000
+5. click(findTestObject("Object Repository/ESO/Page_Home/button_ACCEPT ALL"))
+
+10
+00:00:00,000 --> 00:00:00,000
+5. verifyElementVisible(findTestObject("ESO/Page_Home/h2_LATEST NEWS"), STOP_ON_FAILURE)
+
+11
+00:00:00,000 --> 00:00:00,000
+9. verifyElementPresent(findTestObject("ESO/Page_Home/Navigation Bar/a_This is ESO"), 0)
+
+12
+00:00:00,000 --> 00:00:00,000
+13. verifyElementPresent(findTestObject("ESO/Page_Home/Navigation Bar/a_Classes"), 0)
+
+13
+00:00:00,000 --> 00:00:00,000
+17. verifyElementPresent(findTestObject("ESO/Page_Home/Navigation Bar/a_UpdatesDLC"), 0)
+
+14
+00:00:00,000 --> 00:00:00,000
+21. verifyElementPresent(findTestObject("ESO/Page_Home/Navigation Bar/a_Patch Notes"), 0)
+

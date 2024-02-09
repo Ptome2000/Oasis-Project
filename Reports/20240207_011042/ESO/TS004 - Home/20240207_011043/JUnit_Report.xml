@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS004 - Home" time="22.128" tests="1" failures="0" errors="0">
+   <testsuite name="TS004 - Home" tests="1" failures="0" errors="0" time="22.128" skipped="0" timestamp="07-02-2024T01:10:51" hostname="Careca Delas - Careca-Desktop.home" id="Test Suites/ESO/TS004 - Home">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240207_011042\\ESO\\TS004 - Home\\20240207_011043"/>
+         <property name="logFiles" value="C:\\Users\\Careca Delas\\Documents\\GitHub\\Oasis-Project\\Reports\\20240207_011042\\ESO\\TS004 - Home\\20240207_011043\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Careca Delas - Careca-Desktop.home"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="03c00a8f482e1bae022aa7550bedcaf5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ESO/Home Validation/H002 - Return to Home" time="21.91" classname="Test Cases/ESO/Home Validation/H002 - Return to Home" status="PASSED">
+         <system-out><![CDATA[07-02-2024T01:10:51 - [TEST_CASE][PASSED] - Test Cases/ESO/Home Validation/H002 - Return to Home: Test Cases/ESO/Home Validation/H002 - Return to Home
+
+07-02-2024T01:10:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Open ESO Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+07-02-2024T01:10:52 - [MESSAGE][INFO] - Checking called Test Case
+
+07-02-2024T01:10:52 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page'
+
+07-02-2024T01:10:52 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Open ESO Page: Test Cases/ESO/Misc Tests/Open ESO Page
+
+07-02-2024T01:10:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-02-2024T01:10:53 - [MESSAGE][INFO] - Opening browser
+
+07-02-2024T01:10:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-02-2024T01:10:53 - [MESSAGE][INFO] - User set preference: ['property', '--window-size=1500,1000']
+
+07-02-2024T01:10:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-02-2024T01:10:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-02-2024T01:10:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+07-02-2024T01:10:56 - [MESSAGE][INFO] - Maximizing current window
+
+07-02-2024T01:10:56 - [MESSAGE][PASSED] - Current window maximized
+
+07-02-2024T01:10:56 - [TEST_STEP][PASSED] - navigateToUrl("https://www.elderscrollsonline.com/en-us/home"): Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+07-02-2024T01:10:56 - [MESSAGE][INFO] - Checking url
+
+07-02-2024T01:10:56 - [MESSAGE][INFO] - Navigating to 'https://www.elderscrollsonline.com/en-us/home'
+
+07-02-2024T01:11:01 - [MESSAGE][PASSED] - Navigate to 'https://www.elderscrollsonline.com/en-us/home' successfully
+
+07-02-2024T01:11:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+07-02-2024T01:11:01 - [MESSAGE][INFO] - Delaying browser in 3 second(s)
+
+07-02-2024T01:11:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+07-02-2024T01:11:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online"), 0): Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+07-02-2024T01:11:04 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online'
+
+07-02-2024T01:11:04 - [MESSAGE][INFO] - Checking object
+
+07-02-2024T01:11:04 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+07-02-2024T01:11:04 - [MESSAGE][INFO] - Checking timeout
+
+07-02-2024T01:11:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+07-02-2024T01:11:04 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' located by 'By.xpath: //a[@id='navbarTopLogo']' in '30' second(s)
+
+07-02-2024T01:11:04 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+07-02-2024T01:11:05 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' located by 'By.xpath: //a[@id='navbarTopLogo']' in '30' second(s)
+
+07-02-2024T01:11:05 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online' is present
+
+07-02-2024T01:11:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Misc Tests/Policy Accept"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+07-02-2024T01:11:05 - [MESSAGE][INFO] - Checking called Test Case
+
+07-02-2024T01:11:05 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept'
+
+07-02-2024T01:11:05 - [TEST_CASE][PASSED] - Test Cases/ESO/Misc Tests/Policy Accept: Test Cases/ESO/Misc Tests/Policy Accept
+
+07-02-2024T01:11:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/div_Policy"), 0): Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+07-02-2024T01:11:05 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Home/div_Policy'
+
+07-02-2024T01:11:05 - [MESSAGE][INFO] - Checking object
+
+07-02-2024T01:11:05 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+07-02-2024T01:11:05 - [MESSAGE][INFO] - Checking timeout
+
+07-02-2024T01:11:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+07-02-2024T01:11:05 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Home/div_Policy' located by 'By.xpath: id("onetrust-banner-sdk")/div[1]/div[@class="ot-sdk-container"]/div[@class="ot-sdk-row"]' in '30' second(s)
+
+07-02-2024T01:11:05 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+07-02-2024T01:11:05 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ESO/Page_Home/div_Policy' located by 'By.xpath: id("onetrust-banner-sdk")/div[1]/div[@class="ot-sdk-container"]/div[@class="ot-sdk-row"]' in '30' second(s)
+
+07-02-2024T01:11:05 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Home/div_Policy' is present
+
+07-02-2024T01:11:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ESO/Page_Home/button_ACCEPT ALL")): Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+07-02-2024T01:11:05 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Home/button_ACCEPT ALL'
+
+07-02-2024T01:11:06 - [MESSAGE][INFO] - Checking object
+
+07-02-2024T01:11:06 - [MESSAGE][INFO] - Checking timeout
+
+07-02-2024T01:11:06 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+07-02-2024T01:11:06 - [MESSAGE][INFO] - Checking timeout
+
+07-02-2024T01:11:06 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' located by 'By.xpath: //button[@id='onetrust-accept-btn-handler']' in '30' second(s)
+
+07-02-2024T01:11:06 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+07-02-2024T01:11:06 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' located by 'By.xpath: //button[@id='onetrust-accept-btn-handler']' in '30' second(s)
+
+07-02-2024T01:11:06 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL'
+
+07-02-2024T01:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/button_ACCEPT ALL' is clicked on
+
+07-02-2024T01:11:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Policy Accept' successfully
+
+07-02-2024T01:11:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Misc Tests/Open ESO Page' successfully
+
+07-02-2024T01:11:06 - [TEST_STEP][PASSED] - headerBefore = getWindowTitle(): Current window's title is: 'Home - The Elder Scrolls Online'
+
+07-02-2024T01:11:06 - [MESSAGE][INFO] - Getting current window's title
+
+07-02-2024T01:11:06 - [MESSAGE][PASSED] - Current window's title is: 'Home - The Elder Scrolls Online'
+
+07-02-2024T01:11:06 - [TEST_STEP][PASSED] - verifyMatch(headerBefore, HomeHeader, false): Actual text 'Home - The Elder Scrolls Online' and expected text 'Home - The Elder Scrolls Online' are matched 
+
+07-02-2024T01:11:06 - [MESSAGE][INFO] - Matching actual text 'Home - The Elder Scrolls Online' with expected text 'Home - The Elder Scrolls Online'
+
+07-02-2024T01:11:06 - [MESSAGE][PASSED] - Actual text 'Home - The Elder Scrolls Online' and expected text 'Home - The Elder Scrolls Online' are matched 
+
+07-02-2024T01:11:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ESO/Home Validation/Buy Now Section/B001 - Buy Now Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ESO/Home Validation/Buy Now Section/B001 - Buy Now Page' successfully
+
+07-02-2024T01:11:06 - [MESSAGE][INFO] - Checking called Test Case
+
+07-02-2024T01:11:06 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/ESO/Home Validation/Buy Now Section/B001 - Buy Now Page'
+
+07-02-2024T01:11:06 - [TEST_CASE][PASSED] - Test Cases/ESO/Home Validation/Buy Now Section/B001 - Buy Now Page: Test Cases/ESO/Home Validation/Buy Now Section/B001 - Buy Now Page
+
+07-02-2024T01:11:06 - [TEST_STEP][PASSED] - click(findTestObject("ESO/Page_Home/a_Buy Now")): Object: 'Object Repository/ESO/Page_Home/a_Buy Now' is clicked on
+
+07-02-2024T01:11:06 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Home/a_Buy Now'
+
+07-02-2024T01:11:07 - [MESSAGE][INFO] - Checking object
+
+07-02-2024T01:11:07 - [MESSAGE][INFO] - Checking timeout
+
+07-02-2024T01:11:07 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+07-02-2024T01:11:07 - [MESSAGE][INFO] - Checking timeout
+
+07-02-2024T01:11:07 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Home/a_Buy Now' located by 'By.xpath: //div[@id='universal-nav']/div/div/div[5]/div/a' in '30' second(s)
+
+07-02-2024T01:11:07 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+07-02-2024T01:11:07 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ESO/Page_Home/a_Buy Now' located by 'By.xpath: //div[@id='universal-nav']/div/div/div[5]/div/a' in '30' second(s)
+
+07-02-2024T01:11:07 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/ESO/Page_Home/a_Buy Now'
+
+07-02-2024T01:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ESO/Page_Home/a_Buy Now' is clicked on
+
+07-02-2024T01:11:07 - [TEST_STEP][PASSED] - verifyElementInViewport(findTestObject("ESO/Page_Buy Now/h1_Buy Now"), 0): Object 'Object Repository/ESO/Page_Buy Now/h1_Buy Now' is present and visible in viewport
+
+07-02-2024T01:11:07 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ESO/Page_Buy Now/h1_Buy Now'
+
+07-02-2024T01:11:07 - [MESSAGE][INFO] - Checking object
+
+07-02-2024T01:11:07 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+07-02-2024T01:11:07 - [MESSAGE][INFO] - Checking timeout
+
+07-02-2024T01:11:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+07-02-2024T01:11:07 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ESO/Page_Buy Now/h1_Buy Now' located by 'By.xpath: //div[@id='buy-now-top']/div[2]/div/div/div/h1' in '30' second(s)
+
+07-02-2024T01:11:07 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+07-02-2024T01:11:09 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ESO/Page_Buy Now/h1_Buy Now' located by 'By.xpath: //div[@id='buy-now-top']/div[2]/div/div/div/h1' in '30' second(s)
+
+07-02-2024T01:11:09 - [MESSAGE][INFO] - Element position in viewport: x = 381, y = 149, width = 1,140, height = 66
+
+07-02-2024T01:11:09 - [MESSAGE][INFO] - Viewport infomation: width = 1,920, height = 919
+
+07-02-2024T01:11:09 - [MESSAGE][PASSED] - Object 'Object Repository/ESO/Page_Buy Now/h1_Buy Now' is present and visible in viewport
+
+07-02-2024T01:11:09 - [TEST_STEP][PASSED] - header = getWindowTitle(): Current window's title is: 'Buy Now - The Elder Scrolls Online'
+
+07-02-2024T01:11:09 - [MESSAGE][INFO] - Getting current window's title
+
+07-02-2024T01:11:09 - [MESSAGE][PASSED] - Current window's title is: 'Buy Now - The Elder Scrolls Online'
+
+07-02-2024T01:11:09 - [TEST_STEP][PASSED] - verifyMatch(header, BuyNowTitle, false): Actual text 'Buy Now - The Elder Scrolls Online' and expected text 'Buy Now - The Elder Scrolls Online' are matched 
+
+07-02-2024T01:11:10 - [MESSAGE][INFO] - Matching actual text 'Buy Now - The Elder Scrolls Online' with expected text 'Buy Now - The Elder Scrolls Online'
+
+07-02-2024T01:11:10 - [MESSAGE][PASSED] - Actual text 'Buy Now - The Elder Scrolls Online' and expected text 'Buy Now - The Elder Scrolls Online' are matched 
+
+07-02-2024T01:11:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ESO/Home Validation/Buy Now Section/B001 - Buy Now Page' successfully
+
+07-02-2024T01:11:10 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+07-02-2024T01:11:10 - [MESSAGE][INFO] - Navigating back
+
+07-02-2024T01:11:10 - [MESSAGE][PASSED] - Navigate back successfully
+
+07-02-2024T01:11:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+07-02-2024T01:11:10 - [MESSAGE][INFO] - Delaying browser in 3 second(s)
+
+07-02-2024T01:11:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+07-02-2024T01:11:13 - [TEST_STEP][PASSED] - headerAfter = getWindowTitle(): Current window's title is: 'Home - The Elder Scrolls Online'
+
+07-02-2024T01:11:13 - [MESSAGE][INFO] - Getting current window's title
+
+07-02-2024T01:11:13 - [MESSAGE][PASSED] - Current window's title is: 'Home - The Elder Scrolls Online'
+
+07-02-2024T01:11:13 - [TEST_STEP][PASSED] - verifyMatch(headerAfter, HomeHeader, false): Actual text 'Home - The Elder Scrolls Online' and expected text 'Home - The Elder Scrolls Online' are matched 
+
+07-02-2024T01:11:13 - [MESSAGE][INFO] - Matching actual text 'Home - The Elder Scrolls Online' with expected text 'Home - The Elder Scrolls Online'
+
+07-02-2024T01:11:13 - [MESSAGE][PASSED] - Actual text 'Home - The Elder Scrolls Online' and expected text 'Home - The Elder Scrolls Online' are matched 
+
+07-02-2024T01:11:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+07-02-2024T01:11:13 - [MESSAGE][INFO] - Closing browser
+
+07-02-2024T01:11:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-02-2024T01:10:51 - [TEST_SUITE][PASSED] - TS004 - Home: Test Cases/ESO/Home Validation/H002 - Return to Home]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

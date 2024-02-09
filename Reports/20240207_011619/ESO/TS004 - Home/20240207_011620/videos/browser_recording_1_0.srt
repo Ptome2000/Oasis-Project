@@ -1,0 +1,84 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. callTestCase(findTestCase("ESO/Misc Tests/Open ESO Page"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. maximizeWindow()
+
+4
+00:00:00,000 --> 00:00:00,000
+9. navigateToUrl("https://www.elderscrollsonline.com/en-us/home")
+
+5
+00:00:00,000 --> 00:00:00,000
+13. delay(3)
+
+6
+00:00:00,000 --> 00:00:00,000
+17. verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/a_The Elder Scrolls  Online"), 0)
+
+7
+00:00:00,000 --> 00:00:00,000
+21. callTestCase(findTestCase("ESO/Misc Tests/Policy Accept"), [:], STOP_ON_FAILURE)
+
+8
+00:00:00,000 --> 00:00:00,000
+1. verifyElementPresent(findTestObject("Object Repository/ESO/Page_Home/div_Policy"), 0)
+
+9
+00:00:00,000 --> 00:00:00,000
+5. click(findTestObject("Object Repository/ESO/Page_Home/button_ACCEPT ALL"))
+
+10
+00:00:00,000 --> 00:00:00,000
+5. headerBefore = getWindowTitle()
+
+11
+00:00:00,000 --> 00:00:00,000
+9. verifyMatch(headerBefore, HomeHeader, false)
+
+12
+00:00:00,000 --> 00:00:00,000
+13. callTestCase(findTestCase("ESO/Home Validation/Buy Now Section/B001 - Buy Now Page"), [:], STOP_ON_FAILURE)
+
+13
+00:00:00,000 --> 00:00:00,000
+1. click(findTestObject("ESO/Page_Home/a_Buy Now"))
+
+14
+00:00:00,000 --> 00:00:00,000
+5. verifyElementInViewport(findTestObject("ESO/Page_Buy Now/h1_Buy Now"), 0)
+
+15
+00:00:00,000 --> 00:00:00,000
+9. header = getWindowTitle()
+
+16
+00:00:00,000 --> 00:00:00,000
+13. verifyMatch(header, BuyNowTitle, false)
+
+17
+00:00:00,000 --> 00:00:00,000
+17. back()
+
+18
+00:00:00,000 --> 00:00:00,000
+21. delay(3)
+
+19
+00:00:00,000 --> 00:00:00,000
+25. headerAfter = getWindowTitle()
+
+20
+00:00:00,000 --> 00:00:00,000
+29. verifyMatch(headerAfter, HomeHeader, false)
+
+21
+00:00:00,000 --> 00:00:00,000
+33. closeBrowser()
+

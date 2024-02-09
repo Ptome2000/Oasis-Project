@@ -17,6 +17,7 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 import internal.GlobalVariable
 
@@ -28,12 +29,27 @@ public class Misc {
 		WebUI.openBrowser('')
 		WebUI.navigateToUrl('https://account.elderscrollsonline.com/en-us/login')
 	}
+	
+	@Keyword
+	def logMessage(String message, String type) {
+		
+		KeywordUtil log = new KeywordUtil()
+		
+		switch(type.toLowerCase()) {
+			case "warning": log.markWarning(message) 
+				break
+			case "passed": log.markPassed(message)
+				break
+			
+			default:
+				throw new IllegalArgumentException()
+		}
+		
+		
+	}
 
 	@Keyword
 	def OpenSearchBar() {
-
-		
-		
 		//	Search bar doesn't always appear, try 5 times
 
 		for (int i = 0; i <= 5; i++) {
